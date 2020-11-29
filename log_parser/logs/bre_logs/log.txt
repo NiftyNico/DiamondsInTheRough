@@ -1,0 +1,530 @@
+INFO     - 2020-11-25 14:03:06,388 - [__main__ main 113] Output files will be saved in result\20201125T140306.326430
+INFO     - 2020-11-25 14:03:06,388 - [utils log_versions 9] 3.6.8 (tags/v3.6.8:3c6b436a57, Dec 24 2018, 00:16:47) [MSC v.1916 64 bit (AMD64)]
+INFO     - 2020-11-25 14:03:06,513 - [utils log_versions 10] absl-py==0.7.0,argon2-cffi==20.1.0,astor==0.7.1,astunparse==1.6.3,async-generator==1.10,atari-py==0.2.6,attrs==19.3.0,backcall==0.2.0,bleach==3.2.1,blis==0.4.1,cachetools==4.0.0,captum==0.2.0,catalogue==1.0.0,certifi==2019.11.28,cffi==1.14.3,chardet==3.0.4,cloudpickle==1.2.2,colorama==0.4.3,coloredlogs==14.0,crowdai-api==0.1.22,cycler==0.10.0,cymem==2.0.3,de-core-news-sm @ https://github.com/explosion/spacy-models/releases/download/de_core_news_sm-2.3.0/de_core_news_sm-2.3.0.tar.gz,decorator==4.4.2,defusedxml==0.6.0,dill==0.3.1.1,en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.1/en_core_web_sm-2.3.1.tar.gz,entrypoints==0.3,future==0.17.1,future-stubs==0.18.0.0,gast==0.3.3,gin-config==0.1.3,google-auth==1.11.0,google-auth-oauthlib==0.4.1,google-pasta==0.1.8,googleapis-common-protos==1.51.0,grpcio==1.27.1,gym==0.13.1,h5py==2.10.0,hdf5storage==0.1.15,humanfriendly==8.2,idna==2.8,importlib-metadata==2.0.0,ipykernel==5.3.4,ipython==7.16.1,ipython-genutils==0.2.0,ipywidgets==7.5.1,jedi==0.17.2,Jinja2==2.11.2,joblib==0.15.1,jsonschema==3.2.0,jupyter-client==6.1.7,jupyter-core==4.6.3,jupyterlab-pygments==0.1.2,Keras-Applications==1.0.8,Keras-Preprocessing==1.1.0,kiwisolver==1.0.1,lxml==4.5.1,Markdown==3.0.1,MarkupSafe==1.1.1,matplotlib==3.0.3,minerl==0.3.6,mistune==0.8.4,murmurhash==1.0.2,nbclient==0.5.1,nbconvert==6.0.7,nbformat==5.0.8,nest-asyncio==1.4.2,notebook==6.1.4,numpy==1.19.2,oauthlib==3.1.0,opencv-python==4.2.0.34,opt-einsum==3.1.0,ortools==7.6.7691,packaging==20.4,pandas==0.24.2,pandas-datareader==0.8.1,pandocfilters==1.4.3,parso==0.7.1,pfrl==0.1.0,pickleshare==0.7.5,Pillow==7.2.0,pip==20.2.4,plac==1.1.3,preshed==3.0.2,prometheus-client==0.8.0,promise==2.3,prompt-toolkit==3.0.8,protobuf==3.11.3,psutil==5.7.2,pyasn1==0.4.8,pyasn1-modules==0.2.8,pycparser==2.20,pyglet==1.3.2,Pygments==2.7.1,pyparsing==2.3.1,pyreadline==2.1,Pyro4==4.80,pyrsistent==0.17.3,python-dateutil==2.8.0,python-gitlab==2.5.0,pytz==2018.9,pywin32==228,pywinpty==0.5.7,PyYAML==5.3.1,pyzmq==19.0.2,redis==3.5.3,requests==2.22.0,requests-oauthlib==1.3.0,rsa==4.0,scikit-learn==0.23.1,scipy==1.5.2,Send2Trash==1.5.0,sentencepiece==0.1.94,serpent==1.30.2,setuptools==45.2.0,six==1.12.0,spacy==2.3.2,srsly==1.0.2,tensorboard==2.2.1,tensorboard-plugin-wit==1.6.0.post3,tensorflow==2.2.0,tensorflow-datasets==3.1.0,tensorflow-estimator==2.2.0,tensorflow-gpu==2.2.0,tensorflow-gpu-estimator==2.2.0,tensorflow-hub==0.8.0,tensorflow-metadata==0.22.1,tensorflow-probability==0.10.0,termcolor==1.1.0,terminado==0.9.1,testpath==0.4.4,tf-agents==0.4.0,thinc==7.4.1,threadpoolctl==2.1.0,torch==1.6.0+cu101,torchtext==0.6.0,torchvision==0.7.0+cu101,tornado==6.0.4,tqdm==4.46.0,traitlets==4.3.3,typing==3.7.4.3,urllib3==1.25.8,wasabi==0.8.0,wcwidth==0.2.5,webencodings==0.5.1,Werkzeug==0.14.1,wheel==0.33.0,widgetsnbextension==3.5.1,wrapt==1.11.2,zipp==3.4.0
+INFO     - 2020-11-25 14:03:06,529 - [cached_kmeans cached_kmeans 19] Load dataset & do kmeans
+INFO     - 2020-11-25 14:04:26,113 - [__main__ dqn_family 216] The first `gym.make(MineRL*)` may take several minutes. Be patient!
+INFO     - 2020-11-25 14:04:33,182 - [minerl.env.malmo.instance.bfa7a0 _launch_minecraft 671] Starting Minecraft process: ['C:\\Users\\Brendan\\AppData\\Local\\Temp\\tmp87ozm8cx\\Minecraft\\launchClient.bat', '-port', '11752', '-env', '-runDir', 'C:\\Users\\Brendan\\AppData\\Local\\Temp\\tmp87ozm8cx\\Minecraft\\run']
+INFO     - 2020-11-25 14:04:33,193 - [minerl.env.malmo.instance.bfa7a0 _launch_process_watcher 694] Starting process watcher for process 3168 @ localhost:11752
+INFO     - 2020-11-25 14:05:14,218 - [minerl.env.malmo.instance.bfa7a0 launch 533] Minecraft process ready
+WARNING  - 2020-11-25 14:05:14,218 - [minerl.env.malmo.instance.bfa7a0 launch 537] Tried to launch Minecraft on port 11752 but that port was taken, instead Minecraft is using port 10361.
+INFO     - 2020-11-25 14:05:14,220 - [env_wrappers wrap_env 28] Detected `gym.wrappers.TimeLimit`! Unwrap it and re-wrap our own time limit.
+INFO     - 2020-11-25 14:05:14,223 - [minerl.env.malmo log_to_file 548] Logging output of Minecraft to result\20201125T140306.326430\logs\mc_2752.log
+INFO     - 2020-11-25 14:06:46,865 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:2000 episode:0 R:10.0
+INFO     - 2020-11-25 14:06:46,865 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', nan), ('cumulative_steps', 2000), ('n_updates', 0), ('rlen', 2000)]
+INFO     - 2020-11-25 14:08:03,856 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:4000 episode:1 R:18.0
+INFO     - 2020-11-25 14:08:03,856 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', nan), ('cumulative_steps', 4000), ('n_updates', 0), ('rlen', 4000)]
+INFO     - 2020-11-25 14:09:31,629 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:6000 episode:2 R:8.0
+INFO     - 2020-11-25 14:09:31,630 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6844537007808684), ('cumulative_steps', 6000), ('n_updates', 248), ('rlen', 6000)]
+INFO     - 2020-11-25 14:11:00,479 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:8000 episode:3 R:14.0
+INFO     - 2020-11-25 14:11:00,479 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6681761169433593), ('cumulative_steps', 8000), ('n_updates', 748), ('rlen', 8000)]
+INFO     - 2020-11-25 14:12:33,814 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:10000 episode:4 R:10.0
+INFO     - 2020-11-25 14:12:33,814 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.657501540184021), ('cumulative_steps', 10000), ('n_updates', 1248), ('rlen', 10000)]
+INFO     - 2020-11-25 14:14:00,437 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:12000 episode:5 R:18.0
+INFO     - 2020-11-25 14:14:00,437 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6772539079189301), ('cumulative_steps', 12000), ('n_updates', 1748), ('rlen', 12000)]
+INFO     - 2020-11-25 14:14:29,126 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:12308 episode:6 R:5.0
+INFO     - 2020-11-25 14:14:29,126 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6782405149936677), ('cumulative_steps', 12308), ('n_updates', 1825), ('rlen', 12308)]
+INFO     - 2020-11-25 14:16:06,896 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:14308 episode:7 R:17.0
+INFO     - 2020-11-25 14:16:06,897 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6786647701263429), ('cumulative_steps', 14308), ('n_updates', 2325), ('rlen', 14308)]
+INFO     - 2020-11-25 14:17:39,454 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:16308 episode:8 R:25.0
+INFO     - 2020-11-25 14:17:39,454 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.692945166826248), ('cumulative_steps', 16308), ('n_updates', 2825), ('rlen', 16308)]
+INFO     - 2020-11-25 14:19:15,318 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:18308 episode:9 R:13.0
+INFO     - 2020-11-25 14:19:15,318 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6784733605384827), ('cumulative_steps', 18308), ('n_updates', 3325), ('rlen', 18308)]
+INFO     - 2020-11-25 14:20:44,523 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:20308 episode:10 R:13.0
+INFO     - 2020-11-25 14:20:44,524 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6961213898658754), ('cumulative_steps', 20308), ('n_updates', 3825), ('rlen', 20308)]
+INFO     - 2020-11-25 14:21:27,348 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:20915 episode:11 R:0.0
+INFO     - 2020-11-25 14:21:27,348 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7001752996444701), ('cumulative_steps', 20915), ('n_updates', 3976), ('rlen', 20915)]
+INFO     - 2020-11-25 14:22:52,492 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:22915 episode:12 R:15.0
+INFO     - 2020-11-25 14:22:52,492 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6960006821155549), ('cumulative_steps', 22915), ('n_updates', 4476), ('rlen', 22915)]
+INFO     - 2020-11-25 14:24:21,540 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:24915 episode:13 R:9.0
+INFO     - 2020-11-25 14:24:21,540 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6925843346118927), ('cumulative_steps', 24915), ('n_updates', 4976), ('rlen', 24915)]
+INFO     - 2020-11-25 14:25:50,554 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:26915 episode:14 R:13.0
+INFO     - 2020-11-25 14:25:50,554 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6998686003684997), ('cumulative_steps', 26915), ('n_updates', 5476), ('rlen', 26915)]
+INFO     - 2020-11-25 14:27:18,870 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:28915 episode:15 R:14.0
+INFO     - 2020-11-25 14:27:18,870 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.698635585308075), ('cumulative_steps', 28915), ('n_updates', 5976), ('rlen', 28915)]
+INFO     - 2020-11-25 14:28:45,126 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:30915 episode:16 R:13.0
+INFO     - 2020-11-25 14:28:45,126 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7187532711029052), ('cumulative_steps', 30915), ('n_updates', 6476), ('rlen', 30915)]
+INFO     - 2020-11-25 14:30:15,637 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:32915 episode:17 R:9.0
+INFO     - 2020-11-25 14:30:15,637 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.720008202791214), ('cumulative_steps', 32915), ('n_updates', 6976), ('rlen', 32915)]
+INFO     - 2020-11-25 14:32:04,402 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:34915 episode:18 R:16.0
+INFO     - 2020-11-25 14:32:04,403 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7292018568515777), ('cumulative_steps', 34915), ('n_updates', 7476), ('rlen', 34915)]
+INFO     - 2020-11-25 14:33:36,167 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:36915 episode:19 R:12.0
+INFO     - 2020-11-25 14:33:36,167 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7065739226341248), ('cumulative_steps', 36915), ('n_updates', 7976), ('rlen', 36915)]
+INFO     - 2020-11-25 14:35:03,559 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:38915 episode:20 R:12.0
+INFO     - 2020-11-25 14:35:03,559 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7132679426670074), ('cumulative_steps', 38915), ('n_updates', 8476), ('rlen', 38915)]
+INFO     - 2020-11-25 14:36:44,371 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:40915 episode:21 R:4.0
+INFO     - 2020-11-25 14:36:44,372 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7178264379501342), ('cumulative_steps', 40915), ('n_updates', 8976), ('rlen', 40915)]
+INFO     - 2020-11-25 14:38:15,952 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:42915 episode:22 R:15.0
+INFO     - 2020-11-25 14:38:15,952 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7060389280319215), ('cumulative_steps', 42915), ('n_updates', 9476), ('rlen', 42915)]
+INFO     - 2020-11-25 14:39:44,765 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:44915 episode:23 R:17.0
+INFO     - 2020-11-25 14:39:44,765 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.716946552991867), ('cumulative_steps', 44915), ('n_updates', 9976), ('rlen', 44915)]
+INFO     - 2020-11-25 14:41:11,369 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:46915 episode:24 R:14.0
+INFO     - 2020-11-25 14:41:11,369 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7138861560821532), ('cumulative_steps', 46915), ('n_updates', 10476), ('rlen', 46915)]
+INFO     - 2020-11-25 14:42:40,419 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:48915 episode:25 R:14.0
+INFO     - 2020-11-25 14:42:40,419 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7219023275375367), ('cumulative_steps', 48915), ('n_updates', 10976), ('rlen', 48915)]
+INFO     - 2020-11-25 14:44:14,639 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:50915 episode:26 R:6.0
+INFO     - 2020-11-25 14:44:14,640 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7119718074798584), ('cumulative_steps', 50915), ('n_updates', 11476), ('rlen', 50915)]
+INFO     - 2020-11-25 14:45:44,467 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:52915 episode:27 R:3.0
+INFO     - 2020-11-25 14:45:44,467 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.709014925956726), ('cumulative_steps', 52915), ('n_updates', 11976), ('rlen', 52915)]
+INFO     - 2020-11-25 14:47:13,724 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:54915 episode:28 R:14.0
+INFO     - 2020-11-25 14:47:13,724 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7087106227874755), ('cumulative_steps', 54915), ('n_updates', 12476), ('rlen', 54915)]
+INFO     - 2020-11-25 14:48:38,802 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:56915 episode:29 R:8.0
+INFO     - 2020-11-25 14:48:38,803 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7016158127784728), ('cumulative_steps', 56915), ('n_updates', 12976), ('rlen', 56915)]
+INFO     - 2020-11-25 14:50:06,242 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:58915 episode:30 R:15.0
+INFO     - 2020-11-25 14:50:06,242 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6941064023971557), ('cumulative_steps', 58915), ('n_updates', 13476), ('rlen', 58915)]
+INFO     - 2020-11-25 14:51:52,265 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:60915 episode:31 R:12.0
+INFO     - 2020-11-25 14:51:52,265 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6720293140411377), ('cumulative_steps', 60915), ('n_updates', 13976), ('rlen', 60915)]
+INFO     - 2020-11-25 14:53:20,173 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:62915 episode:32 R:10.0
+INFO     - 2020-11-25 14:53:20,174 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6686677789688111), ('cumulative_steps', 62915), ('n_updates', 14476), ('rlen', 62915)]
+INFO     - 2020-11-25 14:53:38,924 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:62966 episode:33 R:0.0
+INFO     - 2020-11-25 14:53:38,924 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.669710909128189), ('cumulative_steps', 62966), ('n_updates', 14489), ('rlen', 62966)]
+INFO     - 2020-11-25 14:55:14,292 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:64966 episode:34 R:13.0
+INFO     - 2020-11-25 14:55:14,292 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6636736214160919), ('cumulative_steps', 64966), ('n_updates', 14989), ('rlen', 64966)]
+INFO     - 2020-11-25 14:56:51,123 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:66966 episode:35 R:15.0
+INFO     - 2020-11-25 14:56:51,123 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6766659700870514), ('cumulative_steps', 66966), ('n_updates', 15489), ('rlen', 66966)]
+INFO     - 2020-11-25 14:58:34,209 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:68966 episode:36 R:19.0
+INFO     - 2020-11-25 14:58:34,210 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6684130465984344), ('cumulative_steps', 68966), ('n_updates', 15989), ('rlen', 68966)]
+INFO     - 2020-11-25 15:00:04,126 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:70966 episode:37 R:5.0
+INFO     - 2020-11-25 15:00:04,126 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6642352998256684), ('cumulative_steps', 70966), ('n_updates', 16489), ('rlen', 70966)]
+INFO     - 2020-11-25 15:01:40,595 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:72966 episode:38 R:17.0
+INFO     - 2020-11-25 15:01:40,595 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6647933220863342), ('cumulative_steps', 72966), ('n_updates', 16989), ('rlen', 72966)]
+INFO     - 2020-11-25 15:03:17,428 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:74966 episode:39 R:12.0
+INFO     - 2020-11-25 15:03:17,428 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6692484986782075), ('cumulative_steps', 74966), ('n_updates', 17489), ('rlen', 74966)]
+INFO     - 2020-11-25 15:04:46,844 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:76966 episode:40 R:8.0
+INFO     - 2020-11-25 15:04:46,844 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6680967211723328), ('cumulative_steps', 76966), ('n_updates', 17989), ('rlen', 76966)]
+INFO     - 2020-11-25 15:06:27,311 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:78966 episode:41 R:15.0
+INFO     - 2020-11-25 15:06:27,311 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6738580358028412), ('cumulative_steps', 78966), ('n_updates', 18489), ('rlen', 78966)]
+INFO     - 2020-11-25 15:08:06,385 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:80966 episode:42 R:11.0
+INFO     - 2020-11-25 15:08:06,386 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.617801867723465), ('cumulative_steps', 80966), ('n_updates', 18989), ('rlen', 80966)]
+INFO     - 2020-11-25 15:09:36,728 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:82966 episode:43 R:6.0
+INFO     - 2020-11-25 15:09:36,728 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6229863500595092), ('cumulative_steps', 82966), ('n_updates', 19489), ('rlen', 82966)]
+INFO     - 2020-11-25 15:11:10,706 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:84966 episode:44 R:21.0
+INFO     - 2020-11-25 15:11:10,707 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6217195212841033), ('cumulative_steps', 84966), ('n_updates', 19989), ('rlen', 84966)]
+INFO     - 2020-11-25 15:12:43,060 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:86966 episode:45 R:13.0
+INFO     - 2020-11-25 15:12:43,060 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6138481020927429), ('cumulative_steps', 86966), ('n_updates', 20489), ('rlen', 86966)]
+INFO     - 2020-11-25 15:14:10,172 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:88966 episode:46 R:8.0
+INFO     - 2020-11-25 15:14:10,173 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6123750233650207), ('cumulative_steps', 88966), ('n_updates', 20989), ('rlen', 88966)]
+INFO     - 2020-11-25 15:15:41,826 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:90966 episode:47 R:13.0
+INFO     - 2020-11-25 15:15:41,827 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6069590616226197), ('cumulative_steps', 90966), ('n_updates', 21489), ('rlen', 90966)]
+INFO     - 2020-11-25 15:17:10,922 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:92966 episode:48 R:8.0
+INFO     - 2020-11-25 15:17:10,922 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6162430953979492), ('cumulative_steps', 92966), ('n_updates', 21989), ('rlen', 92966)]
+INFO     - 2020-11-25 15:18:42,549 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:94966 episode:49 R:18.0
+INFO     - 2020-11-25 15:18:42,549 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.615852291584015), ('cumulative_steps', 94966), ('n_updates', 22489), ('rlen', 94966)]
+INFO     - 2020-11-25 15:20:15,103 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:96966 episode:50 R:15.0
+INFO     - 2020-11-25 15:20:15,103 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6184922134876252), ('cumulative_steps', 96966), ('n_updates', 22989), ('rlen', 96966)]
+INFO     - 2020-11-25 15:21:43,182 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:98966 episode:51 R:15.0
+INFO     - 2020-11-25 15:21:43,182 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6145139515399933), ('cumulative_steps', 98966), ('n_updates', 23489), ('rlen', 98966)]
+INFO     - 2020-11-25 15:23:10,737 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:100966 episode:52 R:11.0
+INFO     - 2020-11-25 15:23:10,737 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6310379791259766), ('cumulative_steps', 100966), ('n_updates', 23989), ('rlen', 100966)]
+INFO     - 2020-11-25 15:24:42,011 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:102966 episode:53 R:11.0
+INFO     - 2020-11-25 15:24:42,011 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6336077857017517), ('cumulative_steps', 102966), ('n_updates', 24489), ('rlen', 102966)]
+INFO     - 2020-11-25 15:26:11,830 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:104966 episode:54 R:17.0
+INFO     - 2020-11-25 15:26:11,831 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6453676402568818), ('cumulative_steps', 104966), ('n_updates', 24989), ('rlen', 104966)]
+INFO     - 2020-11-25 15:27:46,525 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:106966 episode:55 R:14.0
+INFO     - 2020-11-25 15:27:46,525 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6300325274467469), ('cumulative_steps', 106966), ('n_updates', 25489), ('rlen', 106966)]
+INFO     - 2020-11-25 15:29:18,685 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:108966 episode:56 R:17.0
+INFO     - 2020-11-25 15:29:18,686 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.633534551858902), ('cumulative_steps', 108966), ('n_updates', 25989), ('rlen', 108966)]
+INFO     - 2020-11-25 15:30:45,279 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:110966 episode:57 R:9.0
+INFO     - 2020-11-25 15:30:45,280 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6452881503105163), ('cumulative_steps', 110966), ('n_updates', 26489), ('rlen', 110966)]
+INFO     - 2020-11-25 15:32:20,184 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:112966 episode:58 R:11.0
+INFO     - 2020-11-25 15:32:20,185 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6399646639823913), ('cumulative_steps', 112966), ('n_updates', 26989), ('rlen', 112966)]
+INFO     - 2020-11-25 15:33:51,678 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:114966 episode:59 R:11.0
+INFO     - 2020-11-25 15:33:51,678 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6291496503353118), ('cumulative_steps', 114966), ('n_updates', 27489), ('rlen', 114966)]
+INFO     - 2020-11-25 15:35:25,526 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:116966 episode:60 R:13.0
+INFO     - 2020-11-25 15:35:25,526 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6393723738193513), ('cumulative_steps', 116966), ('n_updates', 27989), ('rlen', 116966)]
+INFO     - 2020-11-25 15:36:58,397 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:118966 episode:61 R:13.0
+INFO     - 2020-11-25 15:36:58,397 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6462875986099244), ('cumulative_steps', 118966), ('n_updates', 28489), ('rlen', 118966)]
+INFO     - 2020-11-25 15:38:30,307 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:120966 episode:62 R:15.0
+INFO     - 2020-11-25 15:38:30,307 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6689324605464935), ('cumulative_steps', 120966), ('n_updates', 28989), ('rlen', 120966)]
+INFO     - 2020-11-25 15:40:04,774 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:122966 episode:63 R:28.0
+INFO     - 2020-11-25 15:40:04,775 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.677227088212967), ('cumulative_steps', 122966), ('n_updates', 29489), ('rlen', 122966)]
+INFO     - 2020-11-25 15:41:55,668 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:124966 episode:64 R:13.0
+INFO     - 2020-11-25 15:41:55,668 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6679362523555756), ('cumulative_steps', 124966), ('n_updates', 29989), ('rlen', 124966)]
+INFO     - 2020-11-25 15:43:29,458 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:126966 episode:65 R:8.0
+INFO     - 2020-11-25 15:43:29,458 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.671636747121811), ('cumulative_steps', 126966), ('n_updates', 30489), ('rlen', 126966)]
+INFO     - 2020-11-25 15:45:03,645 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:128966 episode:66 R:9.0
+INFO     - 2020-11-25 15:45:03,645 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.671195764541626), ('cumulative_steps', 128966), ('n_updates', 30989), ('rlen', 128966)]
+INFO     - 2020-11-25 15:47:06,338 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:130966 episode:67 R:16.0
+INFO     - 2020-11-25 15:47:06,338 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6589222252368927), ('cumulative_steps', 130966), ('n_updates', 31489), ('rlen', 130966)]
+INFO     - 2020-11-25 15:48:39,554 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:132966 episode:68 R:16.0
+INFO     - 2020-11-25 15:48:39,554 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6530105936527253), ('cumulative_steps', 132966), ('n_updates', 31989), ('rlen', 132966)]
+INFO     - 2020-11-25 15:50:15,754 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:134966 episode:69 R:15.0
+INFO     - 2020-11-25 15:50:15,754 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.648303235769272), ('cumulative_steps', 134966), ('n_updates', 32489), ('rlen', 134966)]
+INFO     - 2020-11-25 15:51:51,075 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:136966 episode:70 R:13.0
+INFO     - 2020-11-25 15:51:51,075 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6558290231227875), ('cumulative_steps', 136966), ('n_updates', 32989), ('rlen', 136966)]
+INFO     - 2020-11-25 15:53:20,370 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:138966 episode:71 R:11.0
+INFO     - 2020-11-25 15:53:20,371 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6550185310840606), ('cumulative_steps', 138966), ('n_updates', 33489), ('rlen', 138966)]
+INFO     - 2020-11-25 15:54:53,867 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:140966 episode:72 R:12.0
+INFO     - 2020-11-25 15:54:53,867 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.640632883310318), ('cumulative_steps', 140966), ('n_updates', 33989), ('rlen', 140966)]
+INFO     - 2020-11-25 15:56:26,749 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:142966 episode:73 R:13.0
+INFO     - 2020-11-25 15:56:26,750 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6511619150638581), ('cumulative_steps', 142966), ('n_updates', 34489), ('rlen', 142966)]
+INFO     - 2020-11-25 15:57:57,158 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:144966 episode:74 R:8.0
+INFO     - 2020-11-25 15:57:57,159 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6388941705226898), ('cumulative_steps', 144966), ('n_updates', 34989), ('rlen', 144966)]
+INFO     - 2020-11-25 15:59:26,572 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:146966 episode:75 R:5.0
+INFO     - 2020-11-25 15:59:26,573 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.647127150297165), ('cumulative_steps', 146966), ('n_updates', 35489), ('rlen', 146966)]
+INFO     - 2020-11-25 16:01:01,142 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:148966 episode:76 R:18.0
+INFO     - 2020-11-25 16:01:01,143 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6455663967132568), ('cumulative_steps', 148966), ('n_updates', 35989), ('rlen', 148966)]
+INFO     - 2020-11-25 16:02:34,857 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:150966 episode:77 R:9.0
+INFO     - 2020-11-25 16:02:34,857 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6551203191280366), ('cumulative_steps', 150966), ('n_updates', 36489), ('rlen', 150966)]
+INFO     - 2020-11-25 16:04:07,627 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:152966 episode:78 R:9.0
+INFO     - 2020-11-25 16:04:07,627 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6526527965068818), ('cumulative_steps', 152966), ('n_updates', 36989), ('rlen', 152966)]
+INFO     - 2020-11-25 16:05:43,445 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:154966 episode:79 R:14.0
+INFO     - 2020-11-25 16:05:43,446 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6492309391498565), ('cumulative_steps', 154966), ('n_updates', 37489), ('rlen', 154966)]
+INFO     - 2020-11-25 16:07:15,023 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:156966 episode:80 R:14.0
+INFO     - 2020-11-25 16:07:15,024 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6462378370761872), ('cumulative_steps', 156966), ('n_updates', 37989), ('rlen', 156966)]
+INFO     - 2020-11-25 16:08:50,098 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:158966 episode:81 R:24.0
+INFO     - 2020-11-25 16:08:50,098 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.662977659702301), ('cumulative_steps', 158966), ('n_updates', 38489), ('rlen', 158966)]
+INFO     - 2020-11-25 16:10:25,752 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:160966 episode:82 R:14.0
+INFO     - 2020-11-25 16:10:25,753 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6587011623382568), ('cumulative_steps', 160966), ('n_updates', 38989), ('rlen', 160966)]
+INFO     - 2020-11-25 16:11:58,052 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:162966 episode:83 R:15.0
+INFO     - 2020-11-25 16:11:58,052 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6468348872661591), ('cumulative_steps', 162966), ('n_updates', 39489), ('rlen', 162966)]
+INFO     - 2020-11-25 16:13:48,476 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:164966 episode:84 R:19.0
+INFO     - 2020-11-25 16:13:48,476 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.655159500837326), ('cumulative_steps', 164966), ('n_updates', 39989), ('rlen', 164966)]
+INFO     - 2020-11-25 16:15:54,719 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:166966 episode:85 R:22.0
+INFO     - 2020-11-25 16:15:54,719 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6502382707595826), ('cumulative_steps', 166966), ('n_updates', 40489), ('rlen', 166966)]
+INFO     - 2020-11-25 16:17:42,001 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:168966 episode:86 R:19.0
+INFO     - 2020-11-25 16:17:42,001 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6485938251018524), ('cumulative_steps', 168966), ('n_updates', 40989), ('rlen', 168966)]
+INFO     - 2020-11-25 16:19:16,846 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:170966 episode:87 R:12.0
+INFO     - 2020-11-25 16:19:16,847 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6702522397041322), ('cumulative_steps', 170966), ('n_updates', 41489), ('rlen', 170966)]
+INFO     - 2020-11-25 16:20:53,503 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:172966 episode:88 R:13.0
+INFO     - 2020-11-25 16:20:53,503 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6760741019248961), ('cumulative_steps', 172966), ('n_updates', 41989), ('rlen', 172966)]
+INFO     - 2020-11-25 16:22:28,374 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:174966 episode:89 R:10.0
+INFO     - 2020-11-25 16:22:28,374 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.676659516096115), ('cumulative_steps', 174966), ('n_updates', 42489), ('rlen', 174966)]
+INFO     - 2020-11-25 16:23:01,433 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:175372 episode:90 R:2.0
+INFO     - 2020-11-25 16:23:01,433 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.684207855463028), ('cumulative_steps', 175372), ('n_updates', 42591), ('rlen', 175372)]
+INFO     - 2020-11-25 16:24:39,935 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:177372 episode:91 R:5.0
+INFO     - 2020-11-25 16:24:39,936 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6745686900615693), ('cumulative_steps', 177372), ('n_updates', 43091), ('rlen', 177372)]
+INFO     - 2020-11-25 16:26:27,748 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:179372 episode:92 R:21.0
+INFO     - 2020-11-25 16:26:27,748 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6662775802612304), ('cumulative_steps', 179372), ('n_updates', 43591), ('rlen', 179372)]
+INFO     - 2020-11-25 16:28:01,655 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:181372 episode:93 R:11.0
+INFO     - 2020-11-25 16:28:01,655 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6797469103336333), ('cumulative_steps', 181372), ('n_updates', 44091), ('rlen', 181372)]
+INFO     - 2020-11-25 16:29:58,021 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:183372 episode:94 R:12.0
+INFO     - 2020-11-25 16:29:58,021 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.677432770729065), ('cumulative_steps', 183372), ('n_updates', 44591), ('rlen', 183372)]
+INFO     - 2020-11-25 16:31:31,580 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:185372 episode:95 R:11.0
+INFO     - 2020-11-25 16:31:31,580 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6697403943538667), ('cumulative_steps', 185372), ('n_updates', 45091), ('rlen', 185372)]
+INFO     - 2020-11-25 16:33:04,670 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:187372 episode:96 R:13.0
+INFO     - 2020-11-25 16:33:04,671 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6722607982158662), ('cumulative_steps', 187372), ('n_updates', 45591), ('rlen', 187372)]
+INFO     - 2020-11-25 16:34:45,460 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:189372 episode:97 R:14.0
+INFO     - 2020-11-25 16:34:45,460 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6582319390773774), ('cumulative_steps', 189372), ('n_updates', 46091), ('rlen', 189372)]
+INFO     - 2020-11-25 16:36:17,882 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:191372 episode:98 R:27.0
+INFO     - 2020-11-25 16:36:17,882 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.675005966424942), ('cumulative_steps', 191372), ('n_updates', 46591), ('rlen', 191372)]
+INFO     - 2020-11-25 16:37:49,256 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:193372 episode:99 R:13.0
+INFO     - 2020-11-25 16:37:49,257 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.671988424062729), ('cumulative_steps', 193372), ('n_updates', 47091), ('rlen', 193372)]
+INFO     - 2020-11-25 16:39:19,591 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:195372 episode:100 R:16.0
+INFO     - 2020-11-25 16:39:19,591 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6680688083171844), ('cumulative_steps', 195372), ('n_updates', 47591), ('rlen', 195372)]
+INFO     - 2020-11-25 16:40:48,904 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:197372 episode:101 R:12.0
+INFO     - 2020-11-25 16:40:48,904 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6693248569965362), ('cumulative_steps', 197372), ('n_updates', 48091), ('rlen', 197372)]
+INFO     - 2020-11-25 16:42:20,688 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:199372 episode:102 R:15.0
+INFO     - 2020-11-25 16:42:20,688 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6681819677352905), ('cumulative_steps', 199372), ('n_updates', 48591), ('rlen', 199372)]
+INFO     - 2020-11-25 16:43:55,953 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:201372 episode:103 R:18.0
+INFO     - 2020-11-25 16:43:55,954 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6969101440906524), ('cumulative_steps', 201372), ('n_updates', 49091), ('rlen', 201372)]
+INFO     - 2020-11-25 16:45:37,201 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:203372 episode:104 R:13.0
+INFO     - 2020-11-25 16:45:37,201 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6855900597572326), ('cumulative_steps', 203372), ('n_updates', 49591), ('rlen', 203372)]
+INFO     - 2020-11-25 16:47:13,769 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:205372 episode:105 R:14.0
+INFO     - 2020-11-25 16:47:13,769 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6962807512283324), ('cumulative_steps', 205372), ('n_updates', 50091), ('rlen', 205372)]
+INFO     - 2020-11-25 16:48:46,629 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:207372 episode:106 R:11.0
+INFO     - 2020-11-25 16:48:46,629 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6940911936759948), ('cumulative_steps', 207372), ('n_updates', 50591), ('rlen', 207372)]
+INFO     - 2020-11-25 16:50:17,910 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:209372 episode:107 R:14.0
+INFO     - 2020-11-25 16:50:17,910 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6851177108287811), ('cumulative_steps', 209372), ('n_updates', 51091), ('rlen', 209372)]
+INFO     - 2020-11-25 16:51:55,381 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:211372 episode:108 R:16.0
+INFO     - 2020-11-25 16:51:55,381 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6847017586231232), ('cumulative_steps', 211372), ('n_updates', 51591), ('rlen', 211372)]
+INFO     - 2020-11-25 16:53:31,846 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:213372 episode:109 R:6.0
+INFO     - 2020-11-25 16:53:31,846 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.666276788711548), ('cumulative_steps', 213372), ('n_updates', 52091), ('rlen', 213372)]
+INFO     - 2020-11-25 16:55:07,550 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:215372 episode:110 R:18.0
+INFO     - 2020-11-25 16:55:07,550 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6783564376831055), ('cumulative_steps', 215372), ('n_updates', 52591), ('rlen', 215372)]
+INFO     - 2020-11-25 16:56:39,665 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:217372 episode:111 R:3.0
+INFO     - 2020-11-25 16:56:39,665 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6728774428367614), ('cumulative_steps', 217372), ('n_updates', 53091), ('rlen', 217372)]
+INFO     - 2020-11-25 16:58:09,449 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:219372 episode:112 R:7.0
+INFO     - 2020-11-25 16:58:09,449 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6802797281742097), ('cumulative_steps', 219372), ('n_updates', 53591), ('rlen', 219372)]
+INFO     - 2020-11-25 16:59:41,850 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:221372 episode:113 R:16.0
+INFO     - 2020-11-25 16:59:41,850 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7188112592697145), ('cumulative_steps', 221372), ('n_updates', 54091), ('rlen', 221372)]
+INFO     - 2020-11-25 17:01:14,109 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:223372 episode:114 R:9.0
+INFO     - 2020-11-25 17:01:14,109 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7232796478271484), ('cumulative_steps', 223372), ('n_updates', 54591), ('rlen', 223372)]
+INFO     - 2020-11-25 17:02:49,251 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:225372 episode:115 R:21.0
+INFO     - 2020-11-25 17:02:49,251 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7283225226402283), ('cumulative_steps', 225372), ('n_updates', 55091), ('rlen', 225372)]
+INFO     - 2020-11-25 17:04:19,648 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:227372 episode:116 R:15.0
+INFO     - 2020-11-25 17:04:19,648 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7247666454315185), ('cumulative_steps', 227372), ('n_updates', 55591), ('rlen', 227372)]
+INFO     - 2020-11-25 17:05:53,690 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:229372 episode:117 R:13.0
+INFO     - 2020-11-25 17:05:53,690 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.713035250902176), ('cumulative_steps', 229372), ('n_updates', 56091), ('rlen', 229372)]
+INFO     - 2020-11-25 17:07:28,661 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:231372 episode:118 R:13.0
+INFO     - 2020-11-25 17:07:28,661 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7075115573406219), ('cumulative_steps', 231372), ('n_updates', 56591), ('rlen', 231372)]
+INFO     - 2020-11-25 17:09:06,974 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:233372 episode:119 R:9.0
+INFO     - 2020-11-25 17:09:06,975 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7099169921875), ('cumulative_steps', 233372), ('n_updates', 57091), ('rlen', 233372)]
+INFO     - 2020-11-25 17:10:35,812 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:235372 episode:120 R:1.0
+INFO     - 2020-11-25 17:10:35,813 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.711739743947983), ('cumulative_steps', 235372), ('n_updates', 57591), ('rlen', 235372)]
+INFO     - 2020-11-25 17:12:09,043 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:237372 episode:121 R:8.0
+INFO     - 2020-11-25 17:12:09,044 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.714756463766098), ('cumulative_steps', 237372), ('n_updates', 58091), ('rlen', 237372)]
+INFO     - 2020-11-25 17:13:45,595 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:239372 episode:122 R:14.0
+INFO     - 2020-11-25 17:13:45,597 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.706611317396164), ('cumulative_steps', 239372), ('n_updates', 58591), ('rlen', 239372)]
+INFO     - 2020-11-25 17:15:26,634 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:241372 episode:123 R:14.0
+INFO     - 2020-11-25 17:15:26,634 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6980089378356933), ('cumulative_steps', 241372), ('n_updates', 59091), ('rlen', 241372)]
+INFO     - 2020-11-25 17:17:04,779 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:243372 episode:124 R:6.0
+INFO     - 2020-11-25 17:17:04,780 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7044124245643615), ('cumulative_steps', 243372), ('n_updates', 59591), ('rlen', 243372)]
+INFO     - 2020-11-25 17:18:50,335 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:245372 episode:125 R:13.0
+INFO     - 2020-11-25 17:18:50,335 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6925281167030335), ('cumulative_steps', 245372), ('n_updates', 60091), ('rlen', 245372)]
+INFO     - 2020-11-25 17:20:30,979 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:247372 episode:126 R:13.0
+INFO     - 2020-11-25 17:20:30,979 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6971976912021638), ('cumulative_steps', 247372), ('n_updates', 60591), ('rlen', 247372)]
+INFO     - 2020-11-25 17:22:23,874 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:249372 episode:127 R:18.0
+INFO     - 2020-11-25 17:22:23,875 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6929037499427795), ('cumulative_steps', 249372), ('n_updates', 61091), ('rlen', 249372)]
+INFO     - 2020-11-25 17:24:13,295 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:251372 episode:128 R:26.0
+INFO     - 2020-11-25 17:24:13,295 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.700346999168396), ('cumulative_steps', 251372), ('n_updates', 61591), ('rlen', 251372)]
+INFO     - 2020-11-25 17:25:59,810 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:253372 episode:129 R:3.0
+INFO     - 2020-11-25 17:25:59,814 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7120013654232025), ('cumulative_steps', 253372), ('n_updates', 62091), ('rlen', 253372)]
+INFO     - 2020-11-25 17:27:46,250 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:255372 episode:130 R:22.0
+INFO     - 2020-11-25 17:27:46,250 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.695213302373886), ('cumulative_steps', 255372), ('n_updates', 62591), ('rlen', 255372)]
+INFO     - 2020-11-25 17:29:41,826 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:257372 episode:131 R:20.0
+INFO     - 2020-11-25 17:29:41,826 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7059804463386536), ('cumulative_steps', 257372), ('n_updates', 63091), ('rlen', 257372)]
+INFO     - 2020-11-25 17:31:40,192 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:259372 episode:132 R:20.0
+INFO     - 2020-11-25 17:31:40,195 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7058302569389343), ('cumulative_steps', 259372), ('n_updates', 63591), ('rlen', 259372)]
+INFO     - 2020-11-25 17:33:27,793 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:261372 episode:133 R:26.0
+INFO     - 2020-11-25 17:33:27,793 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6954858469963074), ('cumulative_steps', 261372), ('n_updates', 64091), ('rlen', 261372)]
+INFO     - 2020-11-25 17:35:14,788 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:263372 episode:134 R:16.0
+INFO     - 2020-11-25 17:35:14,789 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6901087689399719), ('cumulative_steps', 263372), ('n_updates', 64591), ('rlen', 263372)]
+INFO     - 2020-11-25 17:36:58,365 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:265372 episode:135 R:18.0
+INFO     - 2020-11-25 17:36:58,365 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6881504452228546), ('cumulative_steps', 265372), ('n_updates', 65091), ('rlen', 265372)]
+INFO     - 2020-11-25 17:38:45,378 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:267372 episode:136 R:21.0
+INFO     - 2020-11-25 17:38:45,379 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6968045222759247), ('cumulative_steps', 267372), ('n_updates', 65591), ('rlen', 267372)]
+INFO     - 2020-11-25 17:40:39,434 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:269372 episode:137 R:9.0
+INFO     - 2020-11-25 17:40:39,434 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6872141683101654), ('cumulative_steps', 269372), ('n_updates', 66091), ('rlen', 269372)]
+INFO     - 2020-11-25 17:42:26,806 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:271372 episode:138 R:11.0
+INFO     - 2020-11-25 17:42:26,808 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6859592056274415), ('cumulative_steps', 271372), ('n_updates', 66591), ('rlen', 271372)]
+INFO     - 2020-11-25 17:44:14,097 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:273372 episode:139 R:12.0
+INFO     - 2020-11-25 17:44:14,097 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6805327558517456), ('cumulative_steps', 273372), ('n_updates', 67091), ('rlen', 273372)]
+INFO     - 2020-11-25 17:46:14,025 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:275372 episode:140 R:11.0
+INFO     - 2020-11-25 17:46:14,026 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6716159856319428), ('cumulative_steps', 275372), ('n_updates', 67591), ('rlen', 275372)]
+INFO     - 2020-11-25 17:48:00,546 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:277372 episode:141 R:11.0
+INFO     - 2020-11-25 17:48:00,549 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6809020781517028), ('cumulative_steps', 277372), ('n_updates', 68091), ('rlen', 277372)]
+INFO     - 2020-11-25 17:49:52,078 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:279372 episode:142 R:13.0
+INFO     - 2020-11-25 17:49:52,078 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6807753574848174), ('cumulative_steps', 279372), ('n_updates', 68591), ('rlen', 279372)]
+INFO     - 2020-11-25 17:51:42,223 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:281372 episode:143 R:11.0
+INFO     - 2020-11-25 17:51:42,223 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6938064229488372), ('cumulative_steps', 281372), ('n_updates', 69091), ('rlen', 281372)]
+INFO     - 2020-11-25 17:53:33,177 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:283372 episode:144 R:15.0
+INFO     - 2020-11-25 17:53:33,177 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6940338623523712), ('cumulative_steps', 283372), ('n_updates', 69591), ('rlen', 283372)]
+INFO     - 2020-11-25 17:55:29,485 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:285372 episode:145 R:16.0
+INFO     - 2020-11-25 17:55:29,485 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6906424176692962), ('cumulative_steps', 285372), ('n_updates', 70091), ('rlen', 285372)]
+INFO     - 2020-11-25 17:57:25,501 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:287372 episode:146 R:13.0
+INFO     - 2020-11-25 17:57:25,501 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7062664413452149), ('cumulative_steps', 287372), ('n_updates', 70591), ('rlen', 287372)]
+INFO     - 2020-11-25 17:58:27,606 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:288309 episode:147 R:9.0
+INFO     - 2020-11-25 17:58:27,606 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6988517785072326), ('cumulative_steps', 288309), ('n_updates', 70825), ('rlen', 288309)]
+INFO     - 2020-11-25 18:00:32,484 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:290309 episode:148 R:14.0
+INFO     - 2020-11-25 18:00:32,485 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.699970452785492), ('cumulative_steps', 290309), ('n_updates', 71325), ('rlen', 290309)]
+INFO     - 2020-11-25 18:02:41,247 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:292309 episode:149 R:17.0
+INFO     - 2020-11-25 18:02:41,247 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6952939999103547), ('cumulative_steps', 292309), ('n_updates', 71825), ('rlen', 292309)]
+INFO     - 2020-11-25 18:04:37,518 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:294309 episode:150 R:5.0
+INFO     - 2020-11-25 18:04:37,519 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.692255676984787), ('cumulative_steps', 294309), ('n_updates', 72325), ('rlen', 294309)]
+INFO     - 2020-11-25 18:06:35,409 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:296309 episode:151 R:6.0
+INFO     - 2020-11-25 18:06:35,409 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7045766520500183), ('cumulative_steps', 296309), ('n_updates', 72825), ('rlen', 296309)]
+INFO     - 2020-11-25 18:08:31,953 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:298309 episode:152 R:16.0
+INFO     - 2020-11-25 18:08:31,955 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6968779265880585), ('cumulative_steps', 298309), ('n_updates', 73325), ('rlen', 298309)]
+INFO     - 2020-11-25 18:10:32,610 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:300309 episode:153 R:12.0
+INFO     - 2020-11-25 18:10:32,611 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6917518520355224), ('cumulative_steps', 300309), ('n_updates', 73825), ('rlen', 300000)]
+INFO     - 2020-11-25 18:13:03,364 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:302309 episode:154 R:25.0
+INFO     - 2020-11-25 18:13:03,366 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.695097326040268), ('cumulative_steps', 302309), ('n_updates', 74325), ('rlen', 300000)]
+INFO     - 2020-11-25 18:15:11,104 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:304309 episode:155 R:25.0
+INFO     - 2020-11-25 18:15:11,104 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6889797961711883), ('cumulative_steps', 304309), ('n_updates', 74825), ('rlen', 300000)]
+INFO     - 2020-11-25 18:17:09,965 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:306309 episode:156 R:23.0
+INFO     - 2020-11-25 18:17:09,965 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7010814356803894), ('cumulative_steps', 306309), ('n_updates', 75325), ('rlen', 300000)]
+INFO     - 2020-11-25 18:19:17,573 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:308309 episode:157 R:12.0
+INFO     - 2020-11-25 18:19:17,573 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6917914712429047), ('cumulative_steps', 308309), ('n_updates', 75825), ('rlen', 300000)]
+INFO     - 2020-11-25 18:21:20,037 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:310309 episode:158 R:8.0
+INFO     - 2020-11-25 18:21:20,040 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6989692294597625), ('cumulative_steps', 310309), ('n_updates', 76325), ('rlen', 300000)]
+INFO     - 2020-11-25 18:23:17,161 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:312309 episode:159 R:20.0
+INFO     - 2020-11-25 18:23:17,161 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.710171227455139), ('cumulative_steps', 312309), ('n_updates', 76825), ('rlen', 300000)]
+INFO     - 2020-11-25 18:25:06,664 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:314309 episode:160 R:7.0
+INFO     - 2020-11-25 18:25:06,664 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.691298612356186), ('cumulative_steps', 314309), ('n_updates', 77325), ('rlen', 300000)]
+INFO     - 2020-11-25 18:27:09,387 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:316309 episode:161 R:6.0
+INFO     - 2020-11-25 18:27:09,387 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7089064824581146), ('cumulative_steps', 316309), ('n_updates', 77825), ('rlen', 300000)]
+INFO     - 2020-11-25 18:29:10,940 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:318309 episode:162 R:6.0
+INFO     - 2020-11-25 18:29:10,943 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7032240867614745), ('cumulative_steps', 318309), ('n_updates', 78325), ('rlen', 300000)]
+INFO     - 2020-11-25 18:31:20,126 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:320309 episode:163 R:13.0
+INFO     - 2020-11-25 18:31:20,126 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7197160601615906), ('cumulative_steps', 320309), ('n_updates', 78825), ('rlen', 300000)]
+INFO     - 2020-11-25 18:33:43,451 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:322309 episode:164 R:12.0
+INFO     - 2020-11-25 18:33:43,451 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7168944048881531), ('cumulative_steps', 322309), ('n_updates', 79325), ('rlen', 300000)]
+INFO     - 2020-11-25 18:35:51,719 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:324309 episode:165 R:23.0
+INFO     - 2020-11-25 18:35:51,722 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7096042025089264), ('cumulative_steps', 324309), ('n_updates', 79825), ('rlen', 300000)]
+INFO     - 2020-11-25 18:37:44,725 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:326309 episode:166 R:1.0
+INFO     - 2020-11-25 18:37:44,725 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7047551083564758), ('cumulative_steps', 326309), ('n_updates', 80325), ('rlen', 300000)]
+INFO     - 2020-11-25 18:39:37,784 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:328309 episode:167 R:12.0
+INFO     - 2020-11-25 18:39:37,784 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.705966076850891), ('cumulative_steps', 328309), ('n_updates', 80825), ('rlen', 300000)]
+INFO     - 2020-11-25 18:41:45,112 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:330309 episode:168 R:19.0
+INFO     - 2020-11-25 18:41:45,112 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6904509246349335), ('cumulative_steps', 330309), ('n_updates', 81325), ('rlen', 300000)]
+INFO     - 2020-11-25 18:43:40,717 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:332309 episode:169 R:4.0
+INFO     - 2020-11-25 18:43:40,717 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6932808899879455), ('cumulative_steps', 332309), ('n_updates', 81825), ('rlen', 300000)]
+INFO     - 2020-11-25 18:45:46,943 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:334309 episode:170 R:15.0
+INFO     - 2020-11-25 18:45:46,943 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.6896010053157806), ('cumulative_steps', 334309), ('n_updates', 82325), ('rlen', 300000)]
+INFO     - 2020-11-25 18:47:40,800 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:336309 episode:171 R:7.0
+INFO     - 2020-11-25 18:47:40,800 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.695290174484253), ('cumulative_steps', 336309), ('n_updates', 82825), ('rlen', 300000)]
+INFO     - 2020-11-25 18:49:39,488 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:338309 episode:172 R:15.0
+INFO     - 2020-11-25 18:49:39,488 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.688948142528534), ('cumulative_steps', 338309), ('n_updates', 83325), ('rlen', 300000)]
+INFO     - 2020-11-25 18:51:38,957 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:340309 episode:173 R:20.0
+INFO     - 2020-11-25 18:51:38,957 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7096573424339294), ('cumulative_steps', 340309), ('n_updates', 83825), ('rlen', 300000)]
+INFO     - 2020-11-25 18:53:41,486 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:342309 episode:174 R:13.0
+INFO     - 2020-11-25 18:53:41,486 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7035559582710267), ('cumulative_steps', 342309), ('n_updates', 84325), ('rlen', 300000)]
+INFO     - 2020-11-25 18:55:35,777 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:344309 episode:175 R:4.0
+INFO     - 2020-11-25 18:55:35,778 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7002357065677642), ('cumulative_steps', 344309), ('n_updates', 84825), ('rlen', 300000)]
+ERROR    - 2020-11-25 18:57:41,286 - [minerl.env.core _clean_connection 522] Cleaning connection! Something must have gone wrong.
+ERROR    - 2020-11-25 18:57:41,286 - [minerl.env.core step 657] Failed to take a step (timeout or error). Terminating episode and sending random observation, be aware. To account for this failure case in your code check to see if `'error' in info` where info is the info dictionary returned by the step function.
+INFO     - 2020-11-25 18:57:41,317 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:345507 episode:176 R:5.0
+INFO     - 2020-11-25 18:57:41,317 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7012589931488038), ('cumulative_steps', 345507), ('n_updates', 85124), ('rlen', 300000)]
+ERROR    - 2020-11-25 18:57:43,366 - [minerl.env.core _start_up 512] Failed to reset (socket error), trying again!
+ERROR    - 2020-11-25 18:57:43,366 - [minerl.env.core _clean_connection 522] Cleaning connection! Something must have gone wrong.
+ERROR    - 2020-11-25 18:57:43,366 - [minerl.env.core _clean_connection 535] Connection with Minecraft client cleaned more than once; restarting.
+ERROR    - 2020-11-25 18:57:45,801 - [minerl.env.malmo _kill_minecraft_via_malmoenv 724] Attempted to send kill command to minecraft process and failed.
+INFO     - 2020-11-25 18:57:49,367 - [minerl.env.malmo.instance.04c9b9 _launch_minecraft 671] Starting Minecraft process: ['C:\\Users\\Brendan\\AppData\\Local\\Temp\\tmp2vhnbgxo\\Minecraft\\launchClient.bat', '-port', '11753', '-env', '-runDir', 'C:\\Users\\Brendan\\AppData\\Local\\Temp\\tmp2vhnbgxo\\Minecraft\\run']
+INFO     - 2020-11-25 18:57:49,398 - [minerl.env.malmo.instance.04c9b9 _launch_process_watcher 694] Starting process watcher for process 17496 @ localhost:11753
+INFO     - 2020-11-25 18:58:34,556 - [minerl.env.malmo.instance.04c9b9 launch 533] Minecraft process ready
+WARNING  - 2020-11-25 18:58:34,556 - [minerl.env.malmo.instance.04c9b9 launch 537] Tried to launch Minecraft on port 11753 but that port was taken, instead Minecraft is using port 11752.
+INFO     - 2020-11-25 18:58:34,590 - [minerl.env.malmo log_to_file 548] Logging output of Minecraft to result\20201125T140306.326430\logs\mc_2753.log
+INFO     - 2020-11-25 19:01:08,794 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:347507 episode:177 R:12.0
+INFO     - 2020-11-25 19:01:08,796 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7012820756435394), ('cumulative_steps', 347507), ('n_updates', 85624), ('rlen', 300000)]
+INFO     - 2020-11-25 19:03:27,323 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:349507 episode:178 R:22.0
+INFO     - 2020-11-25 19:03:27,325 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7069383788108825), ('cumulative_steps', 349507), ('n_updates', 86124), ('rlen', 300000)]
+INFO     - 2020-11-25 19:05:32,814 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:351507 episode:179 R:13.0
+INFO     - 2020-11-25 19:05:32,814 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7244755232334137), ('cumulative_steps', 351507), ('n_updates', 86624), ('rlen', 300000)]
+INFO     - 2020-11-25 19:07:34,021 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:353507 episode:180 R:23.0
+INFO     - 2020-11-25 19:07:34,021 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7256001877784728), ('cumulative_steps', 353507), ('n_updates', 87124), ('rlen', 300000)]
+INFO     - 2020-11-25 19:09:53,175 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:355507 episode:181 R:16.0
+INFO     - 2020-11-25 19:09:53,175 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7143077456951141), ('cumulative_steps', 355507), ('n_updates', 87624), ('rlen', 300000)]
+INFO     - 2020-11-25 19:11:53,873 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:357507 episode:182 R:10.0
+INFO     - 2020-11-25 19:11:53,873 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7172628605365754), ('cumulative_steps', 357507), ('n_updates', 88124), ('rlen', 300000)]
+INFO     - 2020-11-25 19:13:59,680 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:359507 episode:183 R:20.0
+INFO     - 2020-11-25 19:13:59,681 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7183594763278962), ('cumulative_steps', 359507), ('n_updates', 88624), ('rlen', 300000)]
+INFO     - 2020-11-25 19:15:59,028 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:361507 episode:184 R:19.0
+INFO     - 2020-11-25 19:15:59,030 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7206842231750488), ('cumulative_steps', 361507), ('n_updates', 89124), ('rlen', 300000)]
+INFO     - 2020-11-25 19:18:00,162 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:363507 episode:185 R:13.0
+INFO     - 2020-11-25 19:18:00,162 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7194028222560882), ('cumulative_steps', 363507), ('n_updates', 89624), ('rlen', 300000)]
+INFO     - 2020-11-25 19:20:15,689 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:365507 episode:186 R:18.0
+INFO     - 2020-11-25 19:20:15,689 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7119074964523315), ('cumulative_steps', 365507), ('n_updates', 90124), ('rlen', 300000)]
+INFO     - 2020-11-25 19:22:20,054 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:367507 episode:187 R:17.0
+INFO     - 2020-11-25 19:22:20,055 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7194941604137421), ('cumulative_steps', 367507), ('n_updates', 90624), ('rlen', 300000)]
+INFO     - 2020-11-25 19:24:22,310 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:369507 episode:188 R:22.0
+INFO     - 2020-11-25 19:24:22,310 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7227712392807006), ('cumulative_steps', 369507), ('n_updates', 91124), ('rlen', 300000)]
+INFO     - 2020-11-25 19:26:26,880 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:371507 episode:189 R:13.0
+INFO     - 2020-11-25 19:26:26,881 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7234817349910736), ('cumulative_steps', 371507), ('n_updates', 91624), ('rlen', 300000)]
+INFO     - 2020-11-25 19:28:34,644 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:373507 episode:190 R:23.0
+INFO     - 2020-11-25 19:28:34,645 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7261355531215667), ('cumulative_steps', 373507), ('n_updates', 92124), ('rlen', 300000)]
+INFO     - 2020-11-25 19:30:45,659 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:375507 episode:191 R:12.0
+INFO     - 2020-11-25 19:30:45,660 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7241510272026062), ('cumulative_steps', 375507), ('n_updates', 92624), ('rlen', 300000)]
+INFO     - 2020-11-25 19:32:56,007 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:377507 episode:192 R:11.0
+INFO     - 2020-11-25 19:32:56,008 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7213719201087951), ('cumulative_steps', 377507), ('n_updates', 93124), ('rlen', 300000)]
+INFO     - 2020-11-25 19:34:56,891 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:379507 episode:193 R:5.0
+INFO     - 2020-11-25 19:34:56,892 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.726441479921341), ('cumulative_steps', 379507), ('n_updates', 93624), ('rlen', 300000)]
+INFO     - 2020-11-25 19:37:33,720 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:381507 episode:194 R:20.0
+INFO     - 2020-11-25 19:37:33,721 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7494276106357574), ('cumulative_steps', 381507), ('n_updates', 94124), ('rlen', 300000)]
+INFO     - 2020-11-25 19:39:37,837 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:383507 episode:195 R:5.0
+INFO     - 2020-11-25 19:39:37,838 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7477179920673371), ('cumulative_steps', 383507), ('n_updates', 94624), ('rlen', 300000)]
+INFO     - 2020-11-25 19:41:43,450 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:385507 episode:196 R:11.0
+INFO     - 2020-11-25 19:41:43,457 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7531563699245454), ('cumulative_steps', 385507), ('n_updates', 95124), ('rlen', 300000)]
+INFO     - 2020-11-25 19:43:44,038 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:387507 episode:197 R:17.0
+INFO     - 2020-11-25 19:43:44,038 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7408219838142396), ('cumulative_steps', 387507), ('n_updates', 95624), ('rlen', 300000)]
+INFO     - 2020-11-25 19:45:41,193 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:389507 episode:198 R:14.0
+INFO     - 2020-11-25 19:45:41,194 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7411530494689942), ('cumulative_steps', 389507), ('n_updates', 96124), ('rlen', 300000)]
+INFO     - 2020-11-25 19:47:36,360 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:391507 episode:199 R:9.0
+INFO     - 2020-11-25 19:47:36,360 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.767011867761612), ('cumulative_steps', 391507), ('n_updates', 96624), ('rlen', 300000)]
+INFO     - 2020-11-25 19:49:37,388 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:393507 episode:200 R:15.0
+INFO     - 2020-11-25 19:49:37,389 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7654278349876404), ('cumulative_steps', 393507), ('n_updates', 97124), ('rlen', 300000)]
+INFO     - 2020-11-25 19:51:40,375 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:395507 episode:201 R:16.0
+INFO     - 2020-11-25 19:51:40,376 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7635405445098877), ('cumulative_steps', 395507), ('n_updates', 97624), ('rlen', 300000)]
+INFO     - 2020-11-25 19:53:15,479 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:396935 episode:202 R:16.0
+INFO     - 2020-11-25 19:53:15,479 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7784718918800353), ('cumulative_steps', 396935), ('n_updates', 97981), ('rlen', 300000)]
+INFO     - 2020-11-25 19:55:27,689 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:398935 episode:203 R:10.0
+INFO     - 2020-11-25 19:55:27,691 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7624042057991027), ('cumulative_steps', 398935), ('n_updates', 98481), ('rlen', 300000)]
+INFO     - 2020-11-25 19:57:23,556 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:400935 episode:204 R:7.0
+INFO     - 2020-11-25 19:57:23,557 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7991907215118408), ('cumulative_steps', 400935), ('n_updates', 98981), ('rlen', 300000)]
+INFO     - 2020-11-25 19:59:30,229 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:402935 episode:205 R:17.0
+INFO     - 2020-11-25 19:59:30,236 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7941662073135376), ('cumulative_steps', 402935), ('n_updates', 99481), ('rlen', 300000)]
+INFO     - 2020-11-25 20:01:25,486 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:404935 episode:206 R:21.0
+INFO     - 2020-11-25 20:01:25,487 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7839052259922028), ('cumulative_steps', 404935), ('n_updates', 99981), ('rlen', 300000)]
+INFO     - 2020-11-25 20:03:17,775 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:406935 episode:207 R:16.0
+INFO     - 2020-11-25 20:03:17,775 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7918652212619781), ('cumulative_steps', 406935), ('n_updates', 100481), ('rlen', 300000)]
+INFO     - 2020-11-25 20:05:21,741 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:408935 episode:208 R:26.0
+INFO     - 2020-11-25 20:05:21,741 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7929427552223205), ('cumulative_steps', 408935), ('n_updates', 100981), ('rlen', 300000)]
+INFO     - 2020-11-25 20:07:24,144 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:410935 episode:209 R:18.0
+INFO     - 2020-11-25 20:07:24,144 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7875274646282195), ('cumulative_steps', 410935), ('n_updates', 101481), ('rlen', 300000)]
+INFO     - 2020-11-25 20:09:29,364 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:412935 episode:210 R:15.0
+INFO     - 2020-11-25 20:09:29,364 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.774696066379547), ('cumulative_steps', 412935), ('n_updates', 101981), ('rlen', 300000)]
+INFO     - 2020-11-25 20:11:29,701 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:414935 episode:211 R:14.0
+INFO     - 2020-11-25 20:11:29,755 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7723733985424042), ('cumulative_steps', 414935), ('n_updates', 102481), ('rlen', 300000)]
+INFO     - 2020-11-25 20:13:27,154 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:416935 episode:212 R:25.0
+INFO     - 2020-11-25 20:13:27,154 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7816188967227935), ('cumulative_steps', 416935), ('n_updates', 102981), ('rlen', 300000)]
+INFO     - 2020-11-25 20:15:26,206 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:418935 episode:213 R:27.0
+INFO     - 2020-11-25 20:15:26,206 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.782952026128769), ('cumulative_steps', 418935), ('n_updates', 103481), ('rlen', 300000)]
+INFO     - 2020-11-25 20:17:19,150 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:420935 episode:214 R:21.0
+INFO     - 2020-11-25 20:17:19,150 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7887016010284424), ('cumulative_steps', 420935), ('n_updates', 103981), ('rlen', 300000)]
+INFO     - 2020-11-25 20:19:19,353 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:422935 episode:215 R:14.0
+INFO     - 2020-11-25 20:19:19,353 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.792076780796051), ('cumulative_steps', 422935), ('n_updates', 104481), ('rlen', 300000)]
+INFO     - 2020-11-25 20:21:14,332 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:424935 episode:216 R:12.0
+INFO     - 2020-11-25 20:21:14,332 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7795479965209962), ('cumulative_steps', 424935), ('n_updates', 104981), ('rlen', 300000)]
+INFO     - 2020-11-25 20:23:03,151 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:426935 episode:217 R:11.0
+INFO     - 2020-11-25 20:23:03,152 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7770319771766663), ('cumulative_steps', 426935), ('n_updates', 105481), ('rlen', 300000)]
+INFO     - 2020-11-25 20:25:04,859 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:428935 episode:218 R:17.0
+INFO     - 2020-11-25 20:25:04,859 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.799105805158615), ('cumulative_steps', 428935), ('n_updates', 105981), ('rlen', 300000)]
+INFO     - 2020-11-25 20:27:03,726 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:430935 episode:219 R:18.0
+INFO     - 2020-11-25 20:27:03,728 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.8071124315261842), ('cumulative_steps', 430935), ('n_updates', 106481), ('rlen', 300000)]
+INFO     - 2020-11-25 20:29:42,691 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:432935 episode:220 R:7.0
+INFO     - 2020-11-25 20:29:42,692 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.8085955131053923), ('cumulative_steps', 432935), ('n_updates', 106981), ('rlen', 300000)]
+INFO     - 2020-11-25 20:31:31,760 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:434935 episode:221 R:15.0
+INFO     - 2020-11-25 20:31:31,760 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7958531641960145), ('cumulative_steps', 434935), ('n_updates', 107481), ('rlen', 300000)]
+INFO     - 2020-11-25 20:33:17,753 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:436935 episode:222 R:16.0
+INFO     - 2020-11-25 20:33:17,754 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.8058614885807038), ('cumulative_steps', 436935), ('n_updates', 107981), ('rlen', 300000)]
+INFO     - 2020-11-25 20:35:10,218 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:438935 episode:223 R:7.0
+INFO     - 2020-11-25 20:35:10,218 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.7906100940704346), ('cumulative_steps', 438935), ('n_updates', 108481), ('rlen', 300000)]
+INFO     - 2020-11-25 20:37:01,996 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:440935 episode:224 R:16.0
+INFO     - 2020-11-25 20:37:01,997 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.810669982433319), ('cumulative_steps', 440935), ('n_updates', 108981), ('rlen', 300000)]
+INFO     - 2020-11-25 20:39:09,874 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:442935 episode:225 R:26.0
+INFO     - 2020-11-25 20:39:09,874 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.8071768438816072), ('cumulative_steps', 442935), ('n_updates', 109481), ('rlen', 300000)]
+INFO     - 2020-11-25 20:41:02,043 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:444935 episode:226 R:17.0
+INFO     - 2020-11-25 20:41:02,043 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.8121851086616516), ('cumulative_steps', 444935), ('n_updates', 109981), ('rlen', 300000)]
+INFO     - 2020-11-25 20:42:54,263 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:446935 episode:227 R:18.0
+INFO     - 2020-11-25 20:42:54,263 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.81469979763031), ('cumulative_steps', 446935), ('n_updates', 110481), ('rlen', 300000)]
+INFO     - 2020-11-25 20:44:49,724 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:448935 episode:228 R:22.0
+INFO     - 2020-11-25 20:44:49,724 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.8145879530906677), ('cumulative_steps', 448935), ('n_updates', 110981), ('rlen', 300000)]
+INFO     - 2020-11-25 20:46:40,175 - [pfrl.experiments.train_agent train_agent 74] outdir:result\20201125T140306.326430 step:450935 episode:229 R:14.0
+INFO     - 2020-11-25 20:46:40,176 - [pfrl.experiments.train_agent train_agent 76] statistics:[('average_q', nan), ('average_loss', 1.8228823518753052), ('cumulative_steps', 450935), ('n_updates', 111481), ('rlen', 300000)]
+INFO     - 2020-11-25 20:46:58,467 - [pfrl.experiments.train_agent save_agent 350] Saved the agent to result\20201125T140306.326430\450935_except
+ERROR    - 2020-11-25 20:46:58,616 - [__main__ main 152] execution failed.
+Traceback (most recent call last):
+  File "C:/Users/Brendan/PycharmProjects/CS7643/rainbow/minerl2020_submission-master/mod/dqn_family.py", line 149, in main
+    kmeans_n_clusters=args.kmeans_n_clusters,
+  File "C:/Users/Brendan/PycharmProjects/CS7643/rainbow/minerl2020_submission-master/mod/dqn_family.py", line 260, in dqn_family
+    outdir=outdir, eval_env=eval_env, save_best_so_far_agent=True,
+  File "C:\Users\Brendan\AppData\Local\Programs\Python\Python36\lib\site-packages\pfrl\experiments\train_agent.py", line 185, in train_agent_with_evaluation
+    logger=logger,
+  File "C:\Users\Brendan\AppData\Local\Programs\Python\Python36\lib\site-packages\pfrl\experiments\train_agent.py", line 78, in train_agent
+    evaluator.evaluate_if_necessary(t=t, episodes=episode_idx + 1)
+  File "C:\Users\Brendan\AppData\Local\Programs\Python\Python36\lib\site-packages\pfrl\experiments\evaluator.py", line 451, in evaluate_if_necessary
+    score = self.evaluate_and_update_max_score(t, episodes)
+  File "C:\Users\Brendan\AppData\Local\Programs\Python\Python36\lib\site-packages\pfrl\experiments\evaluator.py", line 421, in evaluate_and_update_max_score
+    logger=self.logger,
+  File "C:\Users\Brendan\AppData\Local\Programs\Python\Python36\lib\site-packages\pfrl\experiments\evaluator.py", line 289, in eval_performance
+    logger=logger,
+  File "C:\Users\Brendan\AppData\Local\Programs\Python\Python36\lib\site-packages\pfrl\experiments\evaluator.py", line 106, in run_evaluation_episodes
+    logger=logger,
+  File "C:\Users\Brendan\AppData\Local\Programs\Python\Python36\lib\site-packages\pfrl\experiments\evaluator.py", line 49, in _run_episodes
+    obs = env.reset()
+  File "C:\Users\Brendan\AppData\Local\Programs\Python\Python36\lib\site-packages\gym\core.py", line 282, in reset
+    return self.env.reset(**kwargs)
+  File "C:\Users\Brendan\PycharmProjects\CS7643\rainbow\minerl2020_submission-master\mod\env_wrappers.py", line 110, in reset
+    ob = self.env.reset()
+  File "C:\Users\Brendan\AppData\Local\Programs\Python\Python36\lib\site-packages\gym\core.py", line 257, in reset
+    observation = self.env.reset(**kwargs)
+  File "C:\Users\Brendan\AppData\Local\Programs\Python\Python36\lib\site-packages\gym\core.py", line 257, in reset
+    observation = self.env.reset(**kwargs)
+  File "C:\Users\Brendan\AppData\Local\Programs\Python\Python36\lib\site-packages\gym\core.py", line 257, in reset
+    observation = self.env.reset(**kwargs)
+  File "C:\Users\Brendan\AppData\Local\Programs\Python\Python36\lib\site-packages\gym\core.py", line 230, in reset
+    return self.env.reset(**kwargs)
+  File "C:\Users\Brendan\AppData\Local\Programs\Python\Python36\lib\site-packages\gym\wrappers\monitor.py", line 39, in reset
+    self._after_reset(observation)
+  File "C:\Users\Brendan\AppData\Local\Programs\Python\Python36\lib\site-packages\gym\wrappers\monitor.py", line 188, in _after_reset
+    self.reset_video_recorder()
+  File "C:\Users\Brendan\AppData\Local\Programs\Python\Python36\lib\site-packages\gym\wrappers\monitor.py", line 209, in reset_video_recorder
+    self.video_recorder.capture_frame()
+  File "C:\Users\Brendan\AppData\Local\Programs\Python\Python36\lib\site-packages\gym\wrappers\monitoring\video_recorder.py", line 116, in capture_frame
+    self._encode_image_frame(frame)
+  File "C:\Users\Brendan\AppData\Local\Programs\Python\Python36\lib\site-packages\gym\wrappers\monitoring\video_recorder.py", line 162, in _encode_image_frame
+    self.encoder = ImageEncoder(self.path, frame.shape, self.frames_per_sec)
+  File "C:\Users\Brendan\AppData\Local\Programs\Python\Python36\lib\site-packages\gym\wrappers\monitoring\video_recorder.py", line 255, in __init__
+    raise error.DependencyNotInstalled("""Found neither the ffmpeg nor avconv executables. On OS X, you can install ffmpeg via `brew install ffmpeg`. On most Ubuntu variants, `sudo apt-get install ffmpeg` should do it. On Ubuntu 14.04, however, you'll need to install avconv with `sudo apt-get install libav-tools`.""")
+gym.error.DependencyNotInstalled: Found neither the ffmpeg nor avconv executables. On OS X, you can install ffmpeg via `brew install ffmpeg`. On most Ubuntu variants, `sudo apt-get install ffmpeg` should do it. On Ubuntu 14.04, however, you'll need to install avconv with `sudo apt-get install libav-tools`.
+INFO     - 2020-11-25 20:47:03,076 - [minerl.env.malmo on_terminate 373] Minecraft process psutil.Process(pid=16544, name='java.exe', status='terminated', exitcode=15, started='18:57:49') terminated with exit code 15
+INFO     - 2020-11-25 20:47:03,076 - [minerl.env.malmo on_terminate 373] Minecraft process psutil.Process(pid=17496, name='cmd.exe', status='terminated', exitcode=15, started='18:57:49') terminated with exit code 15
