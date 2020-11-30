@@ -4,6 +4,8 @@ import numpy as np
 import os
 import glob
 import shutil
+from tqdm import tqdm
+
 
 def create_train_valid_test_split(env, train_percent, valid_percent):
   dat = minerl.data.make(env)
@@ -28,9 +30,19 @@ def create_train_valid_test_split(env, train_percent, valid_percent):
 
   return train_episode_names, valid_episode_names, test_episode_names
 
+def get_ds_path(env, name):
+  data_root = os.getenv('MINERL_DATA_ROOT')
+  assert data_root is not None
+  data_root = os.path.join(data_root, env)
+  assert os.path.exists(data_root)
+  data_root = os.path.join(data_root, "frame_dump", name)
+  return data_root
 
-def ensure_dataset(name, episodes, root_ds_path, force_create=False, verbose=True):
-  out_ds_path = os.path.join(root_ds_path, name)
+def ensure_dataset(env, name, episodes, frame_skip=0, frame_stack=1, force_create=True, verbose=True):
+  if verbose:
+    print(f"Creating {name}...")
+  
+  out_ds_path = get_ds_path(env, name)
   if not force_create and os.path.exists(out_ds_path):
     return out_ds_path
 
@@ -38,13 +50,18 @@ def ensure_dataset(name, episodes, root_ds_path, force_create=False, verbose=Tru
     shutil.rmtree(out_ds_path)
   os.makedirs(out_ds_path, exist_ok=True)
 
-  frame_i = 0
+  out_frame_samples_i = 0
   frames_skipped = 0
+  dat = minerl.data.make(env)
   for episode_name in episodes:
     traj = dat.load_data(episode_name)
 
-    prev_pov = None
-    done = False
+    pov_queue = {}
+    for i in range(0, frame_skip):
+      pov_queue[i] = []
+
+    done    = False
+    frame_i = 0
     while True:
       if done:
         break
@@ -52,23 +69,30 @@ def ensure_dataset(name, episodes, root_ds_path, force_create=False, verbose=Tru
       ob, act, rw, next_ob, done = next(traj)
       assert 'pov' in ob
       pov = ob['pov']
-      if prev_pov is not None and np.allclose(pov, prev_pov):
-        frames_skipped += 1
-        continue
+      pov = np.moveaxis(pov, -1, 0)
 
-      frame_path = os.path.join(out_ds_path, str(frame_i))
-      np.save(frame_path, pov)
+      pov_i = frame_i % frame_skip
+      pov_queue[pov_i].append(pov)
+      assert len(pov_queue[pov_i]) <= frame_stack
+
       frame_i += 1
-      prev_pov = pov
+      if len(pov_queue[pov_i]) != frame_stack:
+        continue
+      assert len(pov_queue[pov_i]) == frame_stack
 
-  if verbose:
-    print(f"frames_skipped:{frames_skipped}")
+      frame_path = os.path.join(out_ds_path, str(out_frame_samples_i))
+      frame = np.stack(pov_queue[pov_i], 0)
+      np.save(frame_path, pov_queue[pov_i])
+      out_frame_samples_i += 1
+      pov_queue[pov_i] = pov_queue[pov_i][1:]
+      assert len(pov_queue[pov_i]) <= frame_stack
+
   return out_ds_path
 
 class MineRLFrameDataset(torch.utils.data.Dataset):
-  def __init__(self, data_path):
-    self.data_path   = data_path
-    self.num_samples = len(glob.glob1(data_path, "*.npy"))
+  def __init__(self, env, name):
+    self.data_path   = get_ds_path(env, name)
+    self.num_samples = len(glob.glob1(self.data_path, "*.npy"))
 
   def __len__(self):
     return self.num_samples
@@ -79,6 +103,10 @@ class MineRLFrameDataset(torch.utils.data.Dataset):
 
     np_filename = f"{idx}.npy"
     np_path = os.path.join(self.data_path, np_filename)
+    if not os.path.exists(np_path):
+      print(f"Unable to find {np_path}")
+      assert False
+
     frame = np.load(np_path)
-    frame = np.moveaxis(frame, -1, 0)
+    frame = np.reshape(frame, (frame.shape[0] * frame.shape[1], frame.shape[2], frame.shape[3]), order='C')
     return frame
