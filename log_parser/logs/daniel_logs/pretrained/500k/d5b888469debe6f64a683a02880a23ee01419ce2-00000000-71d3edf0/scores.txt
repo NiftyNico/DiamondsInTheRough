@@ -1,0 +1,2 @@
+steps	episodes	elapsed	mean	median	stdev	max	min	average_loss_1step	average_loss_nstep	average_loss_supervised	average_loss	n_updates
+16000	8	5931.372861862183	2.4	1.0	4.273952113286562	14.0	0.0	0.1487055415287614	0.23383674561977386	0.009667544018884654	0.392209830135107	504000
