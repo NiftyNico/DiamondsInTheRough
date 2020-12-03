@@ -12,15 +12,19 @@ class Stats:
       self.df = pd.read_csv(filepath, index_col=0)
       return
     
-    d = { 'Train_Loss': [], 'Valid_Loss': [] }
+    d = { 'Train_Loss': [], 'Valid_Loss': [], 'Train_SSIM': [], 'Valid_SSIM': [] }
     self.df = pd.DataFrame(data=d)
 
-  def add_epoch(self, train_loss=None, valid_loss=None, save=True):
+  def add_epoch(self, train_loss=None, valid_loss=None, train_ssim=None, valid_ssim=None, save=True):
     d = {}
     if train_loss is not None:
       d['Train_Loss'] = [train_loss]
     if valid_loss is not None:
       d['Valid_Loss'] = [valid_loss]
+    if train_ssim is not None:
+      d['Train_SSIM'] = [train_ssim]
+    if valid_ssim is not None:
+      d['Valid_SSIM'] = [valid_ssim]
 
     new_df = pd.DataFrame(data=d)
     self.df = self.df.append(new_df, ignore_index=True)
@@ -32,7 +36,7 @@ class Stats:
     return len(self.df)
 
   def is_last_epoch_best(self):
-    return np.min(self.df['Valid_Loss']) == self.df.iloc[-1]['Valid_Loss']
+    return np.min(self.df['Valid_SSIM']) == self.df.iloc[-1]['Valid_SSIM']
 
   def __str__(self):
     return str(self.df)
@@ -45,13 +49,18 @@ class Stats:
     if plot:
       self.plot()
 
-  def plot(self):
+  def __plot_cols(self, plot_fn, train_col, valid_col):
     out_root = os.path.dirname(os.path.realpath(self.filepath))
-    train_series = self.df["Train_Loss"]
-    valid_series = self.df["Valid_Loss"]
-    epoch_and_train_loss = list(zip(train_series.index, train_series))
-    epoch_and_valid_loss = list(zip(valid_series.index, valid_series))
-    visualization.plot_learning_curve(out_root, epoch_and_train_loss, epoch_and_valid_loss)
+
+    train_series = self.df[train_col]
+    valid_series = self.df[valid_col]
+    epoch_and_train = list(zip(train_series.index, train_series))
+    epoch_and_valid = list(zip(valid_series.index, valid_series))
+    plot_fn(out_root, epoch_and_train, epoch_and_valid)
+
+  def plot(self):
+    self.__plot_cols(visualization.plot_learning_curve, "Train_Loss", "Valid_Loss")
+    self.__plot_cols(visualization.plot_ssim,           "Train_SSIM", "Valid_SSIM")
 
 
 

@@ -89,10 +89,38 @@ def ensure_dataset(env, name, episodes, frame_skip=0, frame_stack=1, force_creat
 
   return out_ds_path
 
+def get_per_channel_mean_std(data_loader, preprocess_fn):
+  means, stds = None, None
+  num_samples = 0
+  
+  for frames_batch in tqdm(data_loader):
+    frame_samples = len(frames_batch)
+    num_samples += frame_samples
+    frames_batch = preprocess_fn(frames_batch)
+
+    new_means = torch.mean(frames_batch, dim=[0, 2, 3], keepdim=True) * frame_samples
+    new_stds  = torch.std(frames_batch,  dim=[0, 2, 3], keepdim=True) * frame_samples
+    if means is None and stds is None:
+      means, stds = preprocess_fn(torch.zeros(new_means.shape)), preprocess_fn(torch.zeros(new_stds.shape))
+    means += new_means
+    stds  += new_stds
+
+  means /= num_samples
+  stds  /= num_samples
+  return means, stds
+    
+
+  # pixels = (pixels - mean) / std
+
 class MineRLFrameDataset(torch.utils.data.Dataset):
-  def __init__(self, env, name):
-    self.data_path   = get_ds_path(env, name)
-    self.num_samples = len(glob.glob1(self.data_path, "*.npy"))
+  def __init__(self, env, name, stack_channels):
+    self.__name         = name
+    self.data_path      = get_ds_path(env, name)
+    self.num_samples    = len(glob.glob1(self.data_path, "*.npy"))
+    self.stack_channels = stack_channels
+
+  def get_name(self):
+    return self.__name
 
   def __len__(self):
     return self.num_samples
@@ -108,5 +136,7 @@ class MineRLFrameDataset(torch.utils.data.Dataset):
       assert False
 
     frame = np.load(np_path)
-    frame = np.reshape(frame, (frame.shape[0] * frame.shape[1], frame.shape[2], frame.shape[3]), order='C')
+    if self.stack_channels:
+      frame = np.reshape(frame, (frame.shape[0] * frame.shape[1], frame.shape[2], frame.shape[3]), order='C')
+    frame = torch.from_numpy(frame)
     return frame
