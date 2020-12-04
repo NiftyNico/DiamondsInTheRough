@@ -1,0 +1,69 @@
+digraph {
+	graph [size="12,12"]
+	node [align=left fontsize=12 height=0.2 ranksep=0.1 shape=box style=filled]
+	140377274939040 [label=SigmoidBackward fillcolor=darkolivegreen1]
+	140377274938848 -> 140377274939040
+	140377274938848 [label=SlowConvTranspose2DBackward]
+	140377274940720 -> 140377274938848
+	140377274940720 [label=ReluBackward0]
+	140377274940864 -> 140377274940720
+	140377274940864 [label=SlowConvTranspose2DBackward]
+	140377274940480 -> 140377274940864
+	140377274940480 [label=ReluBackward0]
+	140377274940192 -> 140377274940480
+	140377274940192 [label=SlowConvTranspose2DBackward]
+	140377165517008 -> 140377274940192
+	140377165517008 [label=MaxPool2DWithIndicesBackward]
+	140377165517248 -> 140377165517008
+	140377165517248 [label=ReluBackward0]
+	140377165517344 -> 140377165517248
+	140377165517344 [label=MkldnnConvolutionBackward]
+	140377165517440 -> 140377165517344
+	140377165517440 [label=MaxPool2DWithIndicesBackward]
+	140377165517632 -> 140377165517440
+	140377165517632 [label=ReluBackward0]
+	140377165517728 -> 140377165517632
+	140377165517728 [label=MkldnnConvolutionBackward]
+	140377165517824 -> 140377165517728
+	140377165517824 [label=MaxPool2DWithIndicesBackward]
+	140377165518016 -> 140377165517824
+	140377165518016 [label=ReluBackward0]
+	140377165518112 -> 140377165518016
+	140377165518112 [label=MkldnnConvolutionBackward]
+	140377165518208 -> 140377165518112
+	140377165518208 [label="encoder_layers.0.weight
+ (32, 12, 3, 3)" fillcolor=lightblue]
+	140377165518256 -> 140377165518112
+	140377165518256 [label="encoder_layers.0.bias
+ (32)" fillcolor=lightblue]
+	140377165517872 -> 140377165517728
+	140377165517872 [label="encoder_layers.3.weight
+ (16, 32, 3, 3)" fillcolor=lightblue]
+	140377165517920 -> 140377165517728
+	140377165517920 [label="encoder_layers.3.bias
+ (16)" fillcolor=lightblue]
+	140377165517488 -> 140377165517344
+	140377165517488 [label="encoder_layers.6.weight
+ (8, 16, 3, 3)" fillcolor=lightblue]
+	140377165517536 -> 140377165517344
+	140377165517536 [label="encoder_layers.6.bias
+ (8)" fillcolor=lightblue]
+	140377165517200 -> 140377274940192
+	140377165517200 [label="decoder_layers.0.weight
+ (8, 16, 2, 2)" fillcolor=lightblue]
+	140377165517152 -> 140377274940192
+	140377165517152 [label="decoder_layers.0.bias
+ (16)" fillcolor=lightblue]
+	140377274940576 -> 140377274940864
+	140377274940576 [label="decoder_layers.2.weight
+ (16, 32, 2, 2)" fillcolor=lightblue]
+	140377274940288 -> 140377274940864
+	140377274940288 [label="decoder_layers.2.bias
+ (32)" fillcolor=lightblue]
+	140377274940432 -> 140377274938848
+	140377274940432 [label="decoder_layers.4.weight
+ (32, 12, 2, 2)" fillcolor=lightblue]
+	140377274940960 -> 140377274938848
+	140377274940960 [label="decoder_layers.4.bias
+ (12)" fillcolor=lightblue]
+}
