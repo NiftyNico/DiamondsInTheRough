@@ -1,0 +1,329 @@
+/usr/local/envs/minerl/lib/python3.6/site-packages/gym/logger.py:30: UserWarning: WARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+INFO:cached_kmeans:Load dataset & do kmeans
+INFO     - 2020-12-02 01:47:40,618 - [cached_kmeans cached_kmeans 19] Load dataset & do kmeans
+0it [00:00, ?it/s]
+  0% 0/209 [00:00<?, ?it/s]
+100% 209/209 [00:00<00:00, 1001.93it/s]
+835it [03:26,  4.03it/s]
+INFO:__main__:Output files are saved in result/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716
+INFO     - 2020-12-02 01:51:48,715 - [__main__ main 251] Output files are saved in result/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716
+INFO:__main__:The first `gym.make(MineRL*)` may take several minutes. Be patient!
+INFO     - 2020-12-02 01:51:48,715 - [__main__ main 306] The first `gym.make(MineRL*)` may take several minutes. Be patient!
+INFO:minerl.env.malmo.instance.6bba21:Starting Minecraft process: ['/tmp/tmp_rl_sdoa/Minecraft/launchClient.sh', '-port', '9368', '-env', '-runDir', '/tmp/tmp_rl_sdoa/Minecraft/run']
+INFO     - 2020-12-02 01:51:48,853 - [minerl.env.malmo.instance.6bba21 _launch_minecraft 671] Starting Minecraft process: ['/tmp/tmp_rl_sdoa/Minecraft/launchClient.sh', '-port', '9368', '-env', '-runDir', '/tmp/tmp_rl_sdoa/Minecraft/run']
+INFO:minerl.env.malmo.instance.6bba21:Starting process watcher for process 16005 @ localhost:9368
+INFO     - 2020-12-02 01:51:49,009 - [minerl.env.malmo.instance.6bba21 _launch_process_watcher 694] Starting process watcher for process 16005 @ localhost:9368
+INFO:minerl.env.malmo.instance.6bba21:Minecraft process ready
+INFO     - 2020-12-02 01:53:00,934 - [minerl.env.malmo.instance.6bba21 launch 533] Minecraft process ready
+INFO:minerl.env.malmo:Logging output of Minecraft to ./logs/mc_368.log
+INFO     - 2020-12-02 01:53:00,959 - [minerl.env.malmo log_to_file 548] Logging output of Minecraft to ./logs/mc_368.log
+INFO:__main__:Detected `gym.wrappers.TimeLimit`! Unwrap it and re-wrap our own time limit.
+INFO     - 2020-12-02 01:53:01,016 - [__main__ make_env 270] Detected `gym.wrappers.TimeLimit`! Unwrap it and re-wrap our own time limit.
+INFO:__main__:Detected `gym.wrappers.TimeLimit`! Unwrap it and re-wrap our own time limit.
+INFO     - 2020-12-02 01:53:01,019 - [__main__ make_env 270] Detected `gym.wrappers.TimeLimit`! Unwrap it and re-wrap our own time limit.
+INFO:__main__:Fill the buffer with expert data
+INFO     - 2020-12-02 01:53:01,069 - [__main__ fill_buffer 66] Fill the buffer with expert data
+INFO:__main__:209 trajectories
+INFO     - 2020-12-02 01:53:02,180 - [__main__ fill_buffer 69] 209 trajectories
+  0% 0/1787 [00:00<?, ?it/s]INFO:__main__:name: v3_juvenile_apple_angel-7_111791-113629, success: True, steps: 1787, reward: 65.0
+INFO     - 2020-12-02 01:53:03,837 - [__main__ fill_buffer 90] name: v3_juvenile_apple_angel-7_111791-113629, success: True, steps: 1787, reward: 65.0
+100% 1787/1787 [00:01<00:00, 1548.08it/s]
+  0% 0/1674 [00:00<?, ?it/s]INFO:__main__:name: v3_juvenile_apple_angel-7_70581-72289, success: True, steps: 1674, reward: 64.0
+INFO     - 2020-12-02 01:53:06,544 - [__main__ fill_buffer 90] name: v3_juvenile_apple_angel-7_70581-72289, success: True, steps: 1674, reward: 64.0
+100% 1674/1674 [00:01<00:00, 982.26it/s] 
+  0% 0/2215 [00:00<?, ?it/s]INFO:__main__:name: v3_virtuous_mustard_greens_raven_spirit-8_9171-11677, success: True, steps: 2215, reward: 64.0
+INFO     - 2020-12-02 01:53:10,082 - [__main__ fill_buffer 90] name: v3_virtuous_mustard_greens_raven_spirit-8_9171-11677, success: True, steps: 2215, reward: 64.0
+100% 2215/2215 [00:01<00:00, 1616.37it/s]
+  0% 0/2461 [00:00<?, ?it/s]INFO:__main__:name: v3_remorseful_current_savage-1_4442-6943, success: True, steps: 2461, reward: 64.0
+INFO     - 2020-12-02 01:53:13,411 - [__main__ fill_buffer 90] name: v3_remorseful_current_savage-1_4442-6943, success: True, steps: 2461, reward: 64.0
+100% 2461/2461 [00:01<00:00, 1628.49it/s]
+  0% 0/1854 [00:00<?, ?it/s]INFO:__main__:name: v3_familiar_endive_ghost-2_44742-46633, success: True, steps: 1854, reward: 64.0
+INFO     - 2020-12-02 01:53:16,608 - [__main__ fill_buffer 90] name: v3_familiar_endive_ghost-2_44742-46633, success: True, steps: 1854, reward: 64.0
+100% 1854/1854 [00:01<00:00, 1615.97it/s]
+  0% 0/1795 [00:00<?, ?it/s]INFO:__main__:name: v3_failing_soybean_werewolf-1_5797-7669, success: True, steps: 1795, reward: 64.0
+INFO     - 2020-12-02 01:53:19,231 - [__main__ fill_buffer 90] name: v3_failing_soybean_werewolf-1_5797-7669, success: True, steps: 1795, reward: 64.0
+100% 1795/1795 [00:01<00:00, 1451.84it/s]
+  0% 0/1672 [00:00<?, ?it/s]INFO:__main__:name: v3_unselfish_blood_orange_savage-21_599-2307, success: True, steps: 1672, reward: 64.0
+INFO     - 2020-12-02 01:53:22,001 - [__main__ fill_buffer 90] name: v3_unselfish_blood_orange_savage-21_599-2307, success: True, steps: 1672, reward: 64.0
+100% 1672/1672 [00:01<00:00, 1564.71it/s]
+  0% 0/1840 [00:00<?, ?it/s]INFO:__main__:name: v3_unselfish_blood_orange_savage-21_2496-4361, success: True, steps: 1840, reward: 64.0
+INFO     - 2020-12-02 01:53:24,587 - [__main__ fill_buffer 90] name: v3_unselfish_blood_orange_savage-21_2496-4361, success: True, steps: 1840, reward: 64.0
+100% 1840/1840 [00:01<00:00, 1603.65it/s]
+  0% 0/2441 [00:00<?, ?it/s]INFO:__main__:name: v3_absolute_grape_changeling-15_8154-10619, success: True, steps: 2441, reward: 64.0
+INFO     - 2020-12-02 01:53:27,780 - [__main__ fill_buffer 90] name: v3_absolute_grape_changeling-15_8154-10619, success: True, steps: 2441, reward: 64.0
+100% 2441/2441 [00:01<00:00, 1604.27it/s]
+  0% 0/2389 [00:00<?, ?it/s]INFO:__main__:name: v3_quiet_mandarin_orange_ghoul-14_454-2883, success: True, steps: 2389, reward: 64.0
+INFO     - 2020-12-02 01:53:31,380 - [__main__ fill_buffer 90] name: v3_quiet_mandarin_orange_ghoul-14_454-2883, success: True, steps: 2389, reward: 64.0
+100% 2389/2389 [00:01<00:00, 1373.03it/s]
+  0% 0/1751 [00:00<?, ?it/s]INFO:__main__:name: v3_quiet_mandarin_orange_ghoul-14_20738-22550, success: True, steps: 1751, reward: 64.0
+INFO     - 2020-12-02 01:53:34,570 - [__main__ fill_buffer 90] name: v3_quiet_mandarin_orange_ghoul-14_20738-22550, success: True, steps: 1751, reward: 64.0
+100% 1751/1751 [00:01<00:00, 1485.95it/s]
+  0% 0/1675 [00:00<?, ?it/s]INFO:__main__:name: v3_juvenile_apple_angel-30_396415-398113, success: True, steps: 1675, reward: 64.0
+INFO     - 2020-12-02 01:53:37,149 - [__main__ fill_buffer 90] name: v3_juvenile_apple_angel-30_396415-398113, success: True, steps: 1675, reward: 64.0
+100% 1675/1675 [00:01<00:00, 1622.17it/s]
+  0% 0/1674 [00:00<?, ?it/s]INFO:__main__:name: v3_familiar_endive_ghost-2_7119-8820, success: True, steps: 1674, reward: 64.0
+INFO     - 2020-12-02 01:53:39,731 - [__main__ fill_buffer 90] name: v3_familiar_endive_ghost-2_7119-8820, success: True, steps: 1674, reward: 64.0
+100% 1674/1674 [00:01<00:00, 1536.02it/s]
+  0% 0/1528 [00:00<?, ?it/s]INFO:__main__:name: v3_content_squash_angel-3_9633-11189, success: True, steps: 1528, reward: 64.0
+INFO     - 2020-12-02 01:53:42,086 - [__main__ fill_buffer 90] name: v3_content_squash_angel-3_9633-11189, success: True, steps: 1528, reward: 64.0
+100% 1528/1528 [00:01<00:00, 1473.35it/s]
+  0% 0/2750 [00:00<?, ?it/s]INFO:__main__:name: v3_conscious_tangerine_rain_bird-41_133718-136502, success: True, steps: 2750, reward: 64.0
+INFO     - 2020-12-02 01:53:45,390 - [__main__ fill_buffer 90] name: v3_conscious_tangerine_rain_bird-41_133718-136502, success: True, steps: 2750, reward: 64.0
+100% 2750/2750 [00:01<00:00, 1534.66it/s]
+  0% 0/2717 [00:00<?, ?it/s]INFO:__main__:name: v3_absolute_grape_changeling-15_2519-5263, success: True, steps: 2717, reward: 64.0
+INFO     - 2020-12-02 01:53:49,536 - [__main__ fill_buffer 90] name: v3_absolute_grape_changeling-15_2519-5263, success: True, steps: 2717, reward: 64.0
+100% 2717/2717 [00:01<00:00, 1633.29it/s]
+  0% 0/1889 [00:00<?, ?it/s]INFO:__main__:name: v3_juvenile_apple_angel-7_28694-30621, success: True, steps: 1889, reward: 64.0
+INFO     - 2020-12-02 01:53:52,857 - [__main__ fill_buffer 90] name: v3_juvenile_apple_angel-7_28694-30621, success: True, steps: 1889, reward: 64.0
+100% 1889/1889 [00:01<00:00, 1637.41it/s]
+  0% 0/2845 [00:00<?, ?it/s]INFO:__main__:name: v3_excellent_pluot_behemoth-11_30302-33195, success: True, steps: 2845, reward: 65.0
+INFO     - 2020-12-02 01:53:56,226 - [__main__ fill_buffer 90] name: v3_excellent_pluot_behemoth-11_30302-33195, success: True, steps: 2845, reward: 65.0
+100% 2845/2845 [00:01<00:00, 1467.10it/s]
+  0% 0/1863 [00:00<?, ?it/s]INFO:__main__:name: v3_unselfish_blood_orange_savage-15_1274-3207, success: True, steps: 1863, reward: 64.0
+INFO     - 2020-12-02 01:53:59,883 - [__main__ fill_buffer 90] name: v3_unselfish_blood_orange_savage-15_1274-3207, success: True, steps: 1863, reward: 64.0
+100% 1863/1863 [00:01<00:00, 1501.73it/s]
+  0% 0/2159 [00:00<?, ?it/s]INFO:__main__:name: v3_absolute_grape_changeling-17_2648-4833, success: True, steps: 2159, reward: 64.0
+INFO     - 2020-12-02 01:54:02,865 - [__main__ fill_buffer 90] name: v3_absolute_grape_changeling-17_2648-4833, success: True, steps: 2159, reward: 64.0
+100% 2159/2159 [00:01<00:00, 1493.56it/s]
+  0% 0/3139 [00:00<?, ?it/s]INFO:__main__:name: v3_glistening_okra_golum-22_7485-10661, success: True, steps: 3139, reward: 64.0
+INFO     - 2020-12-02 01:54:06,745 - [__main__ fill_buffer 90] name: v3_glistening_okra_golum-22_7485-10661, success: True, steps: 3139, reward: 64.0
+100% 3139/3139 [00:02<00:00, 1564.35it/s]
+  0% 0/1824 [00:00<?, ?it/s]INFO:__main__:name: v3_svelte_cherry_devil-12_30091-31945, success: True, steps: 1824, reward: 65.0
+INFO     - 2020-12-02 01:54:10,291 - [__main__ fill_buffer 90] name: v3_svelte_cherry_devil-12_30091-31945, success: True, steps: 1824, reward: 65.0
+100% 1824/1824 [00:01<00:00, 1490.11it/s]
+  0% 0/2661 [00:00<?, ?it/s]INFO:__main__:name: v3_equal_olive_chimera-6_7294-9979, success: True, steps: 2661, reward: 64.0
+INFO     - 2020-12-02 01:54:13,888 - [__main__ fill_buffer 90] name: v3_equal_olive_chimera-6_7294-9979, success: True, steps: 2661, reward: 64.0
+100% 2661/2661 [00:01<00:00, 1541.33it/s]
+  0% 0/1963 [00:00<?, ?it/s]INFO:__main__:name: v3_content_squash_angel-3_7552-9552, success: True, steps: 1963, reward: 64.0
+INFO     - 2020-12-02 01:54:17,252 - [__main__ fill_buffer 90] name: v3_content_squash_angel-3_7552-9552, success: True, steps: 1963, reward: 64.0
+100% 1963/1963 [00:01<00:00, 1627.15it/s]
+  0% 0/1830 [00:00<?, ?it/s]INFO:__main__:name: v3_juvenile_apple_angel-7_95854-97712, success: True, steps: 1830, reward: 64.0
+INFO     - 2020-12-02 01:54:19,963 - [__main__ fill_buffer 90] name: v3_juvenile_apple_angel-7_95854-97712, success: True, steps: 1830, reward: 64.0
+100% 1830/1830 [00:01<00:00, 1602.47it/s]
+  0% 0/1573 [00:00<?, ?it/s]INFO:__main__:name: v3_juvenile_apple_angel-7_115834-117438, success: True, steps: 1573, reward: 64.0
+INFO     - 2020-12-02 01:54:22,386 - [__main__ fill_buffer 90] name: v3_juvenile_apple_angel-7_115834-117438, success: True, steps: 1573, reward: 64.0
+100% 1573/1573 [00:00<00:00, 1587.65it/s]
+  0% 0/1677 [00:00<?, ?it/s]INFO:__main__:name: v3_subtle_iceberg_lettuce_nymph-15_4402-6101, success: True, steps: 1677, reward: 64.0
+INFO     - 2020-12-02 01:54:24,785 - [__main__ fill_buffer 90] name: v3_subtle_iceberg_lettuce_nymph-15_4402-6101, success: True, steps: 1677, reward: 64.0
+100% 1677/1677 [00:01<00:00, 1570.92it/s]
+  0% 0/1630 [00:00<?, ?it/s]INFO:__main__:name: v3_key_nectarine_spirit-2_3251-4975, success: True, steps: 1630, reward: 64.0
+INFO     - 2020-12-02 01:54:27,219 - [__main__ fill_buffer 90] name: v3_key_nectarine_spirit-2_3251-4975, success: True, steps: 1630, reward: 64.0
+100% 1630/1630 [00:01<00:00, 1617.38it/s]
+  0% 0/2586 [00:00<?, ?it/s]INFO:__main__:name: v3_flustered_tuber_doppelganger-1_25423-28044, success: True, steps: 2586, reward: 64.0
+INFO     - 2020-12-02 01:54:30,352 - [__main__ fill_buffer 90] name: v3_flustered_tuber_doppelganger-1_25423-28044, success: True, steps: 2586, reward: 64.0
+100% 2586/2586 [00:01<00:00, 1443.21it/s]
+  0% 0/3017 [00:00<?, ?it/s]INFO:__main__:name: v3_excellent_pluot_behemoth-11_13750-16826, success: True, steps: 3017, reward: 64.0
+INFO     - 2020-12-02 01:54:34,633 - [__main__ fill_buffer 90] name: v3_excellent_pluot_behemoth-11_13750-16826, success: True, steps: 3017, reward: 64.0
+100% 3017/3017 [00:02<00:00, 1423.46it/s]
+  0% 0/2175 [00:00<?, ?it/s]INFO:__main__:name: v3_glistening_okra_golum-9_200181-202384, success: True, steps: 2175, reward: 64.0
+INFO     - 2020-12-02 01:54:38,825 - [__main__ fill_buffer 90] name: v3_glistening_okra_golum-9_200181-202384, success: True, steps: 2175, reward: 64.0
+100% 2175/2175 [00:01<00:00, 1441.44it/s]
+  0% 0/1494 [00:00<?, ?it/s]INFO:__main__:name: v3_hideous_breadfruit_golum-6_17318-18840, success: True, steps: 1494, reward: 64.0
+INFO     - 2020-12-02 01:54:41,600 - [__main__ fill_buffer 90] name: v3_hideous_breadfruit_golum-6_17318-18840, success: True, steps: 1494, reward: 64.0
+100% 1494/1494 [00:01<00:00, 1463.91it/s]
+  0% 0/2131 [00:00<?, ?it/s]INFO:__main__:name: v3_absolute_grape_changeling-16_2277-4441, success: True, steps: 2131, reward: 64.0
+INFO     - 2020-12-02 01:54:44,335 - [__main__ fill_buffer 90] name: v3_absolute_grape_changeling-16_2277-4441, success: True, steps: 2131, reward: 64.0
+100% 2131/2131 [00:01<00:00, 1615.15it/s]
+  0% 0/2381 [00:00<?, ?it/s]INFO:__main__:name: v3_excellent_pluot_behemoth-11_36242-38653, success: True, steps: 2381, reward: 65.0
+INFO     - 2020-12-02 01:54:47,958 - [__main__ fill_buffer 90] name: v3_excellent_pluot_behemoth-11_36242-38653, success: True, steps: 2381, reward: 65.0
+100% 2381/2381 [00:01<00:00, 1528.06it/s]
+  0% 0/2184 [00:00<?, ?it/s]INFO:__main__:name: v3_hideous_breadfruit_golum-5_42331-44550, success: True, steps: 2184, reward: 64.0
+INFO     - 2020-12-02 01:54:51,433 - [__main__ fill_buffer 90] name: v3_hideous_breadfruit_golum-5_42331-44550, success: True, steps: 2184, reward: 64.0
+100% 2184/2184 [00:01<00:00, 1555.23it/s]
+  0% 0/2014 [00:00<?, ?it/s]INFO:__main__:name: v3_svelte_cherry_devil-12_20027-22072, success: True, steps: 2014, reward: 64.0
+INFO     - 2020-12-02 01:54:54,531 - [__main__ fill_buffer 90] name: v3_svelte_cherry_devil-12_20027-22072, success: True, steps: 2014, reward: 64.0
+100% 2014/2014 [00:01<00:00, 1704.25it/s]
+  0% 0/1950 [00:00<?, ?it/s]INFO:__main__:name: v3_cute_breadfruit_spirit-6_19177-21162, success: True, steps: 1950, reward: 64.0
+INFO     - 2020-12-02 01:54:57,453 - [__main__ fill_buffer 90] name: v3_cute_breadfruit_spirit-6_19177-21162, success: True, steps: 1950, reward: 64.0
+100% 1950/1950 [00:01<00:00, 1469.18it/s]
+  0% 0/5678 [00:00<?, ?it/s]INFO:__main__:name: v3_juvenile_apple_angel-41_51340-57049, success: True, steps: 5678, reward: 140.0
+INFO     - 2020-12-02 01:55:02,475 - [__main__ fill_buffer 90] name: v3_juvenile_apple_angel-41_51340-57049, success: True, steps: 5678, reward: 140.0
+100% 5678/5678 [00:03<00:00, 1576.96it/s]
+  0% 0/2729 [00:00<?, ?it/s]INFO:__main__:name: v3_excellent_pluot_behemoth-11_17092-19860, success: True, steps: 2729, reward: 65.0
+INFO     - 2020-12-02 01:55:08,467 - [__main__ fill_buffer 90] name: v3_excellent_pluot_behemoth-11_17092-19860, success: True, steps: 2729, reward: 65.0
+100% 2729/2729 [00:01<00:00, 1559.74it/s]
+  0% 0/2523 [00:00<?, ?it/s]INFO:__main__:name: v3_svelte_cherry_devil-12_32232-34778, success: True, steps: 2523, reward: 64.0
+INFO     - 2020-12-02 01:55:12,413 - [__main__ fill_buffer 90] name: v3_svelte_cherry_devil-12_32232-34778, success: True, steps: 2523, reward: 64.0
+100% 2523/2523 [00:01<00:00, 1614.69it/s]
+  0% 0/2544 [00:00<?, ?it/s]INFO:__main__:name: v3_unselfish_blood_orange_savage-8_852-3484, success: True, steps: 2544, reward: 64.0
+INFO     - 2020-12-02 01:55:15,865 - [__main__ fill_buffer 90] name: v3_unselfish_blood_orange_savage-8_852-3484, success: True, steps: 2544, reward: 64.0
+100% 2544/2544 [00:01<00:00, 1592.30it/s]
+  0% 0/1872 [00:00<?, ?it/s]INFO:__main__:name: v3_hideous_breadfruit_golum-6_308-2269, success: True, steps: 1872, reward: 64.0
+INFO     - 2020-12-02 01:55:19,037 - [__main__ fill_buffer 90] name: v3_hideous_breadfruit_golum-6_308-2269, success: True, steps: 1872, reward: 64.0
+100% 1872/1872 [00:01<00:00, 1621.78it/s]
+  0% 0/2931 [00:00<?, ?it/s]INFO:__main__:name: v3_excellent_pluot_behemoth-11_44536-47479, success: True, steps: 2931, reward: 64.0
+INFO     - 2020-12-02 01:55:22,818 - [__main__ fill_buffer 90] name: v3_excellent_pluot_behemoth-11_44536-47479, success: True, steps: 2931, reward: 64.0
+100% 2931/2931 [00:01<00:00, 1595.96it/s]
+  0% 0/1818 [00:00<?, ?it/s]INFO:__main__:name: v3_subtle_iceberg_lettuce_nymph-2_35368-37243, success: True, steps: 1818, reward: 64.0
+INFO     - 2020-12-02 01:55:26,210 - [__main__ fill_buffer 90] name: v3_subtle_iceberg_lettuce_nymph-2_35368-37243, success: True, steps: 1818, reward: 64.0
+100% 1818/1818 [00:01<00:00, 1567.48it/s]
+  0% 0/1624 [00:00<?, ?it/s]INFO:__main__:name: v3_juvenile_apple_angel-7_68886-70535, success: True, steps: 1624, reward: 65.0
+INFO     - 2020-12-02 01:55:28,723 - [__main__ fill_buffer 90] name: v3_juvenile_apple_angel-7_68886-70535, success: True, steps: 1624, reward: 65.0
+100% 1624/1624 [00:01<00:00, 1611.36it/s]
+  0% 0/2255 [00:00<?, ?it/s]INFO:__main__:name: v3_unselfish_blood_orange_savage-13_3817-6126, success: True, steps: 2255, reward: 64.0
+INFO     - 2020-12-02 01:55:31,622 - [__main__ fill_buffer 90] name: v3_unselfish_blood_orange_savage-13_3817-6126, success: True, steps: 2255, reward: 64.0
+100% 2255/2255 [00:01<00:00, 1576.23it/s]
+  0% 0/2686 [00:00<?, ?it/s]INFO:__main__:name: v3_bogus_guava_djinn-4_565-3266, success: True, steps: 2686, reward: 64.0
+INFO     - 2020-12-02 01:55:35,423 - [__main__ fill_buffer 90] name: v3_bogus_guava_djinn-4_565-3266, success: True, steps: 2686, reward: 64.0
+100% 2686/2686 [00:01<00:00, 1444.41it/s]
+  0% 0/1529 [00:00<?, ?it/s]INFO:__main__:name: v3_unselfish_blood_orange_savage-14_19453-21012, success: True, steps: 1529, reward: 64.0
+INFO     - 2020-12-02 01:55:38,540 - [__main__ fill_buffer 90] name: v3_unselfish_blood_orange_savage-14_19453-21012, success: True, steps: 1529, reward: 64.0
+100% 1529/1529 [00:01<00:00, 1449.38it/s]
+  0% 0/2050 [00:00<?, ?it/s]INFO:__main__:name: v3_svelte_cherry_devil-12_5292-7376, success: True, steps: 2050, reward: 64.0
+INFO     - 2020-12-02 01:55:41,259 - [__main__ fill_buffer 90] name: v3_svelte_cherry_devil-12_5292-7376, success: True, steps: 2050, reward: 64.0
+100% 2050/2050 [00:01<00:00, 1534.13it/s]
+  0% 0/1872 [00:00<?, ?it/s]INFO:__main__:name: v3_content_squash_angel-3_17733-19639, success: True, steps: 1872, reward: 64.0
+INFO     - 2020-12-02 01:55:44,256 - [__main__ fill_buffer 90] name: v3_content_squash_angel-3_17733-19639, success: True, steps: 1872, reward: 64.0
+100% 1872/1872 [00:01<00:00, 1478.08it/s]
+INFO:__main__:Buffer filled, size: 54700
+INFO     - 2020-12-02 01:55:45,596 - [__main__ fill_buffer 115] Buffer filled, size: 54700
+[W TensorIterator.cpp:924] Warning: Mixed memory format inputs detected while calling the operator. The operator will output channels_last tensor even if some of the inputs are not in channels_last format. (function operator())
+INFO:dqfd:PRETRAIN-step:0 statistics:[('average_loss_1step', 0.1717863231897354), ('average_loss_nstep', 0.1521994024515152), ('average_loss_supervised', 1.1115102767944336), ('average_loss', 1.4354959726333618), ('n_updates', 1)]
+INFO     - 2020-12-02 01:55:54,375 - [dqfd pretrain 471] PRETRAIN-step:0 statistics:[('average_loss_1step', 0.1717863231897354), ('average_loss_nstep', 0.1521994024515152), ('average_loss_supervised', 1.1115102767944336), ('average_loss', 1.4354959726333618), ('n_updates', 1)]
+INFO:dqfd:PRETRAIN-step:10000 statistics:[('average_loss_1step', 0.12036727121565491), ('average_loss_nstep', 0.12968694675713777), ('average_loss_supervised', 0.42288975551724434), ('average_loss', 0.6729439720511436), ('n_updates', 10001)]
+INFO     - 2020-12-02 02:05:21,070 - [dqfd pretrain 471] PRETRAIN-step:10000 statistics:[('average_loss_1step', 0.12036727121565491), ('average_loss_nstep', 0.12968694675713777), ('average_loss_supervised', 0.42288975551724434), ('average_loss', 0.6729439720511436), ('n_updates', 10001)]
+INFO:dqfd:PRETRAIN-step:20000 statistics:[('average_loss_1step', 0.05960816807113588), ('average_loss_nstep', 0.10102500345557928), ('average_loss_supervised', 0.3145363561809063), ('average_loss', 0.4751695281267166), ('n_updates', 20001)]
+INFO     - 2020-12-02 02:14:44,667 - [dqfd pretrain 471] PRETRAIN-step:20000 statistics:[('average_loss_1step', 0.05960816807113588), ('average_loss_nstep', 0.10102500345557928), ('average_loss_supervised', 0.3145363561809063), ('average_loss', 0.4751695281267166), ('n_updates', 20001)]
+INFO:dqfd:PRETRAIN-step:30000 statistics:[('average_loss_1step', 0.04945864691399038), ('average_loss_nstep', 0.08793974868953228), ('average_loss_supervised', 0.22120894730091095), ('average_loss', 0.3586073435842991), ('n_updates', 30001)]
+INFO     - 2020-12-02 02:24:15,200 - [dqfd pretrain 471] PRETRAIN-step:30000 statistics:[('average_loss_1step', 0.04945864691399038), ('average_loss_nstep', 0.08793974868953228), ('average_loss_supervised', 0.22120894730091095), ('average_loss', 0.3586073435842991), ('n_updates', 30001)]
+INFO:dqfd:PRETRAIN-step:40000 statistics:[('average_loss_1step', 0.049414419941604136), ('average_loss_nstep', 0.08242361227050424), ('average_loss_supervised', 0.14890746619552375), ('average_loss', 0.28074549734592436), ('n_updates', 40001)]
+INFO     - 2020-12-02 02:33:48,625 - [dqfd pretrain 471] PRETRAIN-step:40000 statistics:[('average_loss_1step', 0.049414419941604136), ('average_loss_nstep', 0.08242361227050424), ('average_loss_supervised', 0.14890746619552375), ('average_loss', 0.28074549734592436), ('n_updates', 40001)]
+INFO:__main__:Agent saved in result/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/saved_pretrain50000
+INFO     - 2020-12-02 02:43:17,285 - [__main__ main 425] Agent saved in result/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/saved_pretrain50000
+INFO:dqfd:PRETRAIN-step:0 statistics:[('average_loss_1step', 0.04814407866448164), ('average_loss_nstep', 0.07475466815754771), ('average_loss_supervised', 0.08053804595023394), ('average_loss', 0.20343679174780846), ('n_updates', 50001)]
+INFO     - 2020-12-02 02:43:17,342 - [dqfd pretrain 471] PRETRAIN-step:0 statistics:[('average_loss_1step', 0.04814407866448164), ('average_loss_nstep', 0.07475466815754771), ('average_loss_supervised', 0.08053804595023394), ('average_loss', 0.20343679174780846), ('n_updates', 50001)]
+INFO:dqfd:PRETRAIN-step:10000 statistics:[('average_loss_1step', 0.04593888984061777), ('average_loss_nstep', 0.06406090776436031), ('average_loss_supervised', 0.038585410288069395), ('average_loss', 0.14858520783483983), ('n_updates', 60001)]
+INFO     - 2020-12-02 02:53:14,186 - [dqfd pretrain 471] PRETRAIN-step:10000 statistics:[('average_loss_1step', 0.04593888984061777), ('average_loss_nstep', 0.06406090776436031), ('average_loss_supervised', 0.038585410288069395), ('average_loss', 0.14858520783483983), ('n_updates', 60001)]
+INFO:dqfd:PRETRAIN-step:20000 statistics:[('average_loss_1step', 0.043384315893054005), ('average_loss_nstep', 0.05628959513735026), ('average_loss_supervised', 0.01811056486039888), ('average_loss', 0.11778447620570659), ('n_updates', 70001)]
+INFO     - 2020-12-02 03:03:24,821 - [dqfd pretrain 471] PRETRAIN-step:20000 statistics:[('average_loss_1step', 0.043384315893054005), ('average_loss_nstep', 0.05628959513735026), ('average_loss_supervised', 0.01811056486039888), ('average_loss', 0.11778447620570659), ('n_updates', 70001)]
+INFO:dqfd:PRETRAIN-step:30000 statistics:[('average_loss_1step', 0.03950455295853317), ('average_loss_nstep', 0.051312232660129665), ('average_loss_supervised', 0.012471974358486477), ('average_loss', 0.10328875962644815), ('n_updates', 80001)]
+INFO     - 2020-12-02 03:13:39,414 - [dqfd pretrain 471] PRETRAIN-step:30000 statistics:[('average_loss_1step', 0.03950455295853317), ('average_loss_nstep', 0.051312232660129665), ('average_loss_supervised', 0.012471974358486477), ('average_loss', 0.10328875962644815), ('n_updates', 80001)]
+INFO:dqfd:PRETRAIN-step:40000 statistics:[('average_loss_1step', 0.03515333738178015), ('average_loss_nstep', 0.04380772206932306), ('average_loss_supervised', 0.00822335995537287), ('average_loss', 0.08718441922217607), ('n_updates', 90001)]
+INFO     - 2020-12-02 03:23:48,917 - [dqfd pretrain 471] PRETRAIN-step:40000 statistics:[('average_loss_1step', 0.03515333738178015), ('average_loss_nstep', 0.04380772206932306), ('average_loss_supervised', 0.00822335995537287), ('average_loss', 0.08718441922217607), ('n_updates', 90001)]
+INFO:__main__:Agent saved in result/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/saved_pretrain100000
+INFO     - 2020-12-02 03:34:04,117 - [__main__ main 425] Agent saved in result/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/saved_pretrain100000
+INFO:dqfd:PRETRAIN-step:0 statistics:[('average_loss_1step', 0.03660612390842289), ('average_loss_nstep', 0.04257471053861082), ('average_loss_supervised', 0.006050849900839239), ('average_loss', 0.08523168455809355), ('n_updates', 100001)]
+INFO     - 2020-12-02 03:34:04,193 - [dqfd pretrain 471] PRETRAIN-step:0 statistics:[('average_loss_1step', 0.03660612390842289), ('average_loss_nstep', 0.04257471053861082), ('average_loss_supervised', 0.006050849900839239), ('average_loss', 0.08523168455809355), ('n_updates', 100001)]
+INFO:dqfd:PRETRAIN-step:10000 statistics:[('average_loss_1step', 0.034503393582999704), ('average_loss_nstep', 0.03699374888092279), ('average_loss_supervised', 0.005431199013780769), ('average_loss', 0.07692834161221981), ('n_updates', 110001)]
+INFO     - 2020-12-02 03:44:21,526 - [dqfd pretrain 471] PRETRAIN-step:10000 statistics:[('average_loss_1step', 0.034503393582999704), ('average_loss_nstep', 0.03699374888092279), ('average_loss_supervised', 0.005431199013780769), ('average_loss', 0.07692834161221981), ('n_updates', 110001)]
+INFO:dqfd:PRETRAIN-step:20000 statistics:[('average_loss_1step', 0.030741000259295107), ('average_loss_nstep', 0.03879975777119398), ('average_loss_supervised', 0.006925777504047801), ('average_loss', 0.07646653603762388), ('n_updates', 120001)]
+INFO     - 2020-12-02 03:54:18,140 - [dqfd pretrain 471] PRETRAIN-step:20000 statistics:[('average_loss_1step', 0.030741000259295107), ('average_loss_nstep', 0.03879975777119398), ('average_loss_supervised', 0.006925777504047801), ('average_loss', 0.07646653603762388), ('n_updates', 120001)]
+INFO:dqfd:PRETRAIN-step:30000 statistics:[('average_loss_1step', 0.0355707649840042), ('average_loss_nstep', 0.03871514764614403), ('average_loss_supervised', 0.005090335852840244), ('average_loss', 0.07937624793499708), ('n_updates', 130001)]
+INFO     - 2020-12-02 04:04:11,948 - [dqfd pretrain 471] PRETRAIN-step:30000 statistics:[('average_loss_1step', 0.0355707649840042), ('average_loss_nstep', 0.03871514764614403), ('average_loss_supervised', 0.005090335852840244), ('average_loss', 0.07937624793499708), ('n_updates', 130001)]
+INFO:dqfd:PRETRAIN-step:40000 statistics:[('average_loss_1step', 0.0310477842297405), ('average_loss_nstep', 0.03513161412905902), ('average_loss_supervised', 0.00497192785114521), ('average_loss', 0.07115132588893175), ('n_updates', 140001)]
+INFO     - 2020-12-02 04:13:59,881 - [dqfd pretrain 471] PRETRAIN-step:40000 statistics:[('average_loss_1step', 0.0310477842297405), ('average_loss_nstep', 0.03513161412905902), ('average_loss_supervised', 0.00497192785114521), ('average_loss', 0.07115132588893175), ('n_updates', 140001)]
+INFO:__main__:Agent saved in result/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/saved_pretrain150000
+INFO     - 2020-12-02 04:23:49,764 - [__main__ main 425] Agent saved in result/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/saved_pretrain150000
+INFO:dqfd:PRETRAIN-step:0 statistics:[('average_loss_1step', 0.030410178592428564), ('average_loss_nstep', 0.0320245992206037), ('average_loss_supervised', 0.003124582786477106), ('average_loss', 0.06555936064571143), ('n_updates', 150001)]
+INFO     - 2020-12-02 04:23:49,818 - [dqfd pretrain 471] PRETRAIN-step:0 statistics:[('average_loss_1step', 0.030410178592428564), ('average_loss_nstep', 0.0320245992206037), ('average_loss_supervised', 0.003124582786477106), ('average_loss', 0.06555936064571143), ('n_updates', 150001)]
+INFO:dqfd:PRETRAIN-step:10000 statistics:[('average_loss_1step', 0.02730764040723443), ('average_loss_nstep', 0.029187168539501727), ('average_loss_supervised', 0.002789130500508463), ('average_loss', 0.05928393905982375), ('n_updates', 160001)]
+INFO     - 2020-12-02 04:33:36,121 - [dqfd pretrain 471] PRETRAIN-step:10000 statistics:[('average_loss_1step', 0.02730764040723443), ('average_loss_nstep', 0.029187168539501727), ('average_loss_supervised', 0.002789130500508463), ('average_loss', 0.05928393905982375), ('n_updates', 160001)]
+INFO:dqfd:PRETRAIN-step:20000 statistics:[('average_loss_1step', 0.026999409361742437), ('average_loss_nstep', 0.0288077426655218), ('average_loss_supervised', 0.0018738971662398286), ('average_loss', 0.0576810491643846), ('n_updates', 170001)]
+INFO     - 2020-12-02 04:43:28,655 - [dqfd pretrain 471] PRETRAIN-step:20000 statistics:[('average_loss_1step', 0.026999409361742437), ('average_loss_nstep', 0.0288077426655218), ('average_loss_supervised', 0.0018738971662398286), ('average_loss', 0.0576810491643846), ('n_updates', 170001)]
+INFO:dqfd:PRETRAIN-step:30000 statistics:[('average_loss_1step', 0.02618928760290146), ('average_loss_nstep', 0.029747916511259975), ('average_loss_supervised', 0.0029199930257634323), ('average_loss', 0.05885719684883952), ('n_updates', 180001)]
+INFO     - 2020-12-02 04:53:23,594 - [dqfd pretrain 471] PRETRAIN-step:30000 statistics:[('average_loss_1step', 0.02618928760290146), ('average_loss_nstep', 0.029747916511259975), ('average_loss_supervised', 0.0029199930257634323), ('average_loss', 0.05885719684883952), ('n_updates', 180001)]
+INFO:dqfd:PRETRAIN-step:40000 statistics:[('average_loss_1step', 0.025482234358787537), ('average_loss_nstep', 0.028426019735634328), ('average_loss_supervised', 0.003295941630161181), ('average_loss', 0.05720419574528932), ('n_updates', 190001)]
+INFO     - 2020-12-02 05:03:26,268 - [dqfd pretrain 471] PRETRAIN-step:40000 statistics:[('average_loss_1step', 0.025482234358787537), ('average_loss_nstep', 0.028426019735634328), ('average_loss_supervised', 0.003295941630161181), ('average_loss', 0.05720419574528932), ('n_updates', 190001)]
+INFO:__main__:Agent saved in result/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/saved_pretrain200000
+INFO     - 2020-12-02 05:13:33,851 - [__main__ main 425] Agent saved in result/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/saved_pretrain200000
+INFO:dqfd:PRETRAIN-step:0 statistics:[('average_loss_1step', 0.02584037306252867), ('average_loss_nstep', 0.026414288966916503), ('average_loss_supervised', 0.002466699658066318), ('average_loss', 0.05472136175259948), ('n_updates', 200001)]
+INFO     - 2020-12-02 05:13:33,905 - [dqfd pretrain 471] PRETRAIN-step:0 statistics:[('average_loss_1step', 0.02584037306252867), ('average_loss_nstep', 0.026414288966916503), ('average_loss_supervised', 0.002466699658066318), ('average_loss', 0.05472136175259948), ('n_updates', 200001)]
+INFO:dqfd:PRETRAIN-step:10000 statistics:[('average_loss_1step', 0.02395559279015288), ('average_loss_nstep', 0.02480054559186101), ('average_loss_supervised', 0.0020327948693787336), ('average_loss', 0.05078893313184381), ('n_updates', 210001)]
+INFO     - 2020-12-02 05:23:40,418 - [dqfd pretrain 471] PRETRAIN-step:10000 statistics:[('average_loss_1step', 0.02395559279015288), ('average_loss_nstep', 0.02480054559186101), ('average_loss_supervised', 0.0020327948693787336), ('average_loss', 0.05078893313184381), ('n_updates', 210001)]
+INFO:dqfd:PRETRAIN-step:20000 statistics:[('average_loss_1step', 0.024972016760148107), ('average_loss_nstep', 0.024085521064698696), ('average_loss_supervised', 0.0022604760528508903), ('average_loss', 0.05131801409646869), ('n_updates', 220001)]
+INFO     - 2020-12-02 05:33:49,949 - [dqfd pretrain 471] PRETRAIN-step:20000 statistics:[('average_loss_1step', 0.024972016760148107), ('average_loss_nstep', 0.024085521064698696), ('average_loss_supervised', 0.0022604760528508903), ('average_loss', 0.05131801409646869), ('n_updates', 220001)]
+INFO:dqfd:PRETRAIN-step:30000 statistics:[('average_loss_1step', 0.027071967469528318), ('average_loss_nstep', 0.026290533919818698), ('average_loss_supervised', 0.0018672677027221597), ('average_loss', 0.0552297692745924), ('n_updates', 230001)]
+INFO     - 2020-12-02 05:43:30,247 - [dqfd pretrain 471] PRETRAIN-step:30000 statistics:[('average_loss_1step', 0.027071967469528318), ('average_loss_nstep', 0.026290533919818698), ('average_loss_supervised', 0.0018672677027221597), ('average_loss', 0.0552297692745924), ('n_updates', 230001)]
+INFO:dqfd:PRETRAIN-step:40000 statistics:[('average_loss_1step', 0.024472681074403226), ('average_loss_nstep', 0.025093361269682646), ('average_loss_supervised', 0.001917281338058956), ('average_loss', 0.051483323872089384), ('n_updates', 240001)]
+INFO     - 2020-12-02 05:53:06,268 - [dqfd pretrain 471] PRETRAIN-step:40000 statistics:[('average_loss_1step', 0.024472681074403226), ('average_loss_nstep', 0.025093361269682646), ('average_loss_supervised', 0.001917281338058956), ('average_loss', 0.051483323872089384), ('n_updates', 240001)]
+INFO:__main__:Agent saved in result/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/saved_pretrain250000
+INFO     - 2020-12-02 06:03:04,751 - [__main__ main 425] Agent saved in result/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/saved_pretrain250000
+INFO:dqfd:PRETRAIN-step:0 statistics:[('average_loss_1step', 0.023356671319343148), ('average_loss_nstep', 0.024188747508451344), ('average_loss_supervised', 0.002793860756137292), ('average_loss', 0.0503392793238163), ('n_updates', 250001)]
+INFO     - 2020-12-02 06:03:04,825 - [dqfd pretrain 471] PRETRAIN-step:0 statistics:[('average_loss_1step', 0.023356671319343148), ('average_loss_nstep', 0.024188747508451344), ('average_loss_supervised', 0.002793860756137292), ('average_loss', 0.0503392793238163), ('n_updates', 250001)]
+INFO:dqfd:PRETRAIN-step:10000 statistics:[('average_loss_1step', 0.02240069519262761), ('average_loss_nstep', 0.025476819248870016), ('average_loss_supervised', 0.002263202846727115), ('average_loss', 0.05014071742072702), ('n_updates', 260001)]
+INFO     - 2020-12-02 06:13:04,135 - [dqfd pretrain 471] PRETRAIN-step:10000 statistics:[('average_loss_1step', 0.02240069519262761), ('average_loss_nstep', 0.025476819248870016), ('average_loss_supervised', 0.002263202846727115), ('average_loss', 0.05014071742072702), ('n_updates', 260001)]
+INFO:dqfd:PRETRAIN-step:20000 statistics:[('average_loss_1step', 0.021293624104000628), ('average_loss_nstep', 0.022016799123957754), ('average_loss_supervised', 0.00390727405139728), ('average_loss', 0.04721769727766514), ('n_updates', 270001)]
+INFO     - 2020-12-02 06:22:45,100 - [dqfd pretrain 471] PRETRAIN-step:20000 statistics:[('average_loss_1step', 0.021293624104000628), ('average_loss_nstep', 0.022016799123957754), ('average_loss_supervised', 0.00390727405139728), ('average_loss', 0.04721769727766514), ('n_updates', 270001)]
+INFO:dqfd:PRETRAIN-step:30000 statistics:[('average_loss_1step', 0.02247494720388204), ('average_loss_nstep', 0.023011943330056964), ('average_loss_supervised', 0.0013444765576377904), ('average_loss', 0.046831367127597334), ('n_updates', 280001)]
+INFO     - 2020-12-02 06:32:29,506 - [dqfd pretrain 471] PRETRAIN-step:30000 statistics:[('average_loss_1step', 0.02247494720388204), ('average_loss_nstep', 0.023011943330056964), ('average_loss_supervised', 0.0013444765576377904), ('average_loss', 0.046831367127597334), ('n_updates', 280001)]
+INFO:dqfd:PRETRAIN-step:40000 statistics:[('average_loss_1step', 0.02099644231144339), ('average_loss_nstep', 0.022352212956175208), ('average_loss_supervised', 0.0029163172281721473), ('average_loss', 0.046264972686767575), ('n_updates', 290001)]
+INFO     - 2020-12-02 06:42:02,735 - [dqfd pretrain 471] PRETRAIN-step:40000 statistics:[('average_loss_1step', 0.02099644231144339), ('average_loss_nstep', 0.022352212956175208), ('average_loss_supervised', 0.0029163172281721473), ('average_loss', 0.046264972686767575), ('n_updates', 290001)]
+INFO:__main__:Agent saved in result/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/saved_pretrain300000
+INFO     - 2020-12-02 06:51:35,276 - [__main__ main 425] Agent saved in result/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/saved_pretrain300000
+INFO:dqfd:PRETRAIN-step:0 statistics:[('average_loss_1step', 0.022165269292891025), ('average_loss_nstep', 0.02266975737642497), ('average_loss_supervised', 0.0025080246417428496), ('average_loss', 0.04734305128455162), ('n_updates', 300001)]
+INFO     - 2020-12-02 06:51:35,327 - [dqfd pretrain 471] PRETRAIN-step:0 statistics:[('average_loss_1step', 0.022165269292891025), ('average_loss_nstep', 0.02266975737642497), ('average_loss_supervised', 0.0025080246417428496), ('average_loss', 0.04734305128455162), ('n_updates', 300001)]
+INFO:dqfd:PRETRAIN-step:10000 statistics:[('average_loss_1step', 0.021905760318040847), ('average_loss_nstep', 0.0209149303403683), ('average_loss_supervised', 0.0019111310728965236), ('average_loss', 0.04473182177171111), ('n_updates', 310001)]
+INFO     - 2020-12-02 07:00:51,166 - [dqfd pretrain 471] PRETRAIN-step:10000 statistics:[('average_loss_1step', 0.021905760318040847), ('average_loss_nstep', 0.0209149303403683), ('average_loss_supervised', 0.0019111310728965236), ('average_loss', 0.04473182177171111), ('n_updates', 310001)]
+INFO:dqfd:PRETRAIN-step:20000 statistics:[('average_loss_1step', 0.019203066886402668), ('average_loss_nstep', 0.021057950984686612), ('average_loss_supervised', 0.0014652138781531222), ('average_loss', 0.041726231724023816), ('n_updates', 320001)]
+INFO     - 2020-12-02 07:10:26,974 - [dqfd pretrain 471] PRETRAIN-step:20000 statistics:[('average_loss_1step', 0.019203066886402668), ('average_loss_nstep', 0.021057950984686612), ('average_loss_supervised', 0.0014652138781531222), ('average_loss', 0.041726231724023816), ('n_updates', 320001)]
+INFO:dqfd:PRETRAIN-step:30000 statistics:[('average_loss_1step', 0.019014343284070492), ('average_loss_nstep', 0.02202052798587829), ('average_loss_supervised', 0.0014493360277498546), ('average_loss', 0.04248420709744096), ('n_updates', 330001)]
+INFO     - 2020-12-02 07:20:08,214 - [dqfd pretrain 471] PRETRAIN-step:30000 statistics:[('average_loss_1step', 0.019014343284070492), ('average_loss_nstep', 0.02202052798587829), ('average_loss_supervised', 0.0014493360277498546), ('average_loss', 0.04248420709744096), ('n_updates', 330001)]
+INFO:dqfd:PRETRAIN-step:40000 statistics:[('average_loss_1step', 0.02035019698087126), ('average_loss_nstep', 0.021022738106548786), ('average_loss_supervised', 0.0026045812698697545), ('average_loss', 0.043977516312152146), ('n_updates', 340001)]
+INFO     - 2020-12-02 07:29:46,821 - [dqfd pretrain 471] PRETRAIN-step:40000 statistics:[('average_loss_1step', 0.02035019698087126), ('average_loss_nstep', 0.021022738106548786), ('average_loss_supervised', 0.0026045812698697545), ('average_loss', 0.043977516312152146), ('n_updates', 340001)]
+INFO:__main__:Agent saved in result/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/saved_pretrain350000
+INFO     - 2020-12-02 07:38:52,632 - [__main__ main 425] Agent saved in result/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/saved_pretrain350000
+INFO:dqfd:PRETRAIN-step:0 statistics:[('average_loss_1step', 0.021028273394331335), ('average_loss_nstep', 0.019591620960272848), ('average_loss_supervised', 0.0014894234672146922), ('average_loss', 0.042109317909926176), ('n_updates', 350001)]
+INFO     - 2020-12-02 07:38:52,690 - [dqfd pretrain 471] PRETRAIN-step:0 statistics:[('average_loss_1step', 0.021028273394331335), ('average_loss_nstep', 0.019591620960272848), ('average_loss_supervised', 0.0014894234672146922), ('average_loss', 0.042109317909926176), ('n_updates', 350001)]
+INFO:dqfd:PRETRAIN-step:10000 statistics:[('average_loss_1step', 0.019610810494050383), ('average_loss_nstep', 0.020233476175926624), ('average_loss_supervised', 0.0018366775963179727), ('average_loss', 0.041680964455008504), ('n_updates', 360001)]
+INFO     - 2020-12-02 07:48:03,861 - [dqfd pretrain 471] PRETRAIN-step:10000 statistics:[('average_loss_1step', 0.019610810494050383), ('average_loss_nstep', 0.020233476175926624), ('average_loss_supervised', 0.0018366775963179727), ('average_loss', 0.041680964455008504), ('n_updates', 360001)]
+INFO:dqfd:PRETRAIN-step:20000 statistics:[('average_loss_1step', 0.019260258111171425), ('average_loss_nstep', 0.018740623109042644), ('average_loss_supervised', 0.0014440094378580426), ('average_loss', 0.03944489063695073), ('n_updates', 370001)]
+INFO     - 2020-12-02 07:57:03,307 - [dqfd pretrain 471] PRETRAIN-step:20000 statistics:[('average_loss_1step', 0.019260258111171425), ('average_loss_nstep', 0.018740623109042644), ('average_loss_supervised', 0.0014440094378580426), ('average_loss', 0.03944489063695073), ('n_updates', 370001)]
+INFO:dqfd:PRETRAIN-step:30000 statistics:[('average_loss_1step', 0.018799669574946165), ('average_loss_nstep', 0.019369390066713094), ('average_loss_supervised', 0.002054482927926529), ('average_loss', 0.04022354261949659), ('n_updates', 380001)]
+INFO     - 2020-12-02 08:05:52,721 - [dqfd pretrain 471] PRETRAIN-step:30000 statistics:[('average_loss_1step', 0.018799669574946165), ('average_loss_nstep', 0.019369390066713094), ('average_loss_supervised', 0.002054482927926529), ('average_loss', 0.04022354261949659), ('n_updates', 380001)]
+INFO:dqfd:PRETRAIN-step:40000 statistics:[('average_loss_1step', 0.018320459286915138), ('average_loss_nstep', 0.017598881998565047), ('average_loss_supervised', 0.0017591450054015923), ('average_loss', 0.03767848635092377), ('n_updates', 390001)]
+INFO     - 2020-12-02 08:14:45,579 - [dqfd pretrain 471] PRETRAIN-step:40000 statistics:[('average_loss_1step', 0.018320459286915138), ('average_loss_nstep', 0.017598881998565047), ('average_loss_supervised', 0.0017591450054015923), ('average_loss', 0.03767848635092377), ('n_updates', 390001)]
+INFO:__main__:Agent saved in result/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/saved_pretrain400000
+INFO     - 2020-12-02 08:23:47,820 - [__main__ main 425] Agent saved in result/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/saved_pretrain400000
+INFO:dqfd:PRETRAIN-step:0 statistics:[('average_loss_1step', 0.019514993582852184), ('average_loss_nstep', 0.018144307979382573), ('average_loss_supervised', 0.0018490902125842012), ('average_loss', 0.03950839199125767), ('n_updates', 400001)]
+INFO     - 2020-12-02 08:23:47,881 - [dqfd pretrain 471] PRETRAIN-step:0 statistics:[('average_loss_1step', 0.019514993582852184), ('average_loss_nstep', 0.018144307979382573), ('average_loss_supervised', 0.0018490902125842012), ('average_loss', 0.03950839199125767), ('n_updates', 400001)]
+INFO:dqfd:PRETRAIN-step:10000 statistics:[('average_loss_1step', 0.017525983904488385), ('average_loss_nstep', 0.017966372864320873), ('average_loss_supervised', 0.0015364737275717743), ('average_loss', 0.03702883053570986), ('n_updates', 410001)]
+INFO     - 2020-12-02 08:32:18,061 - [dqfd pretrain 471] PRETRAIN-step:10000 statistics:[('average_loss_1step', 0.017525983904488385), ('average_loss_nstep', 0.017966372864320873), ('average_loss_supervised', 0.0015364737275717743), ('average_loss', 0.03702883053570986), ('n_updates', 410001)]
+INFO:dqfd:PRETRAIN-step:20000 statistics:[('average_loss_1step', 0.01875913640251383), ('average_loss_nstep', 0.01700637615984306), ('average_loss_supervised', 0.0021260014345648413), ('average_loss', 0.03789151407778263), ('n_updates', 420001)]
+INFO     - 2020-12-02 08:40:06,095 - [dqfd pretrain 471] PRETRAIN-step:20000 statistics:[('average_loss_1step', 0.01875913640251383), ('average_loss_nstep', 0.01700637615984306), ('average_loss_supervised', 0.0021260014345648413), ('average_loss', 0.03789151407778263), ('n_updates', 420001)]
+INFO:dqfd:PRETRAIN-step:30000 statistics:[('average_loss_1step', 0.016589647815562783), ('average_loss_nstep', 0.01784647790947929), ('average_loss_supervised', 0.0015403309802737653), ('average_loss', 0.035976456664502623), ('n_updates', 430001)]
+INFO     - 2020-12-02 08:47:49,555 - [dqfd pretrain 471] PRETRAIN-step:30000 statistics:[('average_loss_1step', 0.016589647815562783), ('average_loss_nstep', 0.01784647790947929), ('average_loss_supervised', 0.0015403309802737653), ('average_loss', 0.035976456664502623), ('n_updates', 430001)]
+INFO:dqfd:PRETRAIN-step:40000 statistics:[('average_loss_1step', 0.017169385706074534), ('average_loss_nstep', 0.017137752333655953), ('average_loss_supervised', 0.0007981048570945858), ('average_loss', 0.03510524300858378), ('n_updates', 440001)]
+INFO     - 2020-12-02 08:55:38,853 - [dqfd pretrain 471] PRETRAIN-step:40000 statistics:[('average_loss_1step', 0.017169385706074534), ('average_loss_nstep', 0.017137752333655953), ('average_loss_supervised', 0.0007981048570945858), ('average_loss', 0.03510524300858378), ('n_updates', 440001)]
+INFO:__main__:Agent saved in result/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/saved_pretrain450000
+INFO     - 2020-12-02 09:03:27,681 - [__main__ main 425] Agent saved in result/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/saved_pretrain450000
+INFO:dqfd:PRETRAIN-step:0 statistics:[('average_loss_1step', 0.017739315051585436), ('average_loss_nstep', 0.01692147651920095), ('average_loss_supervised', 0.0015201568206430237), ('average_loss', 0.036180948335677386), ('n_updates', 450001)]
+INFO     - 2020-12-02 09:03:27,747 - [dqfd pretrain 471] PRETRAIN-step:0 statistics:[('average_loss_1step', 0.017739315051585436), ('average_loss_nstep', 0.01692147651920095), ('average_loss_supervised', 0.0015201568206430237), ('average_loss', 0.036180948335677386), ('n_updates', 450001)]
+INFO:dqfd:PRETRAIN-step:10000 statistics:[('average_loss_1step', 0.0176805172720924), ('average_loss_nstep', 0.016407157017383725), ('average_loss_supervised', 0.0010305599158185609), ('average_loss', 0.035118234138935805), ('n_updates', 460001)]
+INFO     - 2020-12-02 09:11:20,066 - [dqfd pretrain 471] PRETRAIN-step:10000 statistics:[('average_loss_1step', 0.0176805172720924), ('average_loss_nstep', 0.016407157017383725), ('average_loss_supervised', 0.0010305599158185609), ('average_loss', 0.035118234138935805), ('n_updates', 460001)]
+INFO:dqfd:PRETRAIN-step:20000 statistics:[('average_loss_1step', 0.01647334562148899), ('average_loss_nstep', 0.017373949410393833), ('average_loss_supervised', 0.0017899465999448693), ('average_loss', 0.03563724173232913), ('n_updates', 470001)]
+INFO     - 2020-12-02 09:19:03,594 - [dqfd pretrain 471] PRETRAIN-step:20000 statistics:[('average_loss_1step', 0.01647334562148899), ('average_loss_nstep', 0.017373949410393833), ('average_loss_supervised', 0.0017899465999448693), ('average_loss', 0.03563724173232913), ('n_updates', 470001)]
+INFO:dqfd:PRETRAIN-step:30000 statistics:[('average_loss_1step', 0.016354971397668124), ('average_loss_nstep', 0.01613569182343781), ('average_loss_supervised', 0.0012228388545904067), ('average_loss', 0.03371350228786468), ('n_updates', 480001)]
+INFO     - 2020-12-02 09:26:43,855 - [dqfd pretrain 471] PRETRAIN-step:30000 statistics:[('average_loss_1step', 0.016354971397668124), ('average_loss_nstep', 0.01613569182343781), ('average_loss_supervised', 0.0012228388545904067), ('average_loss', 0.03371350228786468), ('n_updates', 480001)]
+INFO:dqfd:PRETRAIN-step:40000 statistics:[('average_loss_1step', 0.015505481141153722), ('average_loss_nstep', 0.017263097024988384), ('average_loss_supervised', 0.001060220864263357), ('average_loss', 0.03382879907265306), ('n_updates', 490001)]
+INFO     - 2020-12-02 09:34:25,713 - [dqfd pretrain 471] PRETRAIN-step:40000 statistics:[('average_loss_1step', 0.015505481141153722), ('average_loss_nstep', 0.017263097024988384), ('average_loss_supervised', 0.001060220864263357), ('average_loss', 0.03382879907265306), ('n_updates', 490001)]
+INFO:__main__:Agent saved in result/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/saved_pretrain500000
+INFO     - 2020-12-02 09:42:06,233 - [__main__ main 425] Agent saved in result/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/4f527766d4b234c9b19336e508e6048a5a0d3de4-80ed6065-5088b716/saved_pretrain500000
+INFO:pfrl.experiments.evaluator:evaluation episode 0 length:2000 R:5.0
+INFO     - 2020-12-02 09:47:01,144 - [pfrl.experiments.evaluator _run_episodes 63] evaluation episode 0 length:2000 R:5.0
+INFO:pfrl.experiments.evaluator:evaluation episode 1 length:2000 R:10.0
+INFO     - 2020-12-02 09:51:59,216 - [pfrl.experiments.evaluator _run_episodes 63] evaluation episode 1 length:2000 R:10.0
+INFO:pfrl.experiments.evaluator:evaluation episode 2 length:2000 R:2.0
+INFO     - 2020-12-02 09:57:38,202 - [pfrl.experiments.evaluator _run_episodes 63] evaluation episode 2 length:2000 R:2.0
+INFO:pfrl.experiments.evaluator:evaluation episode 3 length:2000 R:6.0
+INFO     - 2020-12-02 10:02:56,787 - [pfrl.experiments.evaluator _run_episodes 63] evaluation episode 3 length:2000 R:6.0
+INFO:pfrl.experiments.evaluator:evaluation episode 4 length:2000 R:0.0
+INFO     - 2020-12-02 10:06:27,532 - [pfrl.experiments.evaluator _run_episodes 63] evaluation episode 4 length:2000 R:0.0
+INFO:pfrl.experiments.evaluator:evaluation episode 5 length:2000 R:4.0
+INFO     - 2020-12-02 10:11:52,492 - [pfrl.experiments.evaluator _run_episodes 63] evaluation episode 5 length:2000 R:4.0
+INFO:pfrl.experiments.evaluator:evaluation episode 6 length:2000 R:2.0
+INFO     - 2020-12-02 10:16:06,855 - [pfrl.experiments.evaluator _run_episodes 63] evaluation episode 6 length:2000 R:2.0
+INFO:pfrl.experiments.evaluator:evaluation episode 7 length:2000 R:0.0
+INFO     - 2020-12-02 10:22:32,130 - [pfrl.experiments.evaluator _run_episodes 63] evaluation episode 7 length:2000 R:0.0
+INFO:pfrl.experiments.evaluator:evaluation episode 8 length:2000 R:10.0
+INFO     - 2020-12-02 10:27:06,936 - [pfrl.experiments.evaluator _run_episodes 63] evaluation episode 8 length:2000 R:10.0
+INFO:pfrl.experiments.evaluator:evaluation episode 9 length:2000 R:0.0
+INFO     - 2020-12-02 10:31:11,369 - [pfrl.experiments.evaluator _run_episodes 63] evaluation episode 9 length:2000 R:0.0
+INFO:__main__:Evaluation of pretraining @ 500000 steps
+INFO     - 2020-12-02 10:31:11,370 - [__main__ main 431] Evaluation of pretraining @ 500000 steps
+INFO:__main__:n_runs: 10 mean: 3.9 median: 3.0 stdev: 3.842742076521226
+INFO     - 2020-12-02 10:31:11,370 - [__main__ main 433] n_runs: 10 mean: 3.9 median: 3.0 stdev: 3.842742076521226
+INFO:minerl.env.malmo.instance.6bba21:[10:31:11] [EnvServerSocketHandler/INFO]: [STDOUT]: [LOGTOPY] Want to quit on disconnect.
+INFO     - 2020-12-02 10:31:11,372 - [minerl.env.malmo.instance.6bba21 log_to_file 572] [10:31:11] [EnvServerSocketHandler/INFO]: [STDOUT]: [LOGTOPY] Want to quit on disconnect.
+INFO:minerl.env.malmo:Minecraft process psutil.Process(pid=16005, status='terminated', exitcode=0, started='01:51:48') terminated with exit code 0
+INFO     - 2020-12-02 10:31:14,580 - [minerl.env.malmo on_terminate 373] Minecraft process psutil.Process(pid=16005, status='terminated', exitcode=0, started='01:51:48') terminated with exit code 0
