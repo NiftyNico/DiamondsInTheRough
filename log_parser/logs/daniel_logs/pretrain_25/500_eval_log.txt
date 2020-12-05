@@ -1,0 +1,57 @@
+/usr/local/envs/minerl/lib/python3.6/site-packages/gym/logger.py:30: UserWarning: WARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+INFO:__main__:Output files will be saved in result/41d26d7d9436ee1a4e3b694ba9b7aef3c984a9c2-80ed6065-70208114
+INFO     - 2020-12-01 13:55:28,010 - [__main__ main 215] Output files will be saved in result/41d26d7d9436ee1a4e3b694ba9b7aef3c984a9c2-80ed6065-70208114
+INFO:utils:3.6.12 |Anaconda, Inc.| (default, Sep  8 2020, 23:10:56) 
+[GCC 7.3.0]
+INFO     - 2020-12-01 13:55:28,010 - [utils log_versions 9] 3.6.12 |Anaconda, Inc.| (default, Sep  8 2020, 23:10:56) 
+[GCC 7.3.0]
+INFO:utils:backcall==0.2.0,certifi==2020.11.8,cffi @ file:///tmp/build/80754af9/cffi_1600699165083/work,chardet==3.0.4,cloudpickle==1.6.0,coloredlogs==14.0,crowdai-api==0.1.22,cycler==0.10.0,decorator==4.4.2,dill==0.3.3,future==0.18.2,getch==1.0,gym==0.17.3,humanfriendly==8.2,idna==2.10,ipython==7.16.1,ipython-genutils==0.2.0,jedi==0.17.2,joblib==0.17.0,kiwisolver==1.3.1,lxml==4.6.2,matplotlib==3.3.3,minerl==0.3.6,mkl-fft==1.2.0,mkl-random==1.1.0,mkl-service==2.3.0,numpy @ file:///tmp/build/80754af9/numpy_and_numpy_base_1596233737064/work,olefile==0.46,opencv-python==4.4.0.46,parso==0.7.1,pexpect==4.8.0,pfrl==0.1.0,pickleshare==0.7.5,Pillow @ file:///tmp/build/80754af9/pillow_1603822238230/work,pip==20.2.4,prompt-toolkit==3.0.8,psutil==5.7.3,ptyprocess==0.6.0,pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work,pyglet==1.5.0,Pygments==2.7.2,pyparsing==2.4.7,Pyro4==4.80,python-dateutil==2.8.1,python-gitlab==2.5.0,redis==3.5.3,requests==2.25.0,scikit-learn==0.23.2,scipy==1.5.4,serpent==1.30.2,setuptools==50.3.0.post20201006,six==1.15.0,threadpoolctl==2.1.0,torch==1.6.0,torchvision==0.7.0,tqdm==4.54.0,traitlets==4.3.3,typing==3.7.4.3,urllib3==1.26.2,wcwidth==0.2.5,wheel==0.35.1
+INFO     - 2020-12-01 13:55:28,069 - [utils log_versions 10] backcall==0.2.0,certifi==2020.11.8,cffi @ file:///tmp/build/80754af9/cffi_1600699165083/work,chardet==3.0.4,cloudpickle==1.6.0,coloredlogs==14.0,crowdai-api==0.1.22,cycler==0.10.0,decorator==4.4.2,dill==0.3.3,future==0.18.2,getch==1.0,gym==0.17.3,humanfriendly==8.2,idna==2.10,ipython==7.16.1,ipython-genutils==0.2.0,jedi==0.17.2,joblib==0.17.0,kiwisolver==1.3.1,lxml==4.6.2,matplotlib==3.3.3,minerl==0.3.6,mkl-fft==1.2.0,mkl-random==1.1.0,mkl-service==2.3.0,numpy @ file:///tmp/build/80754af9/numpy_and_numpy_base_1596233737064/work,olefile==0.46,opencv-python==4.4.0.46,parso==0.7.1,pexpect==4.8.0,pfrl==0.1.0,pickleshare==0.7.5,Pillow @ file:///tmp/build/80754af9/pillow_1603822238230/work,pip==20.2.4,prompt-toolkit==3.0.8,psutil==5.7.3,ptyprocess==0.6.0,pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work,pyglet==1.5.0,Pygments==2.7.2,pyparsing==2.4.7,Pyro4==4.80,python-dateutil==2.8.1,python-gitlab==2.5.0,redis==3.5.3,requests==2.25.0,scikit-learn==0.23.2,scipy==1.5.4,serpent==1.30.2,setuptools==50.3.0.post20201006,six==1.15.0,threadpoolctl==2.1.0,torch==1.6.0,torchvision==0.7.0,tqdm==4.54.0,traitlets==4.3.3,typing==3.7.4.3,urllib3==1.26.2,wcwidth==0.2.5,wheel==0.35.1
+INFO:cached_kmeans:Load dataset & do kmeans
+INFO     - 2020-12-01 13:55:28,074 - [cached_kmeans cached_kmeans 19] Load dataset & do kmeans
+0it [00:00, ?it/s]
+  0% 0/209 [00:00<?, ?it/s]
+  0% 1/209 [00:00<00:32,  6.32it/s]
+100% 209/209 [00:00<00:00, 700.50it/s]
+835it [03:28,  4.01it/s]
+INFO:__main__:The first `gym.make(MineRL*)` may take several minutes. Be patient!
+INFO     - 2020-12-01 13:59:36,039 - [__main__ main 311] The first `gym.make(MineRL*)` may take several minutes. Be patient!
+INFO:minerl.env.malmo.instance.a63de7:Starting Minecraft process: ['/tmp/tmppha391vw/Minecraft/launchClient.sh', '-port', '9987', '-env', '-runDir', '/tmp/tmppha391vw/Minecraft/run']
+INFO     - 2020-12-01 13:59:36,170 - [minerl.env.malmo.instance.a63de7 _launch_minecraft 671] Starting Minecraft process: ['/tmp/tmppha391vw/Minecraft/launchClient.sh', '-port', '9987', '-env', '-runDir', '/tmp/tmppha391vw/Minecraft/run']
+INFO:minerl.env.malmo.instance.a63de7:Starting process watcher for process 24905 @ localhost:9987
+INFO     - 2020-12-01 13:59:36,362 - [minerl.env.malmo.instance.a63de7 _launch_process_watcher 694] Starting process watcher for process 24905 @ localhost:9987
+INFO:minerl.env.malmo.instance.a63de7:Minecraft process ready
+INFO     - 2020-12-01 14:00:49,295 - [minerl.env.malmo.instance.a63de7 launch 533] Minecraft process ready
+INFO:minerl.env.malmo:Logging output of Minecraft to ./logs/mc_987.log
+INFO     - 2020-12-01 14:00:49,309 - [minerl.env.malmo log_to_file 548] Logging output of Minecraft to ./logs/mc_987.log
+INFO:__main__:Detected `gym.wrappers.TimeLimit`! Unwrap it and re-wrap our own time limit.
+INFO     - 2020-12-01 14:00:49,324 - [__main__ make_env 275] Detected `gym.wrappers.TimeLimit`! Unwrap it and re-wrap our own time limit.
+INFO:__main__:Detected `gym.wrappers.TimeLimit`! Unwrap it and re-wrap our own time limit.
+INFO     - 2020-12-01 14:00:49,331 - [__main__ make_env 275] Detected `gym.wrappers.TimeLimit`! Unwrap it and re-wrap our own time limit.
+INFO:pfrl.experiments.evaluator:evaluation episode 0 length:2000 R:2.0
+INFO     - 2020-12-01 14:05:55,573 - [pfrl.experiments.evaluator _run_episodes 63] evaluation episode 0 length:2000 R:2.0
+INFO:pfrl.experiments.evaluator:evaluation episode 1 length:2000 R:6.0
+INFO     - 2020-12-01 14:11:30,054 - [pfrl.experiments.evaluator _run_episodes 63] evaluation episode 1 length:2000 R:6.0
+INFO:pfrl.experiments.evaluator:evaluation episode 2 length:2000 R:1.0
+INFO     - 2020-12-01 14:17:49,247 - [pfrl.experiments.evaluator _run_episodes 63] evaluation episode 2 length:2000 R:1.0
+INFO:pfrl.experiments.evaluator:evaluation episode 3 length:2000 R:1.0
+INFO     - 2020-12-01 14:22:43,904 - [pfrl.experiments.evaluator _run_episodes 63] evaluation episode 3 length:2000 R:1.0
+INFO:pfrl.experiments.evaluator:evaluation episode 4 length:2000 R:4.0
+INFO     - 2020-12-01 14:28:32,561 - [pfrl.experiments.evaluator _run_episodes 63] evaluation episode 4 length:2000 R:4.0
+INFO:pfrl.experiments.evaluator:evaluation episode 5 length:2000 R:0.0
+INFO     - 2020-12-01 14:34:02,484 - [pfrl.experiments.evaluator _run_episodes 63] evaluation episode 5 length:2000 R:0.0
+INFO:pfrl.experiments.evaluator:evaluation episode 6 length:2000 R:6.0
+INFO     - 2020-12-01 14:40:02,714 - [pfrl.experiments.evaluator _run_episodes 63] evaluation episode 6 length:2000 R:6.0
+INFO:pfrl.experiments.evaluator:evaluation episode 7 length:2000 R:4.0
+INFO     - 2020-12-01 14:46:16,881 - [pfrl.experiments.evaluator _run_episodes 63] evaluation episode 7 length:2000 R:4.0
+INFO:pfrl.experiments.evaluator:evaluation episode 8 length:2000 R:0.0
+INFO     - 2020-12-01 14:51:43,563 - [pfrl.experiments.evaluator _run_episodes 63] evaluation episode 8 length:2000 R:0.0
+INFO:pfrl.experiments.evaluator:evaluation episode 9 length:2000 R:3.0
+INFO     - 2020-12-01 14:55:55,150 - [pfrl.experiments.evaluator _run_episodes 63] evaluation episode 9 length:2000 R:3.0
+INFO:__main__:n_runs: 10 mean: 2.7 median: 2.5 stdev: 2.263232692902394
+INFO     - 2020-12-01 14:55:55,151 - [__main__ main 421] n_runs: 10 mean: 2.7 median: 2.5 stdev: 2.263232692902394
+INFO:minerl.env.malmo.instance.a63de7:[14:55:55] [EnvServerSocketHandler/INFO]: [STDOUT]: [LOGTOPY] Want to quit on disconnect.
+INFO     - 2020-12-01 14:55:55,152 - [minerl.env.malmo.instance.a63de7 log_to_file 572] [14:55:55] [EnvServerSocketHandler/INFO]: [STDOUT]: [LOGTOPY] Want to quit on disconnect.
+INFO:minerl.env.malmo:Minecraft process psutil.Process(pid=24905, status='terminated', exitcode=0, started='13:59:35') terminated with exit code 0
+INFO     - 2020-12-01 14:55:58,364 - [minerl.env.malmo on_terminate 373] Minecraft process psutil.Process(pid=24905, status='terminated', exitcode=0, started='13:59:35') terminated with exit code 0

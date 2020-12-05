@@ -1,0 +1,247 @@
+/usr/local/envs/minerl/lib/python3.6/site-packages/gym/logger.py:30: UserWarning: WARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+INFO:__main__:Output files will be saved in result/41d26d7d9436ee1a4e3b694ba9b7aef3c984a9c2-00000000-33a77768
+INFO     - 2020-12-01 02:17:16,470 - [__main__ main 215] Output files will be saved in result/41d26d7d9436ee1a4e3b694ba9b7aef3c984a9c2-00000000-33a77768
+INFO:utils:3.6.12 |Anaconda, Inc.| (default, Sep  8 2020, 23:10:56) 
+[GCC 7.3.0]
+INFO     - 2020-12-01 02:17:16,470 - [utils log_versions 9] 3.6.12 |Anaconda, Inc.| (default, Sep  8 2020, 23:10:56) 
+[GCC 7.3.0]
+INFO:utils:backcall==0.2.0,certifi==2020.11.8,cffi @ file:///tmp/build/80754af9/cffi_1600699165083/work,chardet==3.0.4,cloudpickle==1.6.0,coloredlogs==14.0,crowdai-api==0.1.22,cycler==0.10.0,decorator==4.4.2,dill==0.3.3,future==0.18.2,getch==1.0,gym==0.17.3,humanfriendly==8.2,idna==2.10,ipython==7.16.1,ipython-genutils==0.2.0,jedi==0.17.2,joblib==0.17.0,kiwisolver==1.3.1,lxml==4.6.2,matplotlib==3.3.3,minerl==0.3.6,mkl-fft==1.2.0,mkl-random==1.1.0,mkl-service==2.3.0,numpy @ file:///tmp/build/80754af9/numpy_and_numpy_base_1596233737064/work,olefile==0.46,opencv-python==4.4.0.46,parso==0.7.1,pexpect==4.8.0,pfrl==0.1.0,pickleshare==0.7.5,Pillow @ file:///tmp/build/80754af9/pillow_1603822238230/work,pip==20.2.4,prompt-toolkit==3.0.8,psutil==5.7.3,ptyprocess==0.6.0,pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work,pyglet==1.5.0,Pygments==2.7.2,pyparsing==2.4.7,Pyro4==4.80,python-dateutil==2.8.1,python-gitlab==2.5.0,redis==3.5.3,requests==2.25.0,scikit-learn==0.23.2,scipy==1.5.4,serpent==1.30.2,setuptools==50.3.0.post20201006,six==1.15.0,threadpoolctl==2.1.0,torch==1.6.0,torchvision==0.7.0,tqdm==4.54.0,traitlets==4.3.3,typing==3.7.4.3,urllib3==1.26.2,wcwidth==0.2.5,wheel==0.35.1
+INFO     - 2020-12-01 02:17:16,536 - [utils log_versions 10] backcall==0.2.0,certifi==2020.11.8,cffi @ file:///tmp/build/80754af9/cffi_1600699165083/work,chardet==3.0.4,cloudpickle==1.6.0,coloredlogs==14.0,crowdai-api==0.1.22,cycler==0.10.0,decorator==4.4.2,dill==0.3.3,future==0.18.2,getch==1.0,gym==0.17.3,humanfriendly==8.2,idna==2.10,ipython==7.16.1,ipython-genutils==0.2.0,jedi==0.17.2,joblib==0.17.0,kiwisolver==1.3.1,lxml==4.6.2,matplotlib==3.3.3,minerl==0.3.6,mkl-fft==1.2.0,mkl-random==1.1.0,mkl-service==2.3.0,numpy @ file:///tmp/build/80754af9/numpy_and_numpy_base_1596233737064/work,olefile==0.46,opencv-python==4.4.0.46,parso==0.7.1,pexpect==4.8.0,pfrl==0.1.0,pickleshare==0.7.5,Pillow @ file:///tmp/build/80754af9/pillow_1603822238230/work,pip==20.2.4,prompt-toolkit==3.0.8,psutil==5.7.3,ptyprocess==0.6.0,pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work,pyglet==1.5.0,Pygments==2.7.2,pyparsing==2.4.7,Pyro4==4.80,python-dateutil==2.8.1,python-gitlab==2.5.0,redis==3.5.3,requests==2.25.0,scikit-learn==0.23.2,scipy==1.5.4,serpent==1.30.2,setuptools==50.3.0.post20201006,six==1.15.0,threadpoolctl==2.1.0,torch==1.6.0,torchvision==0.7.0,tqdm==4.54.0,traitlets==4.3.3,typing==3.7.4.3,urllib3==1.26.2,wcwidth==0.2.5,wheel==0.35.1
+INFO:cached_kmeans:Load dataset & do kmeans
+INFO     - 2020-12-01 02:17:16,540 - [cached_kmeans cached_kmeans 19] Load dataset & do kmeans
+0it [00:00, ?it/s]
+  0% 0/209 [00:00<?, ?it/s]
+  0% 1/209 [00:00<00:40,  5.10it/s]
+100% 209/209 [00:00<00:00, 683.07it/s]
+835it [03:40,  3.78it/s]
+INFO:__main__:The first `gym.make(MineRL*)` may take several minutes. Be patient!
+INFO     - 2020-12-01 02:21:38,059 - [__main__ main 311] The first `gym.make(MineRL*)` may take several minutes. Be patient!
+INFO:minerl.env.malmo.instance.4df5ee:Starting Minecraft process: ['/tmp/tmpm_p5d8u1/Minecraft/launchClient.sh', '-port', '10192', '-env', '-runDir', '/tmp/tmpm_p5d8u1/Minecraft/run']
+INFO     - 2020-12-01 02:21:38,190 - [minerl.env.malmo.instance.4df5ee _launch_minecraft 671] Starting Minecraft process: ['/tmp/tmpm_p5d8u1/Minecraft/launchClient.sh', '-port', '10192', '-env', '-runDir', '/tmp/tmpm_p5d8u1/Minecraft/run']
+INFO:minerl.env.malmo.instance.4df5ee:Starting process watcher for process 21672 @ localhost:10192
+INFO     - 2020-12-01 02:21:38,379 - [minerl.env.malmo.instance.4df5ee _launch_process_watcher 694] Starting process watcher for process 21672 @ localhost:10192
+INFO:minerl.env.malmo.instance.4df5ee:Minecraft process ready
+INFO     - 2020-12-01 02:22:54,800 - [minerl.env.malmo.instance.4df5ee launch 533] Minecraft process ready
+INFO:minerl.env.malmo:Logging output of Minecraft to ./logs/mc_1192.log
+INFO     - 2020-12-01 02:22:54,821 - [minerl.env.malmo log_to_file 548] Logging output of Minecraft to ./logs/mc_1192.log
+INFO:__main__:Detected `gym.wrappers.TimeLimit`! Unwrap it and re-wrap our own time limit.
+INFO     - 2020-12-01 02:22:54,859 - [__main__ make_env 275] Detected `gym.wrappers.TimeLimit`! Unwrap it and re-wrap our own time limit.
+INFO:__main__:Detected `gym.wrappers.TimeLimit`! Unwrap it and re-wrap our own time limit.
+INFO     - 2020-12-01 02:22:54,868 - [__main__ make_env 275] Detected `gym.wrappers.TimeLimit`! Unwrap it and re-wrap our own time limit.
+INFO:__main__:Fill the buffer with expert data
+INFO     - 2020-12-01 02:22:55,058 - [__main__ fill_buffer 61] Fill the buffer with expert data
+INFO:__main__:209 trajectories
+INFO     - 2020-12-01 02:22:56,445 - [__main__ fill_buffer 64] 209 trajectories
+  0% 0/1787 [00:00<?, ?it/s]INFO:__main__:name: v3_juvenile_apple_angel-7_111791-113629, success: True, steps: 1787, reward: 65.0
+INFO     - 2020-12-01 02:22:58,418 - [__main__ fill_buffer 85] name: v3_juvenile_apple_angel-7_111791-113629, success: True, steps: 1787, reward: 65.0
+100% 1787/1787 [00:01<00:00, 1457.00it/s]
+  0% 0/1674 [00:00<?, ?it/s]INFO:__main__:name: v3_juvenile_apple_angel-7_70581-72289, success: True, steps: 1674, reward: 64.0
+INFO     - 2020-12-01 02:23:01,224 - [__main__ fill_buffer 85] name: v3_juvenile_apple_angel-7_70581-72289, success: True, steps: 1674, reward: 64.0
+100% 1674/1674 [00:01<00:00, 1388.11it/s]
+  0% 0/2215 [00:00<?, ?it/s]INFO:__main__:name: v3_virtuous_mustard_greens_raven_spirit-8_9171-11677, success: True, steps: 2215, reward: 64.0
+INFO     - 2020-12-01 02:23:04,486 - [__main__ fill_buffer 85] name: v3_virtuous_mustard_greens_raven_spirit-8_9171-11677, success: True, steps: 2215, reward: 64.0
+100% 2215/2215 [00:01<00:00, 1409.79it/s]
+  0% 0/2461 [00:00<?, ?it/s]INFO:__main__:name: v3_remorseful_current_savage-1_4442-6943, success: True, steps: 2461, reward: 64.0
+INFO     - 2020-12-01 02:23:08,185 - [__main__ fill_buffer 85] name: v3_remorseful_current_savage-1_4442-6943, success: True, steps: 2461, reward: 64.0
+100% 2461/2461 [00:01<00:00, 1350.21it/s]
+  0% 0/1854 [00:00<?, ?it/s]INFO:__main__:name: v3_familiar_endive_ghost-2_44742-46633, success: True, steps: 1854, reward: 64.0
+INFO     - 2020-12-01 02:23:11,788 - [__main__ fill_buffer 85] name: v3_familiar_endive_ghost-2_44742-46633, success: True, steps: 1854, reward: 64.0
+100% 1854/1854 [00:01<00:00, 1360.72it/s]
+  0% 0/1795 [00:00<?, ?it/s]INFO:__main__:name: v3_failing_soybean_werewolf-1_5797-7669, success: True, steps: 1795, reward: 64.0
+INFO     - 2020-12-01 02:23:14,796 - [__main__ fill_buffer 85] name: v3_failing_soybean_werewolf-1_5797-7669, success: True, steps: 1795, reward: 64.0
+100% 1795/1795 [00:01<00:00, 1329.52it/s]
+  0% 0/1672 [00:00<?, ?it/s]INFO:__main__:name: v3_unselfish_blood_orange_savage-21_599-2307, success: True, steps: 1672, reward: 64.0
+INFO     - 2020-12-01 02:23:17,804 - [__main__ fill_buffer 85] name: v3_unselfish_blood_orange_savage-21_599-2307, success: True, steps: 1672, reward: 64.0
+100% 1672/1672 [00:01<00:00, 1375.33it/s]
+  0% 0/1840 [00:00<?, ?it/s]INFO:__main__:name: v3_unselfish_blood_orange_savage-21_2496-4361, success: True, steps: 1840, reward: 64.0
+INFO     - 2020-12-01 02:23:20,725 - [__main__ fill_buffer 85] name: v3_unselfish_blood_orange_savage-21_2496-4361, success: True, steps: 1840, reward: 64.0
+100% 1840/1840 [00:01<00:00, 1369.25it/s]
+  0% 0/2441 [00:00<?, ?it/s]INFO:__main__:name: v3_absolute_grape_changeling-15_8154-10619, success: True, steps: 2441, reward: 64.0
+INFO     - 2020-12-01 02:23:24,364 - [__main__ fill_buffer 85] name: v3_absolute_grape_changeling-15_8154-10619, success: True, steps: 2441, reward: 64.0
+100% 2441/2441 [00:01<00:00, 1267.25it/s]
+  0% 0/2389 [00:00<?, ?it/s]INFO:__main__:name: v3_quiet_mandarin_orange_ghoul-14_454-2883, success: True, steps: 2389, reward: 64.0
+INFO     - 2020-12-01 02:23:28,522 - [__main__ fill_buffer 85] name: v3_quiet_mandarin_orange_ghoul-14_454-2883, success: True, steps: 2389, reward: 64.0
+100% 2389/2389 [00:01<00:00, 1401.67it/s]
+  0% 0/1751 [00:00<?, ?it/s]INFO:__main__:name: v3_quiet_mandarin_orange_ghoul-14_20738-22550, success: True, steps: 1751, reward: 64.0
+INFO     - 2020-12-01 02:23:31,913 - [__main__ fill_buffer 85] name: v3_quiet_mandarin_orange_ghoul-14_20738-22550, success: True, steps: 1751, reward: 64.0
+100% 1751/1751 [00:01<00:00, 1388.69it/s]
+  0% 0/1675 [00:00<?, ?it/s]INFO:__main__:name: v3_juvenile_apple_angel-30_396415-398113, success: True, steps: 1675, reward: 64.0
+INFO     - 2020-12-01 02:23:34,928 - [__main__ fill_buffer 85] name: v3_juvenile_apple_angel-30_396415-398113, success: True, steps: 1675, reward: 64.0
+100% 1675/1675 [00:01<00:00, 1366.09it/s]
+  0% 0/1674 [00:00<?, ?it/s]INFO:__main__:name: v3_familiar_endive_ghost-2_7119-8820, success: True, steps: 1674, reward: 64.0
+INFO     - 2020-12-01 02:23:37,768 - [__main__ fill_buffer 85] name: v3_familiar_endive_ghost-2_7119-8820, success: True, steps: 1674, reward: 64.0
+100% 1674/1674 [00:01<00:00, 1420.39it/s]
+  0% 0/1528 [00:00<?, ?it/s]INFO:__main__:name: v3_content_squash_angel-3_9633-11189, success: True, steps: 1528, reward: 64.0
+INFO     - 2020-12-01 02:23:40,352 - [__main__ fill_buffer 85] name: v3_content_squash_angel-3_9633-11189, success: True, steps: 1528, reward: 64.0
+100% 1528/1528 [00:01<00:00, 1435.76it/s]
+  0% 0/2750 [00:00<?, ?it/s]INFO:__main__:name: v3_conscious_tangerine_rain_bird-41_133718-136502, success: True, steps: 2750, reward: 64.0
+INFO     - 2020-12-01 02:23:44,003 - [__main__ fill_buffer 85] name: v3_conscious_tangerine_rain_bird-41_133718-136502, success: True, steps: 2750, reward: 64.0
+100% 2750/2750 [00:01<00:00, 1395.77it/s]
+  0% 0/2717 [00:00<?, ?it/s]INFO:__main__:name: v3_absolute_grape_changeling-15_2519-5263, success: True, steps: 2717, reward: 64.0
+INFO     - 2020-12-01 02:23:48,589 - [__main__ fill_buffer 85] name: v3_absolute_grape_changeling-15_2519-5263, success: True, steps: 2717, reward: 64.0
+100% 2717/2717 [00:02<00:00, 1306.08it/s]
+  0% 0/1889 [00:00<?, ?it/s]INFO:__main__:name: v3_juvenile_apple_angel-7_28694-30621, success: True, steps: 1889, reward: 64.0
+INFO     - 2020-12-01 02:23:52,529 - [__main__ fill_buffer 85] name: v3_juvenile_apple_angel-7_28694-30621, success: True, steps: 1889, reward: 64.0
+100% 1889/1889 [00:01<00:00, 1398.31it/s]
+  0% 0/2845 [00:00<?, ?it/s]INFO:__main__:name: v3_excellent_pluot_behemoth-11_30302-33195, success: True, steps: 2845, reward: 65.0
+INFO     - 2020-12-01 02:23:56,395 - [__main__ fill_buffer 85] name: v3_excellent_pluot_behemoth-11_30302-33195, success: True, steps: 2845, reward: 65.0
+100% 2845/2845 [00:02<00:00, 1355.33it/s]
+  0% 0/1863 [00:00<?, ?it/s]INFO:__main__:name: v3_unselfish_blood_orange_savage-15_1274-3207, success: True, steps: 1863, reward: 64.0
+INFO     - 2020-12-01 02:24:00,411 - [__main__ fill_buffer 85] name: v3_unselfish_blood_orange_savage-15_1274-3207, success: True, steps: 1863, reward: 64.0
+100% 1863/1863 [00:01<00:00, 1371.15it/s]
+  0% 0/2159 [00:00<?, ?it/s]INFO:__main__:name: v3_absolute_grape_changeling-17_2648-4833, success: True, steps: 2159, reward: 64.0
+INFO     - 2020-12-01 02:24:03,620 - [__main__ fill_buffer 85] name: v3_absolute_grape_changeling-17_2648-4833, success: True, steps: 2159, reward: 64.0
+100% 2159/2159 [00:01<00:00, 1407.22it/s]
+  0% 0/3139 [00:00<?, ?it/s]INFO:__main__:name: v3_glistening_okra_golum-22_7485-10661, success: True, steps: 3139, reward: 64.0
+INFO     - 2020-12-01 02:24:07,922 - [__main__ fill_buffer 85] name: v3_glistening_okra_golum-22_7485-10661, success: True, steps: 3139, reward: 64.0
+100% 3139/3139 [00:02<00:00, 1410.48it/s]
+  0% 0/1824 [00:00<?, ?it/s]INFO:__main__:name: v3_svelte_cherry_devil-12_30091-31945, success: True, steps: 1824, reward: 65.0
+INFO     - 2020-12-01 02:24:11,885 - [__main__ fill_buffer 85] name: v3_svelte_cherry_devil-12_30091-31945, success: True, steps: 1824, reward: 65.0
+100% 1824/1824 [00:01<00:00, 1366.59it/s]
+  0% 0/2661 [00:00<?, ?it/s]INFO:__main__:name: v3_equal_olive_chimera-6_7294-9979, success: True, steps: 2661, reward: 64.0
+INFO     - 2020-12-01 02:24:15,704 - [__main__ fill_buffer 85] name: v3_equal_olive_chimera-6_7294-9979, success: True, steps: 2661, reward: 64.0
+100% 2661/2661 [00:01<00:00, 1357.31it/s]
+  0% 0/1963 [00:00<?, ?it/s]INFO:__main__:name: v3_content_squash_angel-3_7552-9552, success: True, steps: 1963, reward: 64.0
+INFO     - 2020-12-01 02:24:19,558 - [__main__ fill_buffer 85] name: v3_content_squash_angel-3_7552-9552, success: True, steps: 1963, reward: 64.0
+100% 1963/1963 [00:01<00:00, 1412.65it/s]
+  0% 0/1830 [00:00<?, ?it/s]INFO:__main__:name: v3_juvenile_apple_angel-7_95854-97712, success: True, steps: 1830, reward: 64.0
+INFO     - 2020-12-01 02:24:22,663 - [__main__ fill_buffer 85] name: v3_juvenile_apple_angel-7_95854-97712, success: True, steps: 1830, reward: 64.0
+100% 1830/1830 [00:01<00:00, 1344.66it/s]
+INFO:__main__:Buffer filled, size: 26218
+INFO     - 2020-12-01 02:24:24,089 - [__main__ fill_buffer 110] Buffer filled, size: 26218
+[W TensorIterator.cpp:924] Warning: Mixed memory format inputs detected while calling the operator. The operator will output channels_last tensor even if some of the inputs are not in channels_last format. (function operator())
+INFO:__main__:PRETRAIN-step:0 statistics:[('average_loss_1step', 0.21989384293556213), ('average_loss_nstep', 0.09798571467399597), ('average_loss_supervised', 1.1472201347351074), ('average_loss', 1.4650996923446655), ('n_updates', 1)]
+INFO     - 2020-12-01 02:24:36,777 - [__main__ pretrain 467] PRETRAIN-step:0 statistics:[('average_loss_1step', 0.21989384293556213), ('average_loss_nstep', 0.09798571467399597), ('average_loss_supervised', 1.1472201347351074), ('average_loss', 1.4650996923446655), ('n_updates', 1)]
+INFO:__main__:PRETRAIN-step:10000 statistics:[('average_loss_1step', 0.12093250087462365), ('average_loss_nstep', 0.1234117946587503), ('average_loss_supervised', 0.336198445558548), ('average_loss', 0.580542744398117), ('n_updates', 10001)]
+INFO     - 2020-12-01 02:34:10,701 - [__main__ pretrain 467] PRETRAIN-step:10000 statistics:[('average_loss_1step', 0.12093250087462365), ('average_loss_nstep', 0.1234117946587503), ('average_loss_supervised', 0.336198445558548), ('average_loss', 0.580542744398117), ('n_updates', 10001)]
+INFO:__main__:PRETRAIN-step:20000 statistics:[('average_loss_1step', 0.06688604719936847), ('average_loss_nstep', 0.08568052090704441), ('average_loss_supervised', 0.15966148659586907), ('average_loss', 0.3122280561923981), ('n_updates', 20001)]
+INFO     - 2020-12-01 02:43:26,056 - [__main__ pretrain 467] PRETRAIN-step:20000 statistics:[('average_loss_1step', 0.06688604719936847), ('average_loss_nstep', 0.08568052090704441), ('average_loss_supervised', 0.15966148659586907), ('average_loss', 0.3122280561923981), ('n_updates', 20001)]
+INFO:__main__:PRETRAIN-step:30000 statistics:[('average_loss_1step', 0.05129130504094064), ('average_loss_nstep', 0.0661382925324142), ('average_loss_supervised', 0.03771724109305069), ('average_loss', 0.15514683924615383), ('n_updates', 30001)]
+INFO     - 2020-12-01 02:52:45,125 - [__main__ pretrain 467] PRETRAIN-step:30000 statistics:[('average_loss_1step', 0.05129130504094064), ('average_loss_nstep', 0.0661382925324142), ('average_loss_supervised', 0.03771724109305069), ('average_loss', 0.15514683924615383), ('n_updates', 30001)]
+INFO:__main__:PRETRAIN-step:40000 statistics:[('average_loss_1step', 0.04453123327344656), ('average_loss_nstep', 0.05623702709563076), ('average_loss_supervised', 0.009403136744513176), ('average_loss', 0.11017139695584774), ('n_updates', 40001)]
+INFO     - 2020-12-01 03:01:53,811 - [__main__ pretrain 467] PRETRAIN-step:40000 statistics:[('average_loss_1step', 0.04453123327344656), ('average_loss_nstep', 0.05623702709563076), ('average_loss_supervised', 0.009403136744513176), ('average_loss', 0.11017139695584774), ('n_updates', 40001)]
+INFO:__main__:Agent saved in result/41d26d7d9436ee1a4e3b694ba9b7aef3c984a9c2-00000000-33a77768/saved_pretrain50000
+INFO     - 2020-12-01 03:11:01,666 - [__main__ main 431] Agent saved in result/41d26d7d9436ee1a4e3b694ba9b7aef3c984a9c2-00000000-33a77768/saved_pretrain50000
+INFO:__main__:PRETRAIN-step:0 statistics:[('average_loss_1step', 0.03762889087200165), ('average_loss_nstep', 0.048181719155982135), ('average_loss_supervised', 0.005375232068527112), ('average_loss', 0.0911858419701457), ('n_updates', 50001)]
+INFO     - 2020-12-01 03:11:01,723 - [__main__ pretrain 467] PRETRAIN-step:0 statistics:[('average_loss_1step', 0.03762889087200165), ('average_loss_nstep', 0.048181719155982135), ('average_loss_supervised', 0.005375232068527112), ('average_loss', 0.0911858419701457), ('n_updates', 50001)]
+INFO:__main__:PRETRAIN-step:10000 statistics:[('average_loss_1step', 0.037051435438916085), ('average_loss_nstep', 0.04336160439997912), ('average_loss_supervised', 0.007171284217297398), ('average_loss', 0.08758432399481535), ('n_updates', 60001)]
+INFO     - 2020-12-01 03:20:07,600 - [__main__ pretrain 467] PRETRAIN-step:10000 statistics:[('average_loss_1step', 0.037051435438916085), ('average_loss_nstep', 0.04336160439997912), ('average_loss_supervised', 0.007171284217297398), ('average_loss', 0.08758432399481535), ('n_updates', 60001)]
+INFO:__main__:PRETRAIN-step:20000 statistics:[('average_loss_1step', 0.03417842005379498), ('average_loss_nstep', 0.03672274297103286), ('average_loss_supervised', 0.002510142823876862), ('average_loss', 0.07341130580753089), ('n_updates', 70001)]
+INFO     - 2020-12-01 03:29:20,466 - [__main__ pretrain 467] PRETRAIN-step:20000 statistics:[('average_loss_1step', 0.03417842005379498), ('average_loss_nstep', 0.03672274297103286), ('average_loss_supervised', 0.002510142823876862), ('average_loss', 0.07341130580753089), ('n_updates', 70001)]
+INFO:__main__:PRETRAIN-step:30000 statistics:[('average_loss_1step', 0.031618965454399586), ('average_loss_nstep', 0.03222998319659382), ('average_loss_supervised', 0.0032863552075369285), ('average_loss', 0.06713530387729406), ('n_updates', 80001)]
+INFO     - 2020-12-01 03:38:36,638 - [__main__ pretrain 467] PRETRAIN-step:30000 statistics:[('average_loss_1step', 0.031618965454399586), ('average_loss_nstep', 0.03222998319659382), ('average_loss_supervised', 0.0032863552075369285), ('average_loss', 0.06713530387729406), ('n_updates', 80001)]
+INFO:__main__:PRETRAIN-step:40000 statistics:[('average_loss_1step', 0.02940701259765774), ('average_loss_nstep', 0.03176847665105015), ('average_loss_supervised', 0.0017344847625054172), ('average_loss', 0.06290997402742506), ('n_updates', 90001)]
+INFO     - 2020-12-01 03:47:51,432 - [__main__ pretrain 467] PRETRAIN-step:40000 statistics:[('average_loss_1step', 0.02940701259765774), ('average_loss_nstep', 0.03176847665105015), ('average_loss_supervised', 0.0017344847625054172), ('average_loss', 0.06290997402742506), ('n_updates', 90001)]
+INFO:__main__:Agent saved in result/41d26d7d9436ee1a4e3b694ba9b7aef3c984a9c2-00000000-33a77768/saved_pretrain100000
+INFO     - 2020-12-01 03:57:00,309 - [__main__ main 431] Agent saved in result/41d26d7d9436ee1a4e3b694ba9b7aef3c984a9c2-00000000-33a77768/saved_pretrain100000
+INFO:__main__:PRETRAIN-step:0 statistics:[('average_loss_1step', 0.028100439319387077), ('average_loss_nstep', 0.02918299229349941), ('average_loss_supervised', 0.002500687491356075), ('average_loss', 0.05978411883115768), ('n_updates', 100001)]
+INFO     - 2020-12-01 03:57:00,358 - [__main__ pretrain 467] PRETRAIN-step:0 statistics:[('average_loss_1step', 0.028100439319387077), ('average_loss_nstep', 0.02918299229349941), ('average_loss_supervised', 0.002500687491356075), ('average_loss', 0.05978411883115768), ('n_updates', 100001)]
+INFO:__main__:PRETRAIN-step:10000 statistics:[('average_loss_1step', 0.02392729202285409), ('average_loss_nstep', 0.02596987526398152), ('average_loss_supervised', 0.003128281909733346), ('average_loss', 0.05302544912323356), ('n_updates', 110001)]
+INFO     - 2020-12-01 04:06:09,395 - [__main__ pretrain 467] PRETRAIN-step:10000 statistics:[('average_loss_1step', 0.02392729202285409), ('average_loss_nstep', 0.02596987526398152), ('average_loss_supervised', 0.003128281909733346), ('average_loss', 0.05302544912323356), ('n_updates', 110001)]
+INFO:__main__:PRETRAIN-step:20000 statistics:[('average_loss_1step', 0.023304795543663204), ('average_loss_nstep', 0.02639933397527784), ('average_loss_supervised', 0.0028427355311200133), ('average_loss', 0.0525468648225069), ('n_updates', 120001)]
+INFO     - 2020-12-01 04:15:18,847 - [__main__ pretrain 467] PRETRAIN-step:20000 statistics:[('average_loss_1step', 0.023304795543663204), ('average_loss_nstep', 0.02639933397527784), ('average_loss_supervised', 0.0028427355311200133), ('average_loss', 0.0525468648225069), ('n_updates', 120001)]
+INFO:__main__:PRETRAIN-step:30000 statistics:[('average_loss_1step', 0.02245106645859778), ('average_loss_nstep', 0.023486335948109626), ('average_loss_supervised', 0.0012624242238464943), ('average_loss', 0.04719982659444213), ('n_updates', 130001)]
+INFO     - 2020-12-01 04:24:33,957 - [__main__ pretrain 467] PRETRAIN-step:30000 statistics:[('average_loss_1step', 0.02245106645859778), ('average_loss_nstep', 0.023486335948109626), ('average_loss_supervised', 0.0012624242238464943), ('average_loss', 0.04719982659444213), ('n_updates', 130001)]
+INFO:__main__:PRETRAIN-step:40000 statistics:[('average_loss_1step', 0.02128504448919557), ('average_loss_nstep', 0.024120385069400074), ('average_loss_supervised', 0.0014922626893154245), ('average_loss', 0.04689769230782986), ('n_updates', 140001)]
+INFO     - 2020-12-01 04:33:52,096 - [__main__ pretrain 467] PRETRAIN-step:40000 statistics:[('average_loss_1step', 0.02128504448919557), ('average_loss_nstep', 0.024120385069400074), ('average_loss_supervised', 0.0014922626893154245), ('average_loss', 0.04689769230782986), ('n_updates', 140001)]
+INFO:__main__:Agent saved in result/41d26d7d9436ee1a4e3b694ba9b7aef3c984a9c2-00000000-33a77768/saved_pretrain150000
+INFO     - 2020-12-01 04:43:09,538 - [__main__ main 431] Agent saved in result/41d26d7d9436ee1a4e3b694ba9b7aef3c984a9c2-00000000-33a77768/saved_pretrain150000
+INFO:__main__:PRETRAIN-step:0 statistics:[('average_loss_1step', 0.021118857730180025), ('average_loss_nstep', 0.0223707630392164), ('average_loss_supervised', 0.0011488654790768437), ('average_loss', 0.0446384865231812), ('n_updates', 150001)]
+INFO     - 2020-12-01 04:43:09,587 - [__main__ pretrain 467] PRETRAIN-step:0 statistics:[('average_loss_1step', 0.021118857730180025), ('average_loss_nstep', 0.0223707630392164), ('average_loss_supervised', 0.0011488654790768437), ('average_loss', 0.0446384865231812), ('n_updates', 150001)]
+INFO:__main__:PRETRAIN-step:10000 statistics:[('average_loss_1step', 0.018170605255290864), ('average_loss_nstep', 0.020858544753864408), ('average_loss_supervised', 0.0010646480786078883), ('average_loss', 0.040093797855079175), ('n_updates', 160001)]
+INFO     - 2020-12-01 04:52:21,626 - [__main__ pretrain 467] PRETRAIN-step:10000 statistics:[('average_loss_1step', 0.018170605255290864), ('average_loss_nstep', 0.020858544753864408), ('average_loss_supervised', 0.0010646480786078883), ('average_loss', 0.040093797855079175), ('n_updates', 160001)]
+INFO:__main__:PRETRAIN-step:20000 statistics:[('average_loss_1step', 0.019627546584233643), ('average_loss_nstep', 0.019184796311892568), ('average_loss_supervised', 0.0028287205087053737), ('average_loss', 0.04164106350392103), ('n_updates', 170001)]
+INFO     - 2020-12-01 05:01:51,843 - [__main__ pretrain 467] PRETRAIN-step:20000 statistics:[('average_loss_1step', 0.019627546584233643), ('average_loss_nstep', 0.019184796311892568), ('average_loss_supervised', 0.0028287205087053737), ('average_loss', 0.04164106350392103), ('n_updates', 170001)]
+INFO:__main__:PRETRAIN-step:30000 statistics:[('average_loss_1step', 0.018297666790895162), ('average_loss_nstep', 0.01759497569408268), ('average_loss_supervised', 0.000997624497349534), ('average_loss', 0.036890266872942445), ('n_updates', 180001)]
+INFO     - 2020-12-01 05:11:06,749 - [__main__ pretrain 467] PRETRAIN-step:30000 statistics:[('average_loss_1step', 0.018297666790895162), ('average_loss_nstep', 0.01759497569408268), ('average_loss_supervised', 0.000997624497349534), ('average_loss', 0.036890266872942445), ('n_updates', 180001)]
+INFO:__main__:PRETRAIN-step:40000 statistics:[('average_loss_1step', 0.017280225260183215), ('average_loss_nstep', 0.017154143936932088), ('average_loss_supervised', 0.0011889153868236235), ('average_loss', 0.035623284727334975), ('n_updates', 190001)]
+INFO     - 2020-12-01 05:19:53,138 - [__main__ pretrain 467] PRETRAIN-step:40000 statistics:[('average_loss_1step', 0.017280225260183215), ('average_loss_nstep', 0.017154143936932088), ('average_loss_supervised', 0.0011889153868236235), ('average_loss', 0.035623284727334975), ('n_updates', 190001)]
+INFO:__main__:Agent saved in result/41d26d7d9436ee1a4e3b694ba9b7aef3c984a9c2-00000000-33a77768/saved_pretrain200000
+INFO     - 2020-12-01 05:28:36,479 - [__main__ main 431] Agent saved in result/41d26d7d9436ee1a4e3b694ba9b7aef3c984a9c2-00000000-33a77768/saved_pretrain200000
+INFO:__main__:PRETRAIN-step:0 statistics:[('average_loss_1step', 0.014691547914408147), ('average_loss_nstep', 0.016152242328971625), ('average_loss_supervised', 0.001387034839155774), ('average_loss', 0.032230824949219826), ('n_updates', 200001)]
+INFO     - 2020-12-01 05:28:36,526 - [__main__ pretrain 467] PRETRAIN-step:0 statistics:[('average_loss_1step', 0.014691547914408147), ('average_loss_nstep', 0.016152242328971625), ('average_loss_supervised', 0.001387034839155774), ('average_loss', 0.032230824949219826), ('n_updates', 200001)]
+INFO:__main__:PRETRAIN-step:10000 statistics:[('average_loss_1step', 0.014753739777952433), ('average_loss_nstep', 0.015585663300007581), ('average_loss_supervised', 0.0003703589025712972), ('average_loss', 0.03070976199582219), ('n_updates', 210001)]
+INFO     - 2020-12-01 05:37:28,591 - [__main__ pretrain 467] PRETRAIN-step:10000 statistics:[('average_loss_1step', 0.014753739777952433), ('average_loss_nstep', 0.015585663300007581), ('average_loss_supervised', 0.0003703589025712972), ('average_loss', 0.03070976199582219), ('n_updates', 210001)]
+INFO:__main__:PRETRAIN-step:20000 statistics:[('average_loss_1step', 0.014135903404094279), ('average_loss_nstep', 0.013879784527234732), ('average_loss_supervised', 0.0007807369660235964), ('average_loss', 0.0287964247725904), ('n_updates', 220001)]
+INFO     - 2020-12-01 05:46:33,366 - [__main__ pretrain 467] PRETRAIN-step:20000 statistics:[('average_loss_1step', 0.014135903404094279), ('average_loss_nstep', 0.013879784527234732), ('average_loss_supervised', 0.0007807369660235964), ('average_loss', 0.0287964247725904), ('n_updates', 220001)]
+INFO:__main__:PRETRAIN-step:30000 statistics:[('average_loss_1step', 0.01472422999329865), ('average_loss_nstep', 0.01368699689861387), ('average_loss_supervised', 0.0029793952510814847), ('average_loss', 0.031390622342005375), ('n_updates', 230001)]
+INFO     - 2020-12-01 05:55:42,136 - [__main__ pretrain 467] PRETRAIN-step:30000 statistics:[('average_loss_1step', 0.01472422999329865), ('average_loss_nstep', 0.01368699689861387), ('average_loss_supervised', 0.0029793952510814847), ('average_loss', 0.031390622342005375), ('n_updates', 230001)]
+INFO:__main__:PRETRAIN-step:40000 statistics:[('average_loss_1step', 0.014187547790352256), ('average_loss_nstep', 0.013669087090529502), ('average_loss_supervised', 0.00046762558734485536), ('average_loss', 0.028324260413646697), ('n_updates', 240001)]
+INFO     - 2020-12-01 06:04:46,367 - [__main__ pretrain 467] PRETRAIN-step:40000 statistics:[('average_loss_1step', 0.014187547790352256), ('average_loss_nstep', 0.013669087090529502), ('average_loss_supervised', 0.00046762558734485536), ('average_loss', 0.028324260413646697), ('n_updates', 240001)]
+INFO:__main__:Agent saved in result/41d26d7d9436ee1a4e3b694ba9b7aef3c984a9c2-00000000-33a77768/saved_pretrain250000
+INFO     - 2020-12-01 06:13:52,942 - [__main__ main 431] Agent saved in result/41d26d7d9436ee1a4e3b694ba9b7aef3c984a9c2-00000000-33a77768/saved_pretrain250000
+INFO:__main__:PRETRAIN-step:0 statistics:[('average_loss_1step', 0.013161206066142768), ('average_loss_nstep', 0.012499795113690197), ('average_loss_supervised', 0.0005430938571830523), ('average_loss', 0.02620409505441785), ('n_updates', 250001)]
+INFO     - 2020-12-01 06:13:53,015 - [__main__ pretrain 467] PRETRAIN-step:0 statistics:[('average_loss_1step', 0.013161206066142768), ('average_loss_nstep', 0.012499795113690197), ('average_loss_supervised', 0.0005430938571830523), ('average_loss', 0.02620409505441785), ('n_updates', 250001)]
+INFO:__main__:PRETRAIN-step:10000 statistics:[('average_loss_1step', 0.013532898682169616), ('average_loss_nstep', 0.012803037550766021), ('average_loss_supervised', 0.0004910684087167993), ('average_loss', 0.0268270047288388), ('n_updates', 260001)]
+INFO     - 2020-12-01 06:23:00,054 - [__main__ pretrain 467] PRETRAIN-step:10000 statistics:[('average_loss_1step', 0.013532898682169616), ('average_loss_nstep', 0.012803037550766021), ('average_loss_supervised', 0.0004910684087167993), ('average_loss', 0.0268270047288388), ('n_updates', 260001)]
+INFO:__main__:PRETRAIN-step:20000 statistics:[('average_loss_1step', 0.012774680801667273), ('average_loss_nstep', 0.013468976544681937), ('average_loss_supervised', 0.0017353001209215791), ('average_loss', 0.02797895730473101), ('n_updates', 270001)]
+INFO     - 2020-12-01 06:32:12,878 - [__main__ pretrain 467] PRETRAIN-step:20000 statistics:[('average_loss_1step', 0.012774680801667273), ('average_loss_nstep', 0.013468976544681937), ('average_loss_supervised', 0.0017353001209215791), ('average_loss', 0.02797895730473101), ('n_updates', 270001)]
+INFO:__main__:PRETRAIN-step:30000 statistics:[('average_loss_1step', 0.01389624822186306), ('average_loss_nstep', 0.014545942486729474), ('average_loss_supervised', 0.0007015020183803244), ('average_loss', 0.02914369280450046), ('n_updates', 280001)]
+INFO     - 2020-12-01 06:41:28,181 - [__main__ pretrain 467] PRETRAIN-step:30000 statistics:[('average_loss_1step', 0.01389624822186306), ('average_loss_nstep', 0.014545942486729474), ('average_loss_supervised', 0.0007015020183803244), ('average_loss', 0.02914369280450046), ('n_updates', 280001)]
+INFO:__main__:PRETRAIN-step:40000 statistics:[('average_loss_1step', 0.01132092197658494), ('average_loss_nstep', 0.012146540032699705), ('average_loss_supervised', 0.00032822582138713585), ('average_loss', 0.023795687733218072), ('n_updates', 290001)]
+INFO     - 2020-12-01 06:50:39,423 - [__main__ pretrain 467] PRETRAIN-step:40000 statistics:[('average_loss_1step', 0.01132092197658494), ('average_loss_nstep', 0.012146540032699705), ('average_loss_supervised', 0.00032822582138713585), ('average_loss', 0.023795687733218072), ('n_updates', 290001)]
+INFO:__main__:Agent saved in result/41d26d7d9436ee1a4e3b694ba9b7aef3c984a9c2-00000000-33a77768/saved_pretrain300000
+INFO     - 2020-12-01 06:59:27,727 - [__main__ main 431] Agent saved in result/41d26d7d9436ee1a4e3b694ba9b7aef3c984a9c2-00000000-33a77768/saved_pretrain300000
+INFO:__main__:PRETRAIN-step:0 statistics:[('average_loss_1step', 0.011215646797791124), ('average_loss_nstep', 0.01238080587470904), ('average_loss_supervised', 0.0014992217197803371), ('average_loss', 0.025095674367621543), ('n_updates', 300001)]
+INFO     - 2020-12-01 06:59:27,778 - [__main__ pretrain 467] PRETRAIN-step:0 statistics:[('average_loss_1step', 0.011215646797791124), ('average_loss_nstep', 0.01238080587470904), ('average_loss_supervised', 0.0014992217197803371), ('average_loss', 0.025095674367621543), ('n_updates', 300001)]
+INFO:__main__:PRETRAIN-step:10000 statistics:[('average_loss_1step', 0.01047295302618295), ('average_loss_nstep', 0.01044006683398038), ('average_loss_supervised', 0.0011150128892201394), ('average_loss', 0.022028032885864378), ('n_updates', 310001)]
+INFO     - 2020-12-01 07:08:10,022 - [__main__ pretrain 467] PRETRAIN-step:10000 statistics:[('average_loss_1step', 0.01047295302618295), ('average_loss_nstep', 0.01044006683398038), ('average_loss_supervised', 0.0011150128892201394), ('average_loss', 0.022028032885864378), ('n_updates', 310001)]
+INFO:__main__:PRETRAIN-step:20000 statistics:[('average_loss_1step', 0.010325721367262303), ('average_loss_nstep', 0.0108502998505719), ('average_loss_supervised', 0.00029555509655978087), ('average_loss', 0.021471576169133186), ('n_updates', 320001)]
+INFO     - 2020-12-01 07:17:33,766 - [__main__ pretrain 467] PRETRAIN-step:20000 statistics:[('average_loss_1step', 0.010325721367262303), ('average_loss_nstep', 0.0108502998505719), ('average_loss_supervised', 0.00029555509655978087), ('average_loss', 0.021471576169133186), ('n_updates', 320001)]
+INFO:__main__:PRETRAIN-step:30000 statistics:[('average_loss_1step', 0.010476162109989673), ('average_loss_nstep', 0.012135959826409817), ('average_loss_supervised', 0.0015033191252439336), ('average_loss', 0.024115441143512727), ('n_updates', 330001)]
+INFO     - 2020-12-01 07:26:57,154 - [__main__ pretrain 467] PRETRAIN-step:30000 statistics:[('average_loss_1step', 0.010476162109989673), ('average_loss_nstep', 0.012135959826409817), ('average_loss_supervised', 0.0015033191252439336), ('average_loss', 0.024115441143512727), ('n_updates', 330001)]
+INFO:__main__:PRETRAIN-step:40000 statistics:[('average_loss_1step', 0.01042188670951873), ('average_loss_nstep', 0.009973605864215642), ('average_loss_supervised', 0.001377390351688348), ('average_loss', 0.021772882901132107), ('n_updates', 340001)]
+INFO     - 2020-12-01 07:35:42,250 - [__main__ pretrain 467] PRETRAIN-step:40000 statistics:[('average_loss_1step', 0.01042188670951873), ('average_loss_nstep', 0.009973605864215642), ('average_loss_supervised', 0.001377390351688348), ('average_loss', 0.021772882901132107), ('n_updates', 340001)]
+INFO:__main__:Agent saved in result/41d26d7d9436ee1a4e3b694ba9b7aef3c984a9c2-00000000-33a77768/saved_pretrain350000
+INFO     - 2020-12-01 07:45:14,233 - [__main__ main 431] Agent saved in result/41d26d7d9436ee1a4e3b694ba9b7aef3c984a9c2-00000000-33a77768/saved_pretrain350000
+INFO:__main__:PRETRAIN-step:0 statistics:[('average_loss_1step', 0.010808603120967746), ('average_loss_nstep', 0.010446673033293337), ('average_loss_supervised', 0.0003933200077668175), ('average_loss', 0.021648596180602907), ('n_updates', 350001)]
+INFO     - 2020-12-01 07:45:14,285 - [__main__ pretrain 467] PRETRAIN-step:0 statistics:[('average_loss_1step', 0.010808603120967746), ('average_loss_nstep', 0.010446673033293337), ('average_loss_supervised', 0.0003933200077668175), ('average_loss', 0.021648596180602907), ('n_updates', 350001)]
+INFO:__main__:PRETRAIN-step:10000 statistics:[('average_loss_1step', 0.010185100371018052), ('average_loss_nstep', 0.01033857099013403), ('average_loss_supervised', 0.0005405726882119666), ('average_loss', 0.021064244136214258), ('n_updates', 360001)]
+INFO     - 2020-12-01 07:54:38,588 - [__main__ pretrain 467] PRETRAIN-step:10000 statistics:[('average_loss_1step', 0.010185100371018052), ('average_loss_nstep', 0.01033857099013403), ('average_loss_supervised', 0.0005405726882119666), ('average_loss', 0.021064244136214258), ('n_updates', 360001)]
+INFO:__main__:PRETRAIN-step:20000 statistics:[('average_loss_1step', 0.009670745342737064), ('average_loss_nstep', 0.010980469095520674), ('average_loss_supervised', 0.0005837424029460437), ('average_loss', 0.021234956849366427), ('n_updates', 370001)]
+INFO     - 2020-12-01 08:03:50,434 - [__main__ pretrain 467] PRETRAIN-step:20000 statistics:[('average_loss_1step', 0.009670745342737064), ('average_loss_nstep', 0.010980469095520674), ('average_loss_supervised', 0.0005837424029460437), ('average_loss', 0.021234956849366427), ('n_updates', 370001)]
+INFO:__main__:PRETRAIN-step:30000 statistics:[('average_loss_1step', 0.010469443912152201), ('average_loss_nstep', 0.010729705712292344), ('average_loss_supervised', 0.0019843098506263602), ('average_loss', 0.023183459481224418), ('n_updates', 380001)]
+INFO     - 2020-12-01 08:12:25,176 - [__main__ pretrain 467] PRETRAIN-step:30000 statistics:[('average_loss_1step', 0.010469443912152201), ('average_loss_nstep', 0.010729705712292344), ('average_loss_supervised', 0.0019843098506263602), ('average_loss', 0.023183459481224418), ('n_updates', 380001)]
+INFO:__main__:PRETRAIN-step:40000 statistics:[('average_loss_1step', 0.010722642918117344), ('average_loss_nstep', 0.00995231123873964), ('average_loss_supervised', 0.00042892723991371895), ('average_loss', 0.02110388148576021), ('n_updates', 390001)]
+INFO     - 2020-12-01 08:20:41,337 - [__main__ pretrain 467] PRETRAIN-step:40000 statistics:[('average_loss_1step', 0.010722642918117344), ('average_loss_nstep', 0.00995231123873964), ('average_loss_supervised', 0.00042892723991371895), ('average_loss', 0.02110388148576021), ('n_updates', 390001)]
+INFO:__main__:Agent saved in result/41d26d7d9436ee1a4e3b694ba9b7aef3c984a9c2-00000000-33a77768/saved_pretrain400000
+INFO     - 2020-12-01 08:29:01,249 - [__main__ main 431] Agent saved in result/41d26d7d9436ee1a4e3b694ba9b7aef3c984a9c2-00000000-33a77768/saved_pretrain400000
+INFO:__main__:PRETRAIN-step:0 statistics:[('average_loss_1step', 0.009745469104964287), ('average_loss_nstep', 0.01058178666047752), ('average_loss_supervised', 0.00029245022194920975), ('average_loss', 0.020619705952703953), ('n_updates', 400001)]
+INFO     - 2020-12-01 08:29:01,299 - [__main__ pretrain 467] PRETRAIN-step:0 statistics:[('average_loss_1step', 0.009745469104964287), ('average_loss_nstep', 0.01058178666047752), ('average_loss_supervised', 0.00029245022194920975), ('average_loss', 0.020619705952703953), ('n_updates', 400001)]
+INFO:__main__:PRETRAIN-step:10000 statistics:[('average_loss_1step', 0.010124598091933876), ('average_loss_nstep', 0.010198349693091587), ('average_loss_supervised', 0.0005287671767871415), ('average_loss', 0.020851715011522175), ('n_updates', 410001)]
+INFO     - 2020-12-01 08:37:11,740 - [__main__ pretrain 467] PRETRAIN-step:10000 statistics:[('average_loss_1step', 0.010124598091933876), ('average_loss_nstep', 0.010198349693091587), ('average_loss_supervised', 0.0005287671767871415), ('average_loss', 0.020851715011522175), ('n_updates', 410001)]
+INFO:__main__:PRETRAIN-step:20000 statistics:[('average_loss_1step', 0.009516788108740001), ('average_loss_nstep', 0.009361780422041192), ('average_loss_supervised', 0.0009678417732894929), ('average_loss', 0.01984641025774181), ('n_updates', 420001)]
+INFO     - 2020-12-01 08:44:46,966 - [__main__ pretrain 467] PRETRAIN-step:20000 statistics:[('average_loss_1step', 0.009516788108740001), ('average_loss_nstep', 0.009361780422041192), ('average_loss_supervised', 0.0009678417732894929), ('average_loss', 0.01984641025774181), ('n_updates', 420001)]
+INFO:__main__:PRETRAIN-step:30000 statistics:[('average_loss_1step', 0.009665563348680734), ('average_loss_nstep', 0.008786309061106294), ('average_loss_supervised', 0.0002885038711199073), ('average_loss', 0.018740376438945532), ('n_updates', 430001)]
+INFO     - 2020-12-01 08:52:20,418 - [__main__ pretrain 467] PRETRAIN-step:30000 statistics:[('average_loss_1step', 0.009665563348680734), ('average_loss_nstep', 0.008786309061106294), ('average_loss_supervised', 0.0002885038711199073), ('average_loss', 0.018740376438945532), ('n_updates', 430001)]
+INFO:__main__:PRETRAIN-step:40000 statistics:[('average_loss_1step', 0.008632479712832718), ('average_loss_nstep', 0.009572516102343798), ('average_loss_supervised', 0.0010155991033155942), ('average_loss', 0.019220594884827732), ('n_updates', 440001)]
+INFO     - 2020-12-01 09:01:27,676 - [__main__ pretrain 467] PRETRAIN-step:40000 statistics:[('average_loss_1step', 0.008632479712832718), ('average_loss_nstep', 0.009572516102343798), ('average_loss_supervised', 0.0010155991033155942), ('average_loss', 0.019220594884827732), ('n_updates', 440001)]
+INFO:__main__:Agent saved in result/41d26d7d9436ee1a4e3b694ba9b7aef3c984a9c2-00000000-33a77768/saved_pretrain450000
+INFO     - 2020-12-01 09:10:38,930 - [__main__ main 431] Agent saved in result/41d26d7d9436ee1a4e3b694ba9b7aef3c984a9c2-00000000-33a77768/saved_pretrain450000
+INFO:__main__:PRETRAIN-step:0 statistics:[('average_loss_1step', 0.009359180526807905), ('average_loss_nstep', 0.009220328701194375), ('average_loss_supervised', 0.0005569745032079964), ('average_loss', 0.019136483697220683), ('n_updates', 450001)]
+INFO     - 2020-12-01 09:10:38,982 - [__main__ pretrain 467] PRETRAIN-step:0 statistics:[('average_loss_1step', 0.009359180526807905), ('average_loss_nstep', 0.009220328701194375), ('average_loss_supervised', 0.0005569745032079964), ('average_loss', 0.019136483697220683), ('n_updates', 450001)]
+INFO:__main__:PRETRAIN-step:10000 statistics:[('average_loss_1step', 0.008772629611194134), ('average_loss_nstep', 0.00888778039254248), ('average_loss_supervised', 0.00021382416819164973), ('average_loss', 0.017874234216287734), ('n_updates', 460001)]
+INFO     - 2020-12-01 09:19:33,491 - [__main__ pretrain 467] PRETRAIN-step:10000 statistics:[('average_loss_1step', 0.008772629611194134), ('average_loss_nstep', 0.00888778039254248), ('average_loss_supervised', 0.00021382416819164973), ('average_loss', 0.017874234216287734), ('n_updates', 460001)]
+INFO:__main__:PRETRAIN-step:20000 statistics:[('average_loss_1step', 0.009584312239894643), ('average_loss_nstep', 0.009588319533504546), ('average_loss_supervised', 0.00032739248232367403), ('average_loss', 0.01950002427212894), ('n_updates', 470001)]
+INFO     - 2020-12-01 09:28:44,507 - [__main__ pretrain 467] PRETRAIN-step:20000 statistics:[('average_loss_1step', 0.009584312239894643), ('average_loss_nstep', 0.009588319533504546), ('average_loss_supervised', 0.00032739248232367403), ('average_loss', 0.01950002427212894), ('n_updates', 470001)]
+INFO:__main__:PRETRAIN-step:30000 statistics:[('average_loss_1step', 0.0082518519484438), ('average_loss_nstep', 0.00816180177149363), ('average_loss_supervised', 0.00020934449092585794), ('average_loss', 0.016622998188249766), ('n_updates', 480001)]
+INFO     - 2020-12-01 09:37:47,910 - [__main__ pretrain 467] PRETRAIN-step:30000 statistics:[('average_loss_1step', 0.0082518519484438), ('average_loss_nstep', 0.00816180177149363), ('average_loss_supervised', 0.00020934449092585794), ('average_loss', 0.016622998188249766), ('n_updates', 480001)]
+INFO:__main__:PRETRAIN-step:40000 statistics:[('average_loss_1step', 0.007783282391028479), ('average_loss_nstep', 0.007495051943697035), ('average_loss_supervised', 0.0003723708908546541), ('average_loss', 0.015650705150328577), ('n_updates', 490001)]
+INFO     - 2020-12-01 09:46:57,300 - [__main__ pretrain 467] PRETRAIN-step:40000 statistics:[('average_loss_1step', 0.007783282391028479), ('average_loss_nstep', 0.007495051943697035), ('average_loss_supervised', 0.0003723708908546541), ('average_loss', 0.015650705150328577), ('n_updates', 490001)]
+INFO:__main__:Agent saved in result/41d26d7d9436ee1a4e3b694ba9b7aef3c984a9c2-00000000-33a77768/saved_pretrain500000
+INFO     - 2020-12-01 09:55:22,338 - [__main__ main 431] Agent saved in result/41d26d7d9436ee1a4e3b694ba9b7aef3c984a9c2-00000000-33a77768/saved_pretrain500000
+INFO:pfrl.experiments.evaluator:evaluation episode 0 length:2000 R:3.0
+INFO     - 2020-12-01 10:00:24,286 - [pfrl.experiments.evaluator _run_episodes 63] evaluation episode 0 length:2000 R:3.0
+INFO:pfrl.experiments.evaluator:evaluation episode 1 length:2000 R:0.0
+INFO     - 2020-12-01 10:06:53,915 - [pfrl.experiments.evaluator _run_episodes 63] evaluation episode 1 length:2000 R:0.0
+INFO:pfrl.experiments.evaluator:evaluation episode 2 length:2000 R:3.0
+INFO     - 2020-12-01 10:12:36,637 - [pfrl.experiments.evaluator _run_episodes 63] evaluation episode 2 length:2000 R:3.0
+INFO:__main__:Evaluation of pretraining @ 500000 steps
+INFO     - 2020-12-01 10:12:36,644 - [__main__ main 437] Evaluation of pretraining @ 500000 steps
+INFO:__main__:n_runs: 3 mean: 2.0 median: 3.0 stdev: 1.7320508075688772
+INFO     - 2020-12-01 10:12:36,644 - [__main__ main 439] n_runs: 3 mean: 2.0 median: 3.0 stdev: 1.7320508075688772
+INFO:minerl.env.malmo.instance.4df5ee:[10:12:36] [EnvServerSocketHandler/INFO]: [STDOUT]: [LOGTOPY] Want to quit on disconnect.
+INFO     - 2020-12-01 10:12:36,645 - [minerl.env.malmo.instance.4df5ee log_to_file 572] [10:12:36] [EnvServerSocketHandler/INFO]: [STDOUT]: [LOGTOPY] Want to quit on disconnect.
+INFO:minerl.env.malmo:Minecraft process psutil.Process(pid=21672, status='terminated', exitcode=0, started='02:21:37') terminated with exit code 0
+INFO     - 2020-12-01 10:12:39,853 - [minerl.env.malmo on_terminate 373] Minecraft process psutil.Process(pid=21672, status='terminated', exitcode=0, started='02:21:37') terminated with exit code 0

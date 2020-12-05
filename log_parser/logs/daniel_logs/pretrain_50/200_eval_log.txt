@@ -1,0 +1,50 @@
+/usr/local/envs/minerl/lib/python3.6/site-packages/gym/logger.py:30: UserWarning: WARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+INFO:cached_kmeans:Load dataset & do kmeans
+INFO     - 2020-12-02 17:43:21,292 - [cached_kmeans cached_kmeans 19] Load dataset & do kmeans
+0it [00:00, ?it/s]
+  0% 0/209 [00:00<?, ?it/s]
+100% 209/209 [00:00<00:00, 1199.99it/s]
+835it [03:14,  4.30it/s]
+INFO:__main__:Output files are saved in result/ef66d54c86241d106e986daf3b46e4e0c58f5346-80ed6065-68e6cb25/ef66d54c86241d106e986daf3b46e4e0c58f5346-80ed6065-68e6cb25
+INFO     - 2020-12-02 17:47:14,795 - [__main__ main 251] Output files are saved in result/ef66d54c86241d106e986daf3b46e4e0c58f5346-80ed6065-68e6cb25/ef66d54c86241d106e986daf3b46e4e0c58f5346-80ed6065-68e6cb25
+INFO:__main__:The first `gym.make(MineRL*)` may take several minutes. Be patient!
+INFO     - 2020-12-02 17:47:14,796 - [__main__ main 306] The first `gym.make(MineRL*)` may take several minutes. Be patient!
+INFO:minerl.env.malmo.instance.c69582:Starting Minecraft process: ['/tmp/tmpmpu4x8q4/Minecraft/launchClient.sh', '-port', '12242', '-env', '-runDir', '/tmp/tmpmpu4x8q4/Minecraft/run']
+INFO     - 2020-12-02 17:47:14,941 - [minerl.env.malmo.instance.c69582 _launch_minecraft 671] Starting Minecraft process: ['/tmp/tmpmpu4x8q4/Minecraft/launchClient.sh', '-port', '12242', '-env', '-runDir', '/tmp/tmpmpu4x8q4/Minecraft/run']
+INFO:minerl.env.malmo.instance.c69582:Starting process watcher for process 24812 @ localhost:12242
+INFO     - 2020-12-02 17:47:15,090 - [minerl.env.malmo.instance.c69582 _launch_process_watcher 694] Starting process watcher for process 24812 @ localhost:12242
+INFO:minerl.env.malmo.instance.c69582:Minecraft process ready
+INFO     - 2020-12-02 17:48:24,531 - [minerl.env.malmo.instance.c69582 launch 533] Minecraft process ready
+INFO:minerl.env.malmo:Logging output of Minecraft to ./logs/mc_3242.log
+INFO     - 2020-12-02 17:48:24,544 - [minerl.env.malmo log_to_file 548] Logging output of Minecraft to ./logs/mc_3242.log
+INFO:__main__:Detected `gym.wrappers.TimeLimit`! Unwrap it and re-wrap our own time limit.
+INFO     - 2020-12-02 17:48:24,612 - [__main__ make_env 270] Detected `gym.wrappers.TimeLimit`! Unwrap it and re-wrap our own time limit.
+INFO:__main__:Detected `gym.wrappers.TimeLimit`! Unwrap it and re-wrap our own time limit.
+INFO     - 2020-12-02 17:48:24,616 - [__main__ make_env 270] Detected `gym.wrappers.TimeLimit`! Unwrap it and re-wrap our own time limit.
+INFO:pfrl.experiments.evaluator:evaluation episode 0 length:2000 R:3.0
+INFO     - 2020-12-02 17:53:45,802 - [pfrl.experiments.evaluator _run_episodes 63] evaluation episode 0 length:2000 R:3.0
+INFO:pfrl.experiments.evaluator:evaluation episode 1 length:2000 R:8.0
+INFO     - 2020-12-02 18:00:05,891 - [pfrl.experiments.evaluator _run_episodes 63] evaluation episode 1 length:2000 R:8.0
+INFO:pfrl.experiments.evaluator:evaluation episode 2 length:2000 R:2.0
+INFO     - 2020-12-02 18:06:04,372 - [pfrl.experiments.evaluator _run_episodes 63] evaluation episode 2 length:2000 R:2.0
+INFO:pfrl.experiments.evaluator:evaluation episode 3 length:2000 R:6.0
+INFO     - 2020-12-02 18:11:39,341 - [pfrl.experiments.evaluator _run_episodes 63] evaluation episode 3 length:2000 R:6.0
+INFO:pfrl.experiments.evaluator:evaluation episode 4 length:2000 R:4.0
+INFO     - 2020-12-02 18:17:12,862 - [pfrl.experiments.evaluator _run_episodes 63] evaluation episode 4 length:2000 R:4.0
+INFO:pfrl.experiments.evaluator:evaluation episode 5 length:2000 R:2.0
+INFO     - 2020-12-02 18:22:20,924 - [pfrl.experiments.evaluator _run_episodes 63] evaluation episode 5 length:2000 R:2.0
+INFO:pfrl.experiments.evaluator:evaluation episode 6 length:2000 R:4.0
+INFO     - 2020-12-02 18:27:39,246 - [pfrl.experiments.evaluator _run_episodes 63] evaluation episode 6 length:2000 R:4.0
+INFO:pfrl.experiments.evaluator:evaluation episode 7 length:2000 R:5.0
+INFO     - 2020-12-02 18:32:59,528 - [pfrl.experiments.evaluator _run_episodes 63] evaluation episode 7 length:2000 R:5.0
+INFO:pfrl.experiments.evaluator:evaluation episode 8 length:2000 R:8.0
+INFO     - 2020-12-02 18:38:02,188 - [pfrl.experiments.evaluator _run_episodes 63] evaluation episode 8 length:2000 R:8.0
+INFO:pfrl.experiments.evaluator:evaluation episode 9 length:2000 R:2.0
+INFO     - 2020-12-02 18:43:28,267 - [pfrl.experiments.evaluator _run_episodes 63] evaluation episode 9 length:2000 R:2.0
+INFO:__main__:n_runs: 10 mean: 4.4 median: 4.0 stdev: 2.3190036174568114
+INFO     - 2020-12-02 18:43:28,267 - [__main__ main 415] n_runs: 10 mean: 4.4 median: 4.0 stdev: 2.3190036174568114
+INFO:minerl.env.malmo.instance.c69582:[18:43:28] [EnvServerSocketHandler/INFO]: [STDOUT]: [LOGTOPY] Want to quit on disconnect.
+INFO     - 2020-12-02 18:43:28,269 - [minerl.env.malmo.instance.c69582 log_to_file 572] [18:43:28] [EnvServerSocketHandler/INFO]: [STDOUT]: [LOGTOPY] Want to quit on disconnect.
+INFO:minerl.env.malmo:Minecraft process psutil.Process(pid=24812, status='terminated', exitcode=0, started='17:47:14') terminated with exit code 0
+INFO     - 2020-12-02 18:43:31,427 - [minerl.env.malmo on_terminate 373] Minecraft process psutil.Process(pid=24812, status='terminated', exitcode=0, started='17:47:14') terminated with exit code 0

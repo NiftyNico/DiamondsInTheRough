@@ -1,0 +1,28 @@
+/usr/local/envs/minerl/lib/python3.6/site-packages/gym/logger.py:30: UserWarning: WARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+INFO:cached_kmeans:Load dataset & do kmeans
+0it [00:00, ?it/s]
+  0% 0/209 [00:00<?, ?it/s]
+100% 209/209 [00:00<00:00, 994.80it/s]
+835it [03:32,  3.92it/s]
+INFO:__main__:Output files are saved in result/2bae1f53a59f6fb01c65bebe4eeb14e303c3239d-80ed6065-2e4aa8cb/2bae1f53a59f6fb01c65bebe4eeb14e303c3239d-80ed6065-2e4aa8cb
+INFO:__main__:The first `gym.make(MineRL*)` may take several minutes. Be patient!
+INFO:minerl.env.malmo.instance.dc5831:Starting Minecraft process: ['/tmp/tmpv7flhppw/Minecraft/launchClient.sh', '-port', '12047', '-env', '-runDir', '/tmp/tmpv7flhppw/Minecraft/run']
+INFO:minerl.env.malmo.instance.dc5831:Starting process watcher for process 11223 @ localhost:12047
+INFO:minerl.env.malmo.instance.dc5831:Minecraft process ready
+INFO:minerl.env.malmo:Logging output of Minecraft to ./logs/mc_3047.log
+INFO:__main__:Detected `gym.wrappers.TimeLimit`! Unwrap it and re-wrap our own time limit.
+INFO:__main__:Detected `gym.wrappers.TimeLimit`! Unwrap it and re-wrap our own time limit.
+INFO:pfrl.experiments.evaluator:evaluation episode 0 length:2000 R:0.0
+INFO:pfrl.experiments.evaluator:evaluation episode 1 length:2000 R:1.0
+INFO:pfrl.experiments.evaluator:evaluation episode 2 length:2000 R:0.0
+INFO:pfrl.experiments.evaluator:evaluation episode 3 length:2000 R:0.0
+INFO:pfrl.experiments.evaluator:evaluation episode 4 length:2000 R:0.0
+INFO:pfrl.experiments.evaluator:evaluation episode 5 length:2000 R:0.0
+INFO:pfrl.experiments.evaluator:evaluation episode 6 length:2000 R:0.0
+INFO:pfrl.experiments.evaluator:evaluation episode 7 length:2000 R:0.0
+INFO:pfrl.experiments.evaluator:evaluation episode 8 length:2000 R:1.0
+INFO:pfrl.experiments.evaluator:evaluation episode 9 length:2000 R:0.0
+INFO:__main__:n_runs: 10 mean: 0.2 median: 0.0 stdev: 0.42163702135578396
+INFO:minerl.env.malmo.instance.dc5831:[01:09:04] [EnvServerSocketHandler/INFO]: [STDOUT]: [LOGTOPY] Want to quit on disconnect.
+INFO:minerl.env.malmo:Minecraft process psutil.Process(pid=11223, status='terminated', exitcode=0, started='00:20:22') terminated with exit code 0
