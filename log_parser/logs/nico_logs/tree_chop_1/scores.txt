@@ -1,0 +1,2 @@
+steps	episodes	elapsed	mean	median	stdev	max	min	average_q	average_loss	cumulative_steps	n_updates	rlen
+151279	77	19810.072979211807	13.05	14.0	5.614595640874445	21.0	5.0	114.544235	3.738787839412689	151279	36570	151279
