@@ -1,6 +1,6 @@
 # DiamondsInTheRough
 
-Setup steps:
+MineRL Environment Setup steps:
 1. Verify that you have JDK >= 1.8 with `java -version`
 2. Install the environment with `conda env create -f environment.yml`
 3. Activate the diamonds environment with `conda activate diamonds`
