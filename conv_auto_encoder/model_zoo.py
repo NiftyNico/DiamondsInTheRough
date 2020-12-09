@@ -79,8 +79,52 @@ class RNNConvAutoEncoder(FloatNN):
   def forward(self, x):
     assert len(x.shape) == 5 # (sample, frame, c, h, w)
 
-  # def preprocess(self, x):
+class FourConvAutoEncoder(FloatNN):
+  def __init__(self, n_input_channels):
+    super(FourConvAutoEncoder, self).__init__()
+    
+    self.pool = nn.MaxPool2d(2, 2)
 
+    self.encoder_layers = nn.Sequential(
+      nn.Conv2d(n_input_channels, 64, 3, stride=1, padding=1),
+      nn.ReLU(),
+      self.pool,
+
+      nn.Conv2d(64, 32, 3, stride=1, padding=1),
+      nn.ReLU(),
+      self.pool,
+
+      nn.Conv2d(32, 16, 3, stride=1, padding=1),
+      nn.ReLU(),
+      self.pool,
+
+      nn.Conv2d(16, 8, 3, stride=1, padding=1),
+      nn.ReLU(),
+      self.pool
+    )
+
+    self.decoder_layers = nn.Sequential(
+      nn.ConvTranspose2d(8, 16, 2, stride=2),
+      nn.ReLU(),
+
+      nn.ConvTranspose2d(16, 32, 2, stride=2),
+      nn.ReLU(),
+
+      nn.ConvTranspose2d(32, 64, 2, stride=2),
+      nn.ReLU(),
+
+      nn.ConvTranspose2d(64, n_input_channels, 2, stride=2),
+      nn.Sigmoid()
+    )
+
+  def forward(self, x):
+    x = self.preprocess(x)
+    x = self.encoder_layers(x)
+    x = self.decoder_layers(x)
+    return x
+
+  def get_encoder(self):
+    return self.encoder_layers
 
 class ConvAutoEncoder(FloatNN):
   def __init__(self, n_input_channels):
