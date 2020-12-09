@@ -15,6 +15,7 @@ import ds
 import visualization
 import stats
 import train
+import configs
 
 
 def print_banner(text):
@@ -22,44 +23,31 @@ def print_banner(text):
   print(text)
   print('-' * 80)
 
-config = {
-  'EXP_NAME' :     "modified_arch_mse",
-  'EXP_MODEL':      model_zoo.ConvAutoEncoder, 
-  'MINERL_GYM_ENV':"MineRLTreechopVectorObf-v0",
-  'BATCH_SIZE':     512,
-  'NUM_WORKERS':    16,
+config = configs.get_baseline_config()
 
-  # 'TRAIN_CRITERIA': nn.BCELoss(),
-  'CENTER_CHANNELS': False,
-
-  'TRAIN_CRITERIA': nn.MSELoss(),
-  # 'CENTER_CHANNELS': True,
-
-  'TEST_CRITERIA':  SSIM(data_range=1., size_average=True, channel=12),
-  'LEARNING_RATE':  0.0005,
-  'TRAIN_VIS_I':   [0, 150],
-  'VALID_VIS_I':   [0, 150],
-  'TRAIN_EPOCHS':   70,
-  'STACK_CHANNELS': True,
-}
-
-LOG_ROOT         = os.path.join(os.path.dirname(os.path.realpath(__file__)), f"logs/{config['EXP_NAME']}")
-STATS_FILENAME   = "stats.csv"
-MODEL_FILENAME   = 'model.pt'
-ENCODER_FILENAME = 'encoder.pt'
-MAX_MERGE_COUNT  = 4
-FORCE_TRAIN      = True
-# FORCE_TRAIN      = False
-CONFIG_FILENAME  = "config.json"
+LOG_ROOT          = os.path.join(os.path.dirname(os.path.realpath(__file__)), f"logs/{config['EXP_NAME']}")
+STATS_FILENAME    = "stats.csv"
+MODEL_FILENAME    = 'model.pt'
+ENCODER_FILENAME  = 'encoder.pt'
+MAX_MERGE_COUNT   = 4
+FORCE_TRAIN       = True
+# FORCE_TRAIN       = False
+CONFIG_FILENAME   = "config.json"
+TEST_RES_FILENAME = "test_results.txt"   
 
 if FORCE_TRAIN and os.path.exists(LOG_ROOT):
   shutil.rmtree(LOG_ROOT)
 os.makedirs(LOG_ROOT, exist_ok=True)
 
+test_res_path    = os.path.join(LOG_ROOT, TEST_RES_FILENAME)
 stats_path       = os.path.join(LOG_ROOT, STATS_FILENAME)
 model_path       = os.path.join(LOG_ROOT, MODEL_FILENAME)
 encoder_path     = os.path.join(LOG_ROOT, ENCODER_FILENAME)
-config_path = os.path.join(LOG_ROOT, CONFIG_FILENAME)
+config_path      = os.path.join(LOG_ROOT, CONFIG_FILENAME)
+
+if os.path.exists(test_res_path):
+  print_banner(f'Test results already exist for {config["EXP_NAME"]} ... terminating')
+
 config_json = {str(key): str(value) for key, value in config.items()}
 with open(config_path, 'w+') as config_json_fp:
   json.dump(config_json, config_json_fp, indent=2)
@@ -137,3 +125,10 @@ stats.plot()
 
 print_banner(f'Training {config["TRAIN_EPOCHS"]} epochs')
 train.train(model, config['TRAIN_EPOCHS'], train_loader, valid_loader, stats, valid_epoch_freq=1, valid_callback=valid_callback, test_criteria=config['TEST_CRITERIA'])
+
+print_banner(f'Calculating test results ...')
+test_result = train.valid_epoch(model, test_loader, test_criteria=config['TEST_CRITERIA'])
+with open(test_res_path, "w+") as test_fp:
+  test_fp.write(f"{test_result}\n")
+
+print_banner(f'Model created successfully...')
