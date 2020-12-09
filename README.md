@@ -40,3 +40,5 @@ Added args (compared to default):
 --n-pretrain-steps: now refers to steps per pretrain round (before: total pretrain steps)
 --only_pretrain: only pretraining & evaluation of pretrained agent (no actual training)
 
+DQfD visualizations: Run jupyter notebook in /log_parser/daniel_logparser.ipynb
+
