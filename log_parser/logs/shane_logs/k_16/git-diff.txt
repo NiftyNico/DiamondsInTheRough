@@ -1,0 +1,85 @@
+diff --git a/apt.txt b/apt.txt
+index 936abd5..644effb 100644
+--- a/apt.txt
++++ b/apt.txt
+@@ -13,5 +13,5 @@ xvfb
+ x11vnc
+ freeglut3-dev
+ libx11-6
+-python-opengl
++python3-opengl
+ x11-xserver-utils
+diff --git a/data/.gitignore b/data/.gitignore
+deleted file mode 100644
+index e69de29..0000000
+diff --git a/mod/dqn_family.py b/mod/dqn_family.py
+index 1441304..50498ca 100644
+--- a/mod/dqn_family.py
++++ b/mod/dqn_family.py
+@@ -31,10 +31,9 @@ def main():
+         'MineRLObtainIronPickaxe-v0', 'MineRLObtainIronPickaxeDense-v0',
+         'MineRLObtainDiamond-v0', 'MineRLObtainDiamondDense-v0',
+         # obfuscated envs
+-        'MineRLTreechopVectorObf-v0',
+-        'MineRLNavigateVectorObf-v0', 'MineRLNavigateExtremeVectorObf-v0',
++        'MineRLTreechopVectorObf-v0', 'MineRLNavigateVectorObf-v0', 'MineRLNavigateExtremeVectorObf-v0',
+         # MineRL data pipeline fails for these envs: https://github.com/minerllabs/minerl/issues/364
+-        # 'MineRLNavigateDenseVectorObf-v0', 'MineRLNavigateExtremeDenseVectorObf-v0',
++        'MineRLNavigateDenseVectorObf-v0', 'MineRLNavigateExtremeDenseVectorObf-v0',
+         'MineRLObtainDiamondVectorObf-v0', 'MineRLObtainDiamondDenseVectorObf-v0',
+         'MineRLObtainIronPickaxeVectorObf-v0', 'MineRLObtainIronPickaxeDenseVectorObf-v0',
+         # for debugging
+@@ -231,7 +230,8 @@ def dqn_family(
+         eval_interval = 6000 * 100  # (approx.) every 100 episode (counts "1 episode = 6000 steps")
+     else:
+         steps = maximum_frames // frame_skip
+-        eval_interval = 6000 * 100 // frame_skip  # (approx.) every 100 episode (counts "1 episode = 6000 steps")
++        eval_interval = 6000 * 10 // frame_skip  # (approx.) every 100 episode (counts "1 episode = 6000 steps")env list
++
+ 
+     agent = get_agent(
+         n_actions=env.action_space.n, arch=arch, n_input_channels=env.observation_space.shape[0],
+diff --git a/requirements.txt b/requirements.txt
+index cc7914c..c9b59bb 100644
+--- a/requirements.txt
++++ b/requirements.txt
+@@ -1,7 +1,8 @@
+ crowdai_api
+ minerl
+ coloredlogs
+-matplotlib
++# matplotlib
++matplotlib==3.0.3
+ opencv-python==4.2.0.34
+ pyro4
+ torch
+diff --git a/utility/docker_run.sh b/utility/docker_run.sh
+index ce0a096..ce46048 100755
+--- a/utility/docker_run.sh
++++ b/utility/docker_run.sh
+@@ -26,6 +26,7 @@ if [[ " $@ " =~ " --nvidia " ]]; then
+     --user 0 \
+     -e CROWDAI_IS_GRADING=True \
+     -e CROWDAI_DEBUG_MODE=True \
++    -m "20g" \
+     -it ${IMAGE_NAME}:${IMAGE_TAG} \
+     /bin/bash
+ else
+@@ -35,6 +36,7 @@ else
+     --user 0 \
+     -e CROWDAI_IS_GRADING=True \
+     -e CROWDAI_DEBUG_MODE=True \
++    -m "20g" \
+     -it ${IMAGE_NAME}:${IMAGE_TAG} \
+     /bin/bash
+ fi
+diff --git a/utility/environ.sh b/utility/environ.sh
+index bce7e99..14831b4 100644
+--- a/utility/environ.sh
++++ b/utility/environ.sh
+@@ -6,3 +6,5 @@ export IMAGE_NAME="aicrowd/neurips2019-minerl-challenge"
+ export IMAGE_TAG="agent"
+ 
+ # docker_run.sh
++export MINERL_DATA_ROOT=/home/aicrowd/data
++export KMEANS_CACHE=/home/aicrowd/kmeans_cache
