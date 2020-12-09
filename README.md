@@ -14,6 +14,19 @@ Running Visualization:
 3. In main(), set image to the path of your chosen input image and set model_path to the path of the model to create visualizations for
 4. In main(), run get_convs(image, model_path)
 
+CAE Dataset Creation:
+1. Launch create_dataset.ipynb jupyter notebook
+2. Run all cells
+
+Train & Evaluate CAE:
+1. cd conv_auto_encoder
+2. python create_model.py
+
+Running SQIL:
+1. Clone https://github.com/s-shiroshita/minerl2020_sqil_submission
+2. cd minerl2020_sqil_submission
+3. python mod/sqil.py --env MineRLTreechopVectorObf-v0 --gpu 0 --outdir result --replay-capacity 300000 --replay-start-size 5000 --target-update-interval 10000 --num-step-return 1 --lr 0.0000625 --adam-eps 0.00015 --frame-stack 4 --frame-skip 4 --gamma 0.99 --batch-accumulator mean --exp-reward-scale 10 --logging-level 20 --steps 4000000 --eval-n-runs 20 --arch dueling --kmeans-n-clusters 30 --option-n-groups 10(
+
 Running DQfD: 
 
 1. Clone git repo https://github.com/marioyc/minerl2020_dqfd_submission
